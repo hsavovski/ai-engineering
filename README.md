@@ -1,27 +1,34 @@
-# AI agents, models & harnesses
+# AI Engineering
 
-Learning project: understand how models, inference servers, harnesses and agents fit together,
-and build a practical hybrid setup (local Qwen + paid API models) for programming.
+A self-study of AI engineering in 2026: how LLMs work, programming with them, agents, evals, harnesses, Claude Code, production, and running and modifying models locally. Understanding comes first, tooling second.
 
-Hardware: Mac mini M4 Pro, 24GB unified memory.
+The study is written as a non-linear, interactive book (VitePress). Chapters are written just in time, practice happens in `experiments/` and in one growing TypeScript agent in `project/`. The full intent, the outline and the working agreements live in the spec: [`.scratch/ai-engineering-book/spec.md`](.scratch/ai-engineering-book/spec.md).
+
+Hardware: Mac mini M4 Pro, 24 GB unified memory. Local models through Ollama (Qwen3 family), paid models through OpenRouter and the Anthropic API.
+
+## Run the book
+
+```bash
+npm install
+npm run dev        # serve the book locally
+npm run build      # check that everything builds
+npm run progress   # regenerate the chapter status table in PROGRESS.md
+```
 
 ## Layout
 
-- `PROGRESS.md` – the roadmap and checklist. Start here.
-- `notes/` – what I learned, one file per topic (e.g. `notes/quantization.md`).
-- `experiments/` – scripts and configs, one folder per experiment (e.g. `experiments/01-first-api-call/`).
-- `evals/` – a fixed set of programming tasks to compare models and harnesses on.
-
-## Vocabulary
-
-| Term | Meaning |
-|---|---|
-| Model | The weights that predict text (Qwen, Claude, GPT). |
-| Inference server | Runs a model and exposes an API (Ollama, LM Studio, llama.cpp, MLX). |
-| Harness | Program around the model: tools, context management, the loop (Claude Code, opencode, Aider). |
-| Agent | Model + harness running a loop: think → call tool → read result → repeat. |
-| Router / gateway | One endpoint in front of many models (LiteLLM, OpenRouter). |
+- `PROGRESS.md`: chapter status, setup checklist and the dated log. Start here.
+- `book/`: the VitePress book. One folder per part (`part-NN-<slug>/`), one file per chapter. `book/_template/chapter.md` is the chapter template.
+- `notes/`: free-form notes, one file per topic (e.g. `notes/setup.md`).
+- `experiments/`: one folder per experiment (`experiments/NN-name/`), code plus a README: what I tried, what happened, why.
+- `project/`: the growing TypeScript agent/harness (from Part 3 on). Evals live here and in `experiments/` (Part 4).
+- `GLOSSARY.md`: vocabulary.
+- `costs.md`: spend ledger against the €30 paid-API budget (created by issue 04).
+- `scripts/`: book tooling (sidebar generation, `npm run progress`).
+- `.scratch/ai-engineering-book/`: the spec and the task files (issues).
+- `docs/agents/`: issue tracker, triage label and domain-doc conventions for agents.
 
 ## Useful endpoints
 
 - Ollama (OpenAI-compatible): `http://localhost:11434/v1`
+- Ollama (native): `http://localhost:11434`

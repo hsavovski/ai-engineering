@@ -1,6 +1,6 @@
 # 03 — Migrate the existing work
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -35,3 +35,7 @@ The old roadmap is replaced by the new structure without losing history or resul
 - No information from the old README, PROGRESS or experiment has been lost. Compare before and after.
 - `PROGRESS.md` follows the new format, and `npm run progress` still works.
 - Commit.
+
+## Comments
+
+- 2026-11-08: Done. README rewritten (spec link, run commands, layout, endpoints kept). Vocabulary table moved to a new root `GLOSSARY.md` (issue 06 expands it and renders it in the book). PROGRESS.md in the new format; old roadmap dropped, with a pointer to it in git history (`c99fe32`). Speed-check README restructured into What I tried / What happened / Why, all tables and findings kept, log results added. Empty `evals/` removed. `npm run progress` and `npm run build` pass.

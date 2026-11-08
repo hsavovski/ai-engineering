@@ -1,19 +1,30 @@
 # 00 – Speed check
 
-`bench.py` sends one small coding prompt to an Ollama model and prints speed stats.
+## What I tried
+
+How fast do local Qwen models run on a Mac mini M4 Pro (24 GB), how much does thinking mode cost, and are the answers any good?
+
+`bench.py` sends one small coding prompt (a palindrome checker, "code only") to an Ollama model and prints speed stats. It uses only the standard library.
 
 ```bash
 python3 bench.py                 # qwen3:14b, thinking off
 THINK=1 python3 bench.py         # thinking on
 python3 bench.py qwen3:8b        # another model (pull it first)
+python3 bench.py qwen3:14b 16384 # custom context size
 ```
 
-## Results (Mac mini M4 Pro, 24GB)
+Runs on 2026-11-06, Ollama 0.40.14: qwen3:14b with thinking off and on, then four models compared with thinking off.
+
+## What happened
+
+### qwen3:14b, thinking off vs. on
 
 | Date | Model | Ctx | Think | Prompt tok/s | Output tok/s | Output tokens | Total | Mem free |
 |---|---|---|---|---|---|---|---|---|
 | 2026-11-06 | qwen3:14b (Q4, 9.3GB) | 8192 | off | 87 | 24.3 | 36 | 2.0s | 29% |
 | 2026-11-06 | qwen3:14b (Q4, 9.3GB) | 8192 | on | 151 | 19.5 | 875 | 45.0s | 29% |
+
+~24 tok/s output, and thinking mode made a simple answer ~20× slower (2 s → 45 s).
 
 ### Model comparison (2026-11-06, ctx 8192, thinking off, cold start)
 
@@ -24,7 +35,11 @@ python3 bench.py qwen3:8b        # another model (pull it first)
 | qwen2.5-coder:14b | 9.0GB | 9.5GB | 100% | 3.6s | 24.8 | 110 | 24% | ✅ (+ comments, examples) |
 | qwen3:30b-a3b | 18GB | 19GB | 94% (6% CPU) | 11.8s | 41.1 | 193 | 14% | ✅ but leaked reasoning |
 
-## What I learned
+In short: the 8b wrote buggy code, and the 30b-a3b is fast (MoE) but tight on memory.
+
+## Why (what I learned)
+
+### Speed and thinking
 
 - **Thinking is the big cost, not raw speed.** Same answer, but ~840 hidden reasoning tokens
   turned a 2-second reply into 45 seconds. Turn it off for simple tasks, on for hard ones.
