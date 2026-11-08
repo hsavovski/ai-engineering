@@ -1,6 +1,6 @@
 # 02 — Scaffold the VitePress book
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 01
 
@@ -32,3 +32,7 @@ A working VitePress site in `book/` that renders the chapter format from the spe
 - The sample chapter shows the status badge, a rendered Mermaid diagram and a collapsible answer.
 - `npm run progress` updates the table in `PROGRESS.md`.
 - Commit.
+
+## Comments
+
+- 2026-11-08: Done. VitePress 1.6.4 + vitepress-plugin-mermaid 2.0.17 (pinned `mermaid@11`, since the plugin doesn't support 12). Chapter scanning lives in `scripts/chapters.mjs`, shared by the sidebar config and `npm run progress`. Chapter ids must be quoted strings in frontmatter (YAML reads 1.10 as 1.1); the spec and template now say so. Deeper chapters are marked ◇ in the sidebar. Checked in headless Chrome: badge, Mermaid, callouts, map, `needs` links.

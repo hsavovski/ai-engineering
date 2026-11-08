@@ -1,0 +1,47 @@
+import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
+import { loadParts } from '../../scripts/chapters.mjs'
+
+const parts = loadParts()
+
+const sidebar = [
+  {
+    text: 'Start here',
+    items: [
+      { text: 'Home & map', link: '/' },
+      { text: 'Suggested paths', link: '/paths' },
+    ],
+  },
+  ...parts.map((p) => ({
+    text: `Part ${p.number} · ${p.title}`,
+    collapsed: p.number !== 0,
+    items: p.chapters.map((c) => ({
+      text: `${c.id} ${c.title}${c.tier === 'deeper' ? ' ◇' : ''}`,
+      link: c.link,
+    })),
+  })),
+  {
+    text: 'Reference',
+    items: [
+      { text: 'Resources', link: '/resources' },
+      { text: 'Landscape', link: '/landscape' },
+      { text: 'Glossary', link: '/glossary' },
+    ],
+  },
+]
+
+export default withMermaid(
+  defineConfig({
+    title: 'AI Engineering',
+    description: 'A study book: how LLMs work, agents, harnesses, and AI-native development',
+    srcExclude: ['_template/**'],
+    lastUpdated: true,
+    themeConfig: {
+      sidebar,
+      // chapter index for ChapterMeta (resolves `needs` ids to links)
+      chapters: parts.flatMap((p) => p.chapters.map(({ id, title, link }) => ({ id, title, link }))),
+      search: { provider: 'local' },
+      outline: [2, 3],
+    },
+  }),
+)

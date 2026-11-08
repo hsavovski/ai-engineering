@@ -1,0 +1,26 @@
+.chapter-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+
+.chapter-meta .badge {
+  padding: 1px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.tier-core { background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); }
+.tier-deeper { background: var(--vp-c-default-soft); color: var(--vp-c-text-1); border-color: var(--vp-c-divider); }
+
+.status-not-started { background: var(--vp-c-default-soft); color: var(--vp-c-text-2); }
+.status-reading { background: var(--vp-c-warning-soft); color: var(--vp-c-warning-1); }
+.status-practiced { background: var(--vp-c-tip-soft); color: var(--vp-c-tip-1); }
+.status-understood { background: var(--vp-c-success-soft); color: var(--vp-c-success-1); }
+
+.chapter-meta .needs a { font-weight: 600; }

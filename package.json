@@ -1,0 +1,21 @@
+{
+  "name": "ai-engineering",
+  "scripts": {
+    "dev": "vitepress dev book",
+    "build": "vitepress build book",
+    "preview": "vitepress preview book",
+    "progress": "node scripts/progress.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsavovski/ai-engineering.git"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "mermaid": "^11.17.2",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}

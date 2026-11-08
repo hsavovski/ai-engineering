@@ -63,9 +63,9 @@ One sub-topic per file, about 20–60 minutes of reading plus its practice. Fron
 ---
 title: Attention
 part: 1
-chapter: 1.4
+chapter: "1.4"       # quote ids: YAML reads 1.10 as 1.1
 tier: core            # core | deeper
-needs: [1.2, 1.3]     # prerequisite chapter ids
+needs: ["1.2", "1.3"] # prerequisite chapter ids
 status: not-started   # not-started | reading | practiced | understood (the learner updates it)
 last_verified: 2026-11-08
 ---
