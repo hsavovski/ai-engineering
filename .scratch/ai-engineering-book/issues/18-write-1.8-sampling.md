@@ -1,6 +1,6 @@
 # 18 — Write chapter 1.8: Sampling and temperature
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -58,3 +58,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
+
+## Comments
+
+- 2026-11-08 (agent): done. Big finding while checking provider defaults: Claude API version `2026-10-21` rejects `temperature`/`top_p`/`top_k` with a 400, and Claude 4.7+ only sample at defaults; the chapter covers this with the migration-guide sources. `ollama show qwen3:14b --parameters` shows the model ships Qwen's thinking-mode settings (temp 0.6, top_k 20, top_p 0.95), so the practice starts by recording them. Ollama's `repeat_penalty` default is now 1.0 (disabled). Planned resources: the Ollama options URL is the Modelfile parameter table; Chip Huyen's ch. 2 is kept as optional, with her free sampling article as the essential read. Experiment folder is `experiments/05-temperature/` (04 left for issue 12's tokenizer experiment, which runs in parallel). `needs` unchanged, so no `npm run map`.

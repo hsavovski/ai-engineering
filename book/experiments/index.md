@@ -10,3 +10,4 @@ Hands-on runs, one folder each in `experiments/NN-name/`: the code plus a README
 | [01 Keys smoke test](/experiments/01-keys-smoke-test) | Do all three routes to a model work from code: local Ollama, OpenRouter and the Anthropic API? And what does one tiny request cost on each? |
 | [02 Model comparison: issue 07 with Opus 5.5 vs. Sonnet 5.5](/experiments/02-model-comparison-issue-07) | For a writing-and-research task like a chapter, is the bigger model worth its extra cost and Pro usage, or is Sonnet good enough? |
 | [03 Logprobs: watching next-token prediction](/experiments/03-logprobs) | What does the model's probability distribution look like at each step of a completion, and how fast are prefill and decode on my Mac? |
+| [05 Temperature: measuring output diversity](/experiments/05-temperature) | How much does temperature change what `qwen3:14b` says, and does min-p keep high temperatures coherent? |
