@@ -88,6 +88,7 @@ Sections, in order:
 
 - **Open and check every link** when writing a chapter. Never invent URLs. If a resource can't be verified, leave it out.
 - Claims about specific tools, prices, model specs, dates or standards link to a primary source.
+- **Every dated or numeric claim links its source in the same paragraph** (a release date, a ratio like "100× cheaper", a context-window size, a benchmark score). Prices, rankings and model specs go on Landscape, never in a chapter: link to the Landscape section instead. If you can't find a source for a claim, cut the claim.
 - Every chapter carries `last_verified`.
 - `landscape.md` (models, prices, tools) is dated and refreshed often, because it goes stale fastest. Chapters link to it instead of hard-coding prices.
 - Known items re-verified on 2026-11-08 (issue 06, sources in `book/landscape.md`): A2A was accepted into the Agentic AI Foundation on 2026-08-27; the OpenTelemetry GenAI semantic conventions are still in Development status, not stable. Several resource URLs below are still marked "(unverified)".
@@ -154,4 +155,5 @@ From the old `PROGRESS.md` (`ai-agents/`):
 - Small batches: one task = one chapter, or one setup step.
 - When finishing a task, add a dated line to the `PROGRESS.md` log and update the chapter status table if relevant.
 - Commit at the end of each task (once the git repo exists) with a clear message. Don't push without asking.
+- **Parallel runs:** a task may run in a git worktree on its own `issue-NN` branch (under `.worktrees/`). Commit on that branch only; never merge into `main` or touch other worktrees. Other tasks edit the same shared files (`GLOSSARY.md`, `book/resources.md`, `PROGRESS.md`), so only append rows or lines there, don't reorder or reformat them, to keep merges clean.
 - Keep Claude Pro usage in mind: don't fan out subagents unless the task calls for it.

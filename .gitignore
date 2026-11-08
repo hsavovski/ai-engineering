@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# parallel task worktrees
+.worktrees/
+
 # deps & builds
 node_modules/
 .venv/
