@@ -28,6 +28,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Linux Foundation: formation of the Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) | article | ~8 min | essential | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
 | [ ] | [MCP joins the Agentic AI Foundation](https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/) (MCP blog) | article | ~5 min | optional | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
 | [ ] | [Claude Code: AGENTS.md](https://code.claude.com/docs/en/memory#agents-md) | docs | ~5 min | optional | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
+| [ ] | [Ollama FAQ](https://docs.ollama.com/faq) (context size, GPU, keep-alive sections) | docs | ~10 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [Ollama: Context length](https://docs.ollama.com/context-length) | docs | ~3 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [OpenRouter Quickstart](https://openrouter.ai/docs/quickstart) | docs | ~5 min | optional | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [Get started with Claude](https://platform.claude.com/docs/en/get-started) | docs | ~10 min | optional | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [API key best practices: keep your keys safe and secure](https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure) (Claude Help Center) | article | ~5 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [OpenRouter: Usage accounting](https://openrouter.ai/docs/use-cases/usage-accounting) | docs | ~5 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
 
 ## Part 1 · How LLMs work
 

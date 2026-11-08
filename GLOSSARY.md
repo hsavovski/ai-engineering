@@ -57,6 +57,7 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | TTFT | Time to first token: how long until streaming output starts. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
 | Speculative decoding | A small draft model proposes tokens that the big model verifies in one pass, speeding up generation. | [10.8](book/part-10-modifying-serving-models/10.8-serving-optimizations.md) |
 | Inference engine | The code that runs the forward pass on hardware (llama.cpp, MLX, vLLM). Owns speed and memory, not messages or HTTP. | [0.2](book/part-00-catch-up/0.2-the-stack.md) |
+| Keep-alive | How long Ollama keeps a model loaded in memory after a request (`keep_alive`, `OLLAMA_KEEP_ALIVE`). Faster next call, but the memory stays taken. | [0.4](book/part-00-catch-up/0.4-your-lab.md) |
 
 ## Programming with LLMs
 
@@ -74,6 +75,8 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Reranker | A model that re-scores retrieved results for relevance before they go into the prompt. | [2.10](book/part-02-programming-with-llms/2.10-better-retrieval.md) |
 | Router / gateway | One endpoint in front of many models (LiteLLM, OpenRouter). | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
 | Native API | A provider's or server's own API shape (Anthropic Messages, Ollama `/api/chat`), exposing features a compatible API can't carry. | [0.2](book/part-00-catch-up/0.2-the-stack.md) |
+| Token usage | The token counts a response reports (input, output, and breakdowns such as cached or thinking tokens). Multiply by per-MTok prices to get cost. | [0.4](book/part-00-catch-up/0.4-your-lab.md) |
+| Cost ledger | `costs.md`: one row per paid run (tokens, cost, actual or estimate), reconciled against the provider dashboards. | [0.4](book/part-00-catch-up/0.4-your-lab.md) |
 
 ## Agents
 
