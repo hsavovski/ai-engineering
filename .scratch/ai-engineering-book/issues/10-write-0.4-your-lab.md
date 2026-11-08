@@ -1,6 +1,6 @@
 # 10 — Write chapter 0.4: Your lab: local and paid setup
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

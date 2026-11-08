@@ -21,6 +21,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Ollama API introduction](https://docs.ollama.com/api) and [OpenAI compatibility](https://docs.ollama.com/openai) | docs | ~10 min | optional | [0.2](/part-00-catch-up/0.2-the-stack) |
 | [ ] | [OpenAI SDK compatibility](https://platform.claude.com/docs/en/api/openai-sdk) (Claude docs) | docs | ~10 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
 | [ ] | [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works) | docs | ~15 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
+| [ ] | [Ollama FAQ](https://docs.ollama.com/faq) (context size, GPU, keep-alive sections) | docs | ~10 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [Ollama: Context length](https://docs.ollama.com/context-length) | docs | ~3 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [OpenRouter Quickstart](https://openrouter.ai/docs/quickstart) | docs | ~5 min | optional | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [Get started with Claude](https://platform.claude.com/docs/en/get-started) | docs | ~10 min | optional | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [API key best practices: keep your keys safe and secure](https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure) (Claude Help Center) | article | ~5 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
+| [ ] | [OpenRouter: Usage accounting](https://openrouter.ai/docs/use-cases/usage-accounting) | docs | ~5 min | essential | [0.4](/part-00-catch-up/0.4-your-lab) |
 
 ## Part 1 · How LLMs work
 
