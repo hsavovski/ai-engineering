@@ -22,4 +22,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenAI SDK compatibility](https://platform.claude.com/docs/en/api/openai-sdk) (Claude docs) | docs | ~10 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
 | [ ] | [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works) | docs | ~15 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
 
+## Part 1 · How LLMs work
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [3Blue1Brown: Transformers, the tech behind LLMs (Deep Learning ch. 5)](https://www.youtube.com/watch?v=wjZofJX0v4M) ([text](https://www.3blue1brown.com/lessons/gpt)) | video | ~27 min | essential | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| [ ] | [Karpathy: Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI), 14:27–42:52 | video | ~30 min | essential | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| [ ] | [Karpathy: [1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g), 0:00–17:52 | video | ~18 min | optional | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| [ ] | [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) | docs (interactive) | ~15 min | optional | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| [ ] | [NVIDIA: Mastering LLM Techniques: Inference Optimization](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/), "Understanding LLM inference" | article | ~10 min | essential | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| [ ] | [Ollama API: generate](https://docs.ollama.com/api/generate) and [chat](https://docs.ollama.com/api/chat) | docs | ~10 min | essential | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
