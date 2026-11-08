@@ -111,6 +111,8 @@ Individual chapters may also have their own small experiments.
 
 ## Outline (agreed, not set in stone)
 
+The detailed chapter list (approved 2026-11-08, issue 05) lives in the book itself: the stubs under `book/part-NN-*/`, the per-part maps on `book/index.md` (regenerate with `npm run map` after changing `needs`), and the project steps in `project/ROADMAP.md`. One task per chapter: issues 07–103.
+
 | Part | Title | Contents (Core unless marked) |
 |---|---|---|
 | 0 | Catch-up | What changed from 2024 to 2026: reasoning models, agents, MCP, coding agents, open-weight models, prices, the Agentic AI Foundation. Orientation and vocabulary. |

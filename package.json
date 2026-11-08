@@ -4,7 +4,8 @@
     "dev": "vitepress dev book",
     "build": "vitepress build book",
     "preview": "vitepress preview book",
-    "progress": "node scripts/progress.mjs"
+    "progress": "node scripts/progress.mjs",
+    "map": "node scripts/map.mjs"
   },
   "repository": {
     "type": "git",

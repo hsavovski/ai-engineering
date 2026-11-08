@@ -1,6 +1,6 @@
 # 05 — Detailed outline and per-chapter tasks
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -52,3 +52,7 @@ Every part is broken into chapters (one sub-topic per file, 20–60 min reading 
 - Every chapter has a stub in the book and a task file in `issues/`.
 - The dependency map and paths render in the book.
 - Commit.
+
+## Comments
+
+- 2026-11-08: Done. The learner approved the proposed list (98 chapters). Changes from the spec outline: added 1.1 big picture, 1.15 efficient attention ◇, 2.4 reasoning via API, 3.5 memory (own chapter), 3.9 advanced tool use, 4.5 evaluating agents, 4.9 benchmarks ◇, 7.7 large codebases ◇. nanochat lives only in 10.6 ◇; computer and browser agents only in 11.4 ◇; the 5.2 anatomy chapter reads opencode's source. Each part has an `index.md` (it sets the sidebar title). The dependency map is generated per part by the new `scripts/map.mjs` (`npm run map`), with the part-level overview kept on top. Rendering checked in headless Chrome: 13 flowcharts, no errors. Planned resources in stubs and tasks are all marked unverified/TODO; the Anthropic engineering index currently links posts under `anthropic.com/research/<slug>`, so the tasks use that form. Task numbers go past 99 (100–103), so plain `ls` sorts them out of numeric order.
