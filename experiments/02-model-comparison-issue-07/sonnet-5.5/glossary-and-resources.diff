@@ -1,0 +1,45 @@
+diff --git a/GLOSSARY.md b/GLOSSARY.md
+index 01e8921..666a731 100644
+--- a/GLOSSARY.md
++++ b/GLOSSARY.md
+@@ -17,6 +17,7 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
+ | Context window | The maximum number of tokens (prompt plus output) a model can attend to in one request. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+ | KV cache | Stored keys and values for tokens already processed, so each new token doesn't recompute them. It grows with context length and costs memory. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+ | Mixture of experts (MoE) | An architecture where a router sends each token through a few of many expert MLPs. "30b-a3b" means 30B total, ~3B active per token. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
++| Open-weight model | A model whose trained weights are published so you can run it yourself (Qwen, DeepSeek, Kimi, gpt-oss). Not the same as open source: the training data and code may not be. | [0.1](book/part-00-catch-up/0.1-what-changed.md) |
+ 
+ ## Training
+ 
+@@ -81,6 +82,7 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
+ | Agent skill | A folder with a `SKILL.md` and resources that an agent loads on demand (progressive disclosure). | [3.8](book/part-03-agents/3.8-agents-md-and-skills.md) |
+ | Sub-agent | An agent spawned by another agent with its own context, returning a summary. | [3.10](book/part-03-agents/3.10-multi-agent.md) |
+ | A2A | Agent2Agent protocol: an open standard for agents to discover and talk to other agents. | [3.12](book/part-03-agents/3.12-a2a.md) |
++| AAIF | Agentic AI Foundation: a Linux Foundation fund, formed 2025-12-09, that hosts open agent standards such as MCP and AGENTS.md. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+ 
+ ## Harnesses and Claude Code
+ 
+@@ -88,6 +90,7 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
+ |---|---|---|
+ | Harness | Program around the model: tools, context management, the loop (Claude Code, opencode, Aider). | [5.1](book/part-05-harnesses/5.1-what-is-a-harness.md) |
+ | Coding agent | A harness specialized for software work: reads and edits code, runs commands and tests. | [5.3](book/part-05-harnesses/5.3-harness-comparison.md) |
++| Task time horizon | How long a task, measured in human working time, a model can complete autonomously at a given success rate (METR measures it at 50%). | [0.1](book/part-00-catch-up/0.1-what-changed.md) |
+ | Long-running agent | An agent that works across many context windows, using progress files and handoffs. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+ | CLAUDE.md | Claude Code's project and user instruction files, loaded into context at session start. | [6.2](book/part-06-claude-code/6.2-claude-md-and-memory.md) |
+ | Hook | A command the harness runs automatically on an event (e.g. before a tool call, after an edit). | [6.4](book/part-06-claude-code/6.4-hooks-permissions.md) |
+diff --git a/book/resources.md b/book/resources.md
+index fc61b49..28cc7a0 100644
+--- a/book/resources.md
++++ b/book/resources.md
+@@ -9,5 +9,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
+ | Done | Resource | Type | Time | Priority | Chapter |
+ |---|---|---|---|---|---|
+ | [ ] | [VitePress: Markdown extensions](https://vitepress.dev/guide/markdown) | docs | ~10 min | optional | [0.0](/part-00-catch-up/0.0-how-to-use-this-book) |
++| [ ] | [Simon Willison: 2025: The year in LLMs](https://simonwillison.net/2025/Dec/31/the-year-in-llms/) | article | ~45 min | essential | [0.1](/part-00-catch-up/0.1-what-changed) |
++| [ ] | [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) | article | ~25 min | essential | [0.1](/part-00-catch-up/0.1-what-changed) |
++| [ ] | [Anthropic: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) | article | ~8 min | essential | [0.1](/part-00-catch-up/0.1-what-changed) |
++| [ ] | [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | article | ~25 min | essential | [0.1](/part-00-catch-up/0.1-what-changed) |
++| [ ] | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | paper | ~15 min | optional | [0.1](/part-00-catch-up/0.1-what-changed) |
++| [ ] | [Anthropic: Scaling Managed Agents with stable interfaces](https://www.anthropic.com/engineering/managed-agents) | article | ~20 min | optional | [0.1](/part-00-catch-up/0.1-what-changed) |
++| [ ] | [Chip Huyen: AI Engineering, ch. 1 (companion repo)](https://github.com/chiphuyen/aie-book) | book | ~30 min | optional | [0.1](/part-00-catch-up/0.1-what-changed) |
+ 
+ <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

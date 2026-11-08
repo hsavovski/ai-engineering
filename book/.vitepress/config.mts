@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { loadParts } from '../../scripts/chapters.mjs'
+import { loadExperiments } from '../../scripts/experiments.mjs'
 
 const parts = loadParts()
+const experiments = loadExperiments()
 
 const sidebar = [
   {
@@ -20,6 +22,14 @@ const sidebar = [
       link: c.link,
     })),
   })),
+  {
+    text: 'Experiments',
+    collapsed: true,
+    items: [
+      { text: 'All experiments', link: '/experiments/' },
+      ...experiments.map((e) => ({ text: e.title, link: e.link })),
+    ],
+  },
   {
     text: 'Reference',
     items: [
