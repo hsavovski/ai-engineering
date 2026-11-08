@@ -1,6 +1,6 @@
 # 12 — Write chapter 1.2: Tokens and tokenization
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
