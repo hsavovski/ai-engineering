@@ -15,5 +15,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | article | ~15 min | essential | [0.1](/part-00-catch-up/0.1-what-changed) |
 | [ ] | [Anthropic Engineering (index)](https://www.anthropic.com/engineering) | docs | ~10 min | optional | [0.1](/part-00-catch-up/0.1-what-changed) |
 | [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 1 ([repo](https://github.com/chiphuyen/aie-book)) | book | ~1.5 h | optional | [0.1](/part-00-catch-up/0.1-what-changed) |
+| [ ] | [Chat templates](https://huggingface.co/docs/transformers/main/chat_templating) (Hugging Face) | docs | ~10 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
+| [ ] | [Qwen/Qwen3-14B model card](https://huggingface.co/Qwen/Qwen3-14B) | docs | ~15 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
+| [ ] | [Ollama: Thinking](https://docs.ollama.com/capabilities/thinking) | docs | ~5 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
+| [ ] | [Ollama API introduction](https://docs.ollama.com/api) and [OpenAI compatibility](https://docs.ollama.com/openai) | docs | ~10 min | optional | [0.2](/part-00-catch-up/0.2-the-stack) |
+| [ ] | [OpenAI SDK compatibility](https://platform.claude.com/docs/en/api/openai-sdk) (Claude docs) | docs | ~10 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
+| [ ] | [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works) | docs | ~15 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
