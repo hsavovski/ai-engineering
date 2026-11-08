@@ -16,6 +16,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Attention | The mechanism that lets each token weigh information from every earlier token, using queries, keys and values. | [1.4](/part-01-how-llms-work/1.4-attention) |
 | Transformer block | Attention plus an MLP, wrapped in residual connections and normalization. A model is a stack of these. | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
 | Logits | The raw score the model gives every token in the vocabulary for the next position, before sampling. | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| Autoregressive generation | Producing output one token at a time, appending each chosen token to the input before predicting the next. | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| Softmax | Turns logits into a probability distribution: exponentiate each score, divide by the sum. | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| Logprob | The natural log of a token's probability (always ≤ 0). APIs return it instead of logits; sum them for a sequence's log probability. | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
 | Context window | The maximum number of tokens (prompt plus output) a model can attend to in one request. | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 | KV cache | Stored keys and values for tokens already processed, so each new token doesn't recompute them. It grows with context length and costs memory. | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 | Mixture of experts (MoE) | An architecture where a router sends each token through a few of many expert MLPs. "30b-a3b" means 30B total, ~3B active per token. | [1.11](/part-01-how-llms-work/1.11-mixture-of-experts) |
@@ -43,6 +46,8 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 |---|---|---|
 | Inference server | Runs a model and exposes an API (Ollama, LM Studio, llama.cpp, MLX). | [0.2](/part-00-catch-up/0.2-the-stack) |
 | Prefill / decode | Prefill processes the whole prompt in parallel; decode generates output one token at a time. That's why prompt tok/s ≫ output tok/s. | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| Memory-bound decode | Each decode step streams all (active) weights from memory, so output speed is capped at roughly memory bandwidth ÷ model size. | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| Greedy decoding | Always picking the most likely next token (temperature 0). Deterministic, but prone to repetition. | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | Temperature | Scales the logits before sampling: low is more deterministic, high is more varied. | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | Top-p / top-k / min-p | Sampling filters that drop unlikely tokens before picking one. | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | Reasoning model | A model trained to produce a chain of thought ("thinking tokens") before its answer. | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |

@@ -1,6 +1,6 @@
 # 11 — Write chapter 1.1: Next-token prediction: the big picture
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
+
+## Comments
+
+- 2026-11-08 (agent): done. Ollama 0.40.14 returns `logprobs` / `top_logprobs` (max 20) natively, so the practice uses local Ollama, not OpenRouter. Experiment folder `experiments/03-logprobs/` with a README skeleton; the learner writes `logprobs.ts`. The planned Karpathy "Intro to LLMs" talk is kept as optional; his 2025 "Deep Dive" (14:27–42:52) is the essential watch instead. `needs` unchanged, so no `npm run map`.
