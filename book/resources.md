@@ -45,5 +45,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) | docs (interactive) | ~15 min | optional | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
 | [ ] | [NVIDIA: Mastering LLM Techniques: Inference Optimization](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/), "Understanding LLM inference" | article | ~10 min | essential | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
 | [ ] | [Ollama API: generate](https://docs.ollama.com/api/generate) and [chat](https://docs.ollama.com/api/chat) | docs | ~10 min | essential | [1.1](/part-01-how-llms-work/1.1-next-token-prediction) |
+| [ ] | [Karpathy: Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE), 0:00–1:25:28 and 1:51:41–2:10:20 | video | ~1.75 h | essential | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [Tiktokenizer](https://tiktokenizer.vercel.app/) | docs (interactive) | ~10 min | essential | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [Sennrich et al.: Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/abs/1508.07909) | paper | ~15 min | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [Hugging Face LLM Course, ch. 6: Byte-Pair Encoding tokenization](https://huggingface.co/learn/llm-course/chapter6/5) | docs | ~20 min | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | Raschka, *Build a Large Language Model (From Scratch)*, ch. 2, BPE sections ([code](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02), [BPE from scratch](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02/05_bpe-from-scratch)) | book | ~1 h | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [Petrov et al.: Language Model Tokenizers Introduce Unfairness Between Languages](https://arxiv.org/abs/2305.15425) | paper | ~10 min (abstract) | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [SolidGoldMagikarp (plus, prompt generation)](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation) | article | ~15 min | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [Claude docs: Token counting](https://platform.claude.com/docs/en/build-with-claude/token-counting) | docs | ~10 min | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [js-tiktoken](https://github.com/dqbd/tiktoken) and [Transformers.js](https://github.com/huggingface/transformers.js) (tokenizers in Node) | docs | ~10 min | essential | [1.2](/part-01-how-llms-work/1.2-tokenization) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

@@ -23,6 +23,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | KV cache | Stored keys and values for tokens already processed, so each new token doesn't recompute them. It grows with context length and costs memory. | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 | Mixture of experts (MoE) | An architecture where a router sends each token through a few of many expert MLPs. "30b-a3b" means 30B total, ~3B active per token. | [1.11](/part-01-how-llms-work/1.11-mixture-of-experts) |
 | Chat template | Ships with a model: turns a list of messages (and tools) into one token sequence with the control tokens the model was post-trained on. Thinking switches like Qwen3's `enable_thinking` live here. | [0.2](/part-00-catch-up/0.2-the-stack) |
+| Vocabulary | The fixed list of tokens a model knows, each with an integer id. Its size is chosen when the tokenizer is trained; ids differ between model families. | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| Byte-level BPE | BPE that starts from the 256 possible UTF-8 bytes instead of characters, so any text can be encoded and nothing is ever an unknown token. | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| Pre-tokenization | A regex that splits text into chunks (words with their leading space, numbers, punctuation) before BPE, so merges never cross those boundaries. | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| Special token | A reserved token added by hand, never produced by BPE from normal text, that marks structure: end of text, message boundaries, thinking, tool calls. | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| Glitch token | A token that is in the vocabulary but was almost absent from the model's training data, so its embedding is untrained and it triggers odd behavior. | [1.2](/part-01-how-llms-work/1.2-tokenization) |
 
 ## Training
 
