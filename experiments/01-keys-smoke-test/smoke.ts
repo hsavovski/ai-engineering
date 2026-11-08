@@ -60,7 +60,7 @@ async function anthropic(): Promise<Result> {
   if (!key) throw new Error('ANTHROPIC_API_KEY is not set in .env')
   const json = await post(
     'https://api.anthropic.com/v1/messages',
-    { 'x-api-key': key, 'anthropic-version': '2023-06-01' },
+    { 'x-api-key': key, 'anthropic-version': '2026-10-21' },
     { model: ANTHROPIC_MODEL, max_tokens: 200, messages: [{ role: 'user', content: PROMPT }] },
   )
   const { input_tokens, output_tokens } = json.usage

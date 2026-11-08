@@ -48,7 +48,7 @@ Worktrees created by hand first (so the writer and the fact-checker for an issue
 | | |
 |---|---|
 | Wall time | 10.4 min for all four, writing and fact-checking (one workflow run, 8 agents, 0 errors) |
-| Pro usage | <!-- fill in from /usage --> |
+| Pro usage | `/usage` showed **44%** of the 5-hour window after the run. Batch 1 used ~6% for two chapters (~3% each); this is ~11% per chapter if all 44% was this run, so the workflow (writer + fact-checker, longer chapters) cost roughly 3–4× as much per chapter |
 | Tokens | ~867k across the 8 agents (writers 109k–179k each, fact-checkers 70k–88k each), 249 tool calls |
 | My attention | One sentence to start it; nothing until it finished |
 | Merge | Done by Claude afterwards, one branch at a time: 3 of 4 merges conflicted, all "both sides appended a row" in `PROGRESS.md`, `book/resources.md` and the generated `book/experiments/index.md`; resolved by keeping both sides in issue order |
