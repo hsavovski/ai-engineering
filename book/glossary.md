@@ -19,6 +19,7 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Context window | The maximum number of tokens (prompt plus output) a model can attend to in one request. | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 | KV cache | Stored keys and values for tokens already processed, so each new token doesn't recompute them. It grows with context length and costs memory. | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 | Mixture of experts (MoE) | An architecture where a router sends each token through a few of many expert MLPs. "30b-a3b" means 30B total, ~3B active per token. | [1.11](/part-01-how-llms-work/1.11-mixture-of-experts) |
+| Chat template | Ships with a model: turns a list of messages (and tools) into one token sequence with the control tokens the model was post-trained on. Thinking switches like Qwen3's `enable_thinking` live here. | [0.2](/part-00-catch-up/0.2-the-stack) |
 
 ## Training
 
@@ -52,6 +53,7 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | GGUF | The model file format used by llama.cpp and Ollama, usually holding quantized weights (Q4_K_M, Q8_0...). | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
 | TTFT | Time to first token: how long until streaming output starts. | [2.2](/part-02-programming-with-llms/2.2-streaming) |
 | Speculative decoding | A small draft model proposes tokens that the big model verifies in one pass, speeding up generation. | [10.8](/part-10-modifying-serving-models/10.8-serving-optimizations) |
+| Inference engine | The code that runs the forward pass on hardware (llama.cpp, MLX, vLLM). Owns speed and memory, not messages or HTTP. | [0.2](/part-00-catch-up/0.2-the-stack) |
 
 ## Programming with LLMs
 
@@ -68,6 +70,7 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Hybrid search | Combining keyword search (BM25) with vector search. | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
 | Reranker | A model that re-scores retrieved results for relevance before they go into the prompt. | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
 | Router / gateway | One endpoint in front of many models (LiteLLM, OpenRouter). | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
+| Native API | A provider's or server's own API shape (Anthropic Messages, Ollama `/api/chat`), exposing features a compatible API can't carry. | [0.2](/part-00-catch-up/0.2-the-stack) |
 
 ## Agents
 

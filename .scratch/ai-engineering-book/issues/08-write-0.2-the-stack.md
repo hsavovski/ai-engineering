@@ -1,6 +1,6 @@
 # 08 — Write chapter 0.2: The stack in one picture
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -59,3 +59,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
+
+## Comments
+
+- 2026-11-08 (agent): Done. Chapter written in `book/part-00-catch-up/0.2-the-stack.md`, `last_verified: 2026-11-08`. All 14 candidate links opened; 11 used. The two planned "resources" (GLOSSARY.md, experiment 00 README) are in-repo, so they're woven into the text instead of listed as resources. Left out claims I couldn't source: which engine Ollama uses internally, and llama.cpp's server binary name (its README now shows `llama serve`). The worked example places only two experiment-00 findings, leaving the rest for the practice. `needs` unchanged, so no `npm run map`. `npm run build` passes.
