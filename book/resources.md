@@ -54,5 +54,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [SolidGoldMagikarp (plus, prompt generation)](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation) | article | ~15 min | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
 | [ ] | [Claude docs: Token counting](https://platform.claude.com/docs/en/build-with-claude/token-counting) | docs | ~10 min | optional | [1.2](/part-01-how-llms-work/1.2-tokenization) |
 | [ ] | [js-tiktoken](https://github.com/dqbd/tiktoken) and [Transformers.js](https://github.com/huggingface/transformers.js) (tokenizers in Node) | docs | ~10 min | essential | [1.2](/part-01-how-llms-work/1.2-tokenization) |
+| [ ] | [Chip Huyen: Generation configurations: temperature, top-k, top-p, and test time compute](https://huyenchip.com/2024/01/16/sampling.html), "Sampling" | article | ~20 min | essential | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 2, "Sampling Fundamentals" and "Sampling Strategies" ([ToC](https://github.com/chiphuyen/aie-book/blob/main/ToC.md)) | book | ~45 min | optional | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| [ ] | [Holtzman et al.: The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) (top-p), abstract and intro | paper | ~25 min | optional | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| [ ] | [Nguyen et al.: Turning Up the Heat: Min-p Sampling](https://arxiv.org/abs/2407.01082), abstract and intro | paper | ~20 min | optional | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| [ ] | [Hugging Face: How to generate text (decoding methods)](https://huggingface.co/blog/how-to-generate) | article | ~15 min | optional | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| [ ] | [Thinking Machines: Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) | article | ~30 min | essential | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| [ ] | [Ollama Modelfile: parameters](https://docs.ollama.com/modelfile#valid-parameters-and-values) and [API: chat](https://docs.ollama.com/api/chat) | docs | ~10 min | essential | [1.8](/part-01-how-llms-work/1.8-sampling) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

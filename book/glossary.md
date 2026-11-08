@@ -56,6 +56,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Greedy decoding | Always picking the most likely next token (temperature 0). Deterministic, but prone to repetition. | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | Temperature | Scales the logits before sampling: low is more deterministic, high is more varied. | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | Top-p / top-k / min-p | Sampling filters that drop unlikely tokens before picking one. | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| Truncation sampling | Deleting unlikely candidates before the random draw, then renormalizing: top-k keeps a fixed count, top-p a fixed probability mass, min-p everything above a fraction of the top token's probability. | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| Repetition penalty | Lowering the score of tokens that already appeared, to break loops. Multiplicative (`repeat_penalty`, from CTRL) or additive (presence / frequency penalty). Harmful for code and JSON, which repeat by design. | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| Presence / frequency penalty | Additive repetition penalties (OpenAI-style, −2 to 2): presence subtracts a flat amount once a token has appeared, frequency subtracts more with every use. | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| Seed | The starting value of the sampler's random number generator. Same logits + same seed = same choices, which is why seeds only give reproducible output when the logits are bit-identical. | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| Batch invariance | A kernel property: the result for one request doesn't depend on how many other requests are batched with it. Most inference kernels lack it, which is the main reason hosted LLMs aren't deterministic even at temperature 0. | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | Reasoning model | A model trained to produce a chain of thought ("thinking tokens") before its answer. | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | Test-time compute | Spending more tokens or samples at inference to get better answers. | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | Inference scaling | Another name for test-time compute: improving answers by spending more compute at inference instead of training. | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
