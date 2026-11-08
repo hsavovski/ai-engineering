@@ -35,6 +35,10 @@ export default withMermaid(
     title: 'AI Engineering',
     description: 'A study book: how LLMs work, agents, harnesses, and AI-native development',
     srcExclude: ['_template/**'],
+    // mermaid 11 imports fastdom (UMD, no ESM export), which the plugin's pre-bundle list misses,
+    // so `npm run dev` failed with "does not provide an export named 'default'".
+    // Pre-bundling mermaid itself converts all of its CommonJS deps.
+    vite: { optimizeDeps: { include: ['mermaid'] } },
     lastUpdated: true,
     themeConfig: {
       sidebar,
