@@ -90,7 +90,7 @@ Sections, in order:
 - Claims about specific tools, prices, model specs, dates or standards link to a primary source.
 - Every chapter carries `last_verified`.
 - `landscape.md` (models, prices, tools) is dated and refreshed often, because it goes stale fastest. Chapters link to it instead of hard-coding prices.
-- Known items to re-verify when they come up: the date A2A joined the Agentic AI Foundation, and whether the OpenTelemetry GenAI semantic conventions are stable. Several resource URLs below are marked "(unverified)".
+- Known items re-verified on 2026-11-08 (issue 06, sources in `book/landscape.md`): A2A was accepted into the Agentic AI Foundation on 2026-08-27; the OpenTelemetry GenAI semantic conventions are still in Development status, not stable. Several resource URLs below are still marked "(unverified)".
 
 ## Languages
 
@@ -132,13 +132,13 @@ The detailed chapter list (approved 2026-11-08, issue 05) lives in the book itse
 
 - **General:** Chip Huyen, *AI Engineering* (O'Reilly, 2025), https://github.com/chiphuyen/aie-book
 - **Part 1:** Raschka, *Build an LLM From Scratch* https://github.com/rasbt/LLMs-from-scratch (unverified). Raschka, *Build a Reasoning Model (From Scratch)* https://github.com/rasbt/reasoning-from-scratch. Karpathy, Zero to Hero https://karpathy.ai/zero-to-hero.html (unverified). Karpathy, nanochat https://github.com/karpathy/nanochat. 3Blue1Brown neural network / transformer series.
-- **Part 2:** Claude platform docs https://platform.claude.com/docs (unverified). Hugging Face courses https://huggingface.co/learn
+- **Part 2:** Claude platform docs https://platform.claude.com/docs. Hugging Face courses https://huggingface.co/learn
 - **Part 3:** Anthropic engineering: [effective context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents), [writing tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents), [multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system), [building agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk). HF Agents Course https://huggingface.co/learn/agents-course
 - **Part 4:** Husain & Shankar, evals FAQ https://hamel.dev/blog/posts/evals-faq/. *Evals for AI Engineers* (O'Reilly). Langfuse OpenTelemetry https://langfuse.com/docs/opentelemetry
 - **Part 5:** [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents), [Managed agents](https://www.anthropic.com/engineering/managed-agents), opencode and Codex CLI source.
-- **Part 6:** [Agent skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills), Claude Code docs https://code.claude.com/docs (unverified), Matt Pocock's skills repo (unverified).
+- **Part 6:** [Agent skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills), Claude Code docs https://code.claude.com/docs, Matt Pocock's skills repo (unverified).
 - **Part 8:** OWASP GenAI Security Project https://genai.owasp.org (unverified).
-- **Part 10:** HF smol-course https://huggingface.co/learn/smol-course, mlx-lm https://github.com/ml-explore/mlx-lm (unverified), llama.cpp https://github.com/ggml-org/llama.cpp (unverified).
+- **Part 10:** HF smol-course https://huggingface.co/learn/smol-course, mlx-lm https://github.com/ml-explore/mlx-lm, llama.cpp https://github.com/ggml-org/llama.cpp.
 
 ## Prior work to carry over
 

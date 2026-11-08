@@ -1,6 +1,6 @@
 # 06 — Starting glossary and Landscape page
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -30,3 +30,7 @@ A starting `GLOSSARY.md` and a dated `book/landscape.md` that chapters can link 
 - The glossary renders in the book.
 - `npm run build` passes.
 - Commit.
+
+## Comments
+
+- 2026-11-08: Done. `GLOSSARY.md` has 74 terms in 8 groups (a bit over the 40–60 target, all core), each linked to its chapter. It is rendered into `book/glossary.md` by the new `scripts/glossary.mjs` (`npm run glossary`, also run before `dev` and `build`). A plain `@include` broke the links, because GLOSSARY.md uses repo paths so it reads well on GitHub. `book/landscape.md` uses only numbers read from primary pages on 2026-11-08. Kimi's price table renders client-side, so it was read from a headless-Chrome render. Left out as unverifiable: Qwen API prices (console only), Gemini 3.1 Pro and Gemma rows, Meta model sizes and prices, and context windows not stated on the source pages. Spec updated: the A2A/AAIF date (2026-08-27) and OTel GenAI status (Development) are re-verified, and four resource URLs are no longer marked unverified.

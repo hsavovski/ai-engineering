@@ -1,11 +1,12 @@
 {
   "name": "ai-engineering",
   "scripts": {
-    "dev": "vitepress dev book",
-    "build": "vitepress build book",
+    "dev": "node scripts/glossary.mjs && vitepress dev book",
+    "build": "node scripts/glossary.mjs && vitepress build book",
     "preview": "vitepress preview book",
     "progress": "node scripts/progress.mjs",
-    "map": "node scripts/map.mjs"
+    "map": "node scripts/map.mjs",
+    "glossary": "node scripts/glossary.mjs"
   },
   "repository": {
     "type": "git",
