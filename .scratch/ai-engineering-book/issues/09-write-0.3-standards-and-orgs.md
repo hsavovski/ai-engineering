@@ -1,6 +1,6 @@
 # 09 — Write chapter 0.3: Standards and orgs: MCP, AGENTS.md, A2A, AAIF
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

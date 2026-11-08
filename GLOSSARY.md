@@ -91,7 +91,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Agent skill | A folder with a `SKILL.md` and resources that an agent loads on demand (progressive disclosure). | [3.8](book/part-03-agents/3.8-agents-md-and-skills.md) |
 | Sub-agent | An agent spawned by another agent with its own context, returning a summary. | [3.10](book/part-03-agents/3.10-multi-agent.md) |
 | A2A | Agent2Agent protocol: an open standard for agents to discover and talk to other agents. | [3.12](book/part-03-agents/3.12-a2a.md) |
-| Agentic AI Foundation (AAIF) | A Linux Foundation fund, formed 2025-12-09, that governs open agent standards: MCP, AGENTS.md, goose, and since 2026 A2A. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+| Agentic AI Foundation (AAIF) | A Linux Foundation fund, formed 2025-12-09, that governs open agent standards: MCP, AGENTS.md, goose, and since 2026 A2A and Agent Skills. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+| MCP host / client / server | The AI application (host) creates one MCP client per connection to an MCP server, which provides tools, resources and prompts. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+| MCP primitives | What an MCP server offers: tools (model-invoked functions), resources (context data) and prompts (user templates). | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+| SEP | Specification Enhancement Proposal: how changes to the MCP spec are proposed and decided. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+| Agent Card | A2A's JSON self-description of an agent (identity, skills, endpoint, auth), served at `/.well-known/agent-card.json` for discovery. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+| Progressive disclosure | Loading only a skill's name and description up front, and its full instructions when a task needs them. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
 
 ## Harnesses and Claude Code
 

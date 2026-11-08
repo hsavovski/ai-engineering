@@ -21,6 +21,13 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Ollama API introduction](https://docs.ollama.com/api) and [OpenAI compatibility](https://docs.ollama.com/openai) | docs | ~10 min | optional | [0.2](/part-00-catch-up/0.2-the-stack) |
 | [ ] | [OpenAI SDK compatibility](https://platform.claude.com/docs/en/api/openai-sdk) (Claude docs) | docs | ~10 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
 | [ ] | [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works) | docs | ~15 min | essential | [0.2](/part-00-catch-up/0.2-the-stack) |
+| [ ] | [MCP architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) | docs | ~25 min | essential | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
+| [ ] | [agents.md](https://agents.md) | docs | ~5 min | essential | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
+| [ ] | [Agent Skills overview](https://agentskills.io) and [specification](https://agentskills.io/specification) | docs | ~15 min | essential | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
+| [ ] | [A2A and MCP](https://a2a-protocol.org/latest/topics/a2a-and-mcp/) | docs | ~10 min | essential | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
+| [ ] | [Linux Foundation: formation of the Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) | article | ~8 min | essential | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
+| [ ] | [MCP joins the Agentic AI Foundation](https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/) (MCP blog) | article | ~5 min | optional | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
+| [ ] | [Claude Code: AGENTS.md](https://code.claude.com/docs/en/memory#agents-md) | docs | ~5 min | optional | [0.3](/part-00-catch-up/0.3-standards-and-orgs) |
 
 ## Part 1 · How LLMs work
 
