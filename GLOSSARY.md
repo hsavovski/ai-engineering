@@ -33,7 +33,6 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Fine-tuning | Further training of an existing model on your own data. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
 | LoRA | Low-rank adaptation: fine-tuning small added matrices instead of all weights. Cheap enough for a Mac. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
 | Distillation | Training a smaller model to imitate a larger one's outputs. | [10.9](book/part-10-modifying-serving-models/10.9-distillation-synthetic-data.md) |
-| Open-weight model | A model whose trained weights are published for anyone to download and run (Qwen, DeepSeek, Mistral). The training data and code usually aren't. | [0.1](book/part-00-catch-up/0.1-what-changed.md) |
 
 ## Inference
 
@@ -45,7 +44,6 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Top-p / top-k / min-p | Sampling filters that drop unlikely tokens before picking one. | [1.8](book/part-01-how-llms-work/1.8-sampling.md) |
 | Reasoning model | A model trained to produce a chain of thought ("thinking tokens") before its answer. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Test-time compute | Spending more tokens or samples at inference to get better answers. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
-| Inference scaling | Another name for test-time compute: improving answers by spending more compute at inference instead of training. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Quantization | Storing weights in fewer bits (e.g. 4 or 8) to save memory and gain speed, at some quality cost. | [1.12](book/part-01-how-llms-work/1.12-quantization.md) |
 | GGUF | The model file format used by llama.cpp and Ollama, usually holding quantized weights (Q4_K_M, Q8_0...). | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
 | TTFT | Time to first token: how long until streaming output starts. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
@@ -83,7 +81,6 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Agent skill | A folder with a `SKILL.md` and resources that an agent loads on demand (progressive disclosure). | [3.8](book/part-03-agents/3.8-agents-md-and-skills.md) |
 | Sub-agent | An agent spawned by another agent with its own context, returning a summary. | [3.10](book/part-03-agents/3.10-multi-agent.md) |
 | A2A | Agent2Agent protocol: an open standard for agents to discover and talk to other agents. | [3.12](book/part-03-agents/3.12-a2a.md) |
-| Agentic AI Foundation (AAIF) | A Linux Foundation fund, formed 2025-12-09, that governs open agent standards: MCP, AGENTS.md, goose, and since 2026 A2A. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
 
 ## Harnesses and Claude Code
 
@@ -97,7 +94,6 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Permission mode | How much a harness lets the agent do without asking (ask, accept edits, auto, bypass...). | [6.4](book/part-06-claude-code/6.4-hooks-permissions.md) |
 | Worktree | A second checkout of the same git repo, used to run agents in parallel without conflicts. | [6.5](book/part-06-claude-code/6.5-parallel-work.md) |
 | Managed agent | An agent whose loop, sandbox and sessions are hosted by the provider. | [8.7](book/part-08-production/8.7-managed-agents.md) |
-| Background agent | An agent that runs unattended in a cloud sandbox, started from an issue, chat or CI event, and returns a pull request or report. | [7.4](book/part-07-ai-native-development/7.4-ci-background-agents.md) |
 
 ## Evals and observability
 

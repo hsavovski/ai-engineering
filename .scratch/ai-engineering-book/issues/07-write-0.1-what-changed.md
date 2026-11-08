@@ -1,6 +1,6 @@
 # 07 — Write chapter 0.1: What changed from 2024 to 2026
 
-Status: resolved
+Status: ready-for-agent
 Type: task
 Blocked by: 02
 
@@ -59,7 +59,3 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
-
-## Comments
-
-- 2026-11-08 (agent): Done. Chapter written in `book/part-00-catch-up/0.1-what-changed.md`, `last_verified: 2026-11-08`. All links opened. Dropped OpenAI's "Learning to reason with LLMs" (403 to automated fetches); the o1 point is sourced through Willison's posts and the DeepSeek-R1 paper instead. `needs` unchanged, so `npm run map` wasn't needed. `npm run build` passes.
