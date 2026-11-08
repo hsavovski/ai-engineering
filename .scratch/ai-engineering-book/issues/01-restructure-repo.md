@@ -40,3 +40,4 @@ Turn `learning/ai-agents/` into `learning/ai-engineering/`: its own git repo wit
 ## Comments
 
 - 2026-11-08: Done except the GitHub remote: `gh` was not logged in. Left as a Setup checklist item in `PROGRESS.md`. Recorded Node 26 in the spec.
+- 2026-11-08: Remote created (private) and pushed: https://github.com/hsavovski/ai-engineering

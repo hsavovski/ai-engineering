@@ -53,4 +53,4 @@ Tick items as you go. Add a dated line to the log at the bottom when you finish 
 
 ## Setup checklist
 
-- [ ] Private GitHub remote: run `gh auth login`, then `gh repo create ai-engineering --private --source . --remote origin` and push (issue 01 — gh was not logged in)
+- [x] Private GitHub remote: https://github.com/hsavovski/ai-engineering
