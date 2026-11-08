@@ -26,6 +26,13 @@ Node 26 runs TypeScript directly, so there's nothing to install. (The task sugge
 <!-- Fill in after running: did all three reply? Tokens in/out and cost per provider. Then add the paid calls to costs.md. -->
 
 - 2026-11-08 (agent check, no keys yet): Ollama replied (30 in / 38 out tokens); OpenRouter and Anthropic failed as expected with "key is not set".
+- 2026-11-08 (with keys): all three replied with a correct one-sentence answer.
+
+| Provider · model | Tokens in / out | Cost |
+|---|---|---|
+| Ollama · qwen3:8b | 30 / 38 | $0 |
+| OpenRouter · openai/gpt-6-luna | 20 / 71 | $0.000037 (actual) |
+| Anthropic · claude-haiku-5-5 | 24 / 47 | $0.000026 (estimate) |
 
 ## Why (what I learned)
 

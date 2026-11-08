@@ -1,6 +1,6 @@
 # 04 — API keys and the cost ledger
 
-Status: ready-for-human
+Status: resolved
 Type: task
 Blocked by: 01
 
@@ -36,3 +36,4 @@ Paid APIs are ready to use from experiments, with spend tracked against the €3
 ## Comments
 
 - 2026-11-08: Agent steps 3–5 done: `.env.example`, `costs.md` (dashboard links checked: they resolve, behind login), and `experiments/01-keys-smoke-test/` (`npm run smoke`). It uses Node 26's built-in TypeScript support instead of `npx tsx`. Defaults: `openai/gpt-6-luna` on OpenRouter (checked in OpenRouter's model list) and `claude-haiku-5-5`. Ollama part verified working; the paid parts fail cleanly without keys. **Left for the learner:** steps 1–2 (accounts, credit, keys), `cp .env.example .env` and fill it in, `npm run smoke`, then the first `costs.md` entries. Resolve this issue once all three providers reply.
+- 2026-11-08: Keys added by the learner. `npm run smoke` got replies from all three providers. First two `costs.md` entries logged ($0.000063 total). Credit purchases are for the learner to add to the "Credit added" table.
