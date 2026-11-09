@@ -74,5 +74,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Qwen3-Embedding-0.6B model card](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) and [Qwen3 Embedding paper](https://arxiv.org/abs/2506.05176) | docs | ~15 min | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
 | [ ] | [Ollama API: embed](https://docs.ollama.com/api/embed) and [qwen3-embedding](https://ollama.com/library/qwen3-embedding) | docs | ~5 min | essential | [1.3](/part-01-how-llms-work/1.3-embeddings) |
 | [ ] | [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard) | docs (interactive) | ~10 min | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [3Blue1Brown: Attention in transformers, step-by-step](https://www.youtube.com/watch?v=eMlx5fFNoYc) (Deep Learning ch. 6), 1:39–18:21 and 19:19–23:19 ([text](https://www.3blue1brown.com/lessons/attention)) | video | ~21 min | essential | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | Raschka, *Build a Large Language Model (From Scratch)*, ch. 3, sections 3.3–3.5 (and 3.6 for multi-head) ([code](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch03/01_main-chapter-code)) | book | ~1.5 h | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [Karpathy: Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY), 42:13–1:24:25 | video | ~42 min | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Jay Alammar), "Self-Attention in Detail" through "The Beast With Many Heads" | article | ~20 min | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [Vaswani et al.: Attention Is All You Need](https://arxiv.org/abs/1706.03762), sections 3.2 and 4 | paper | ~30 min | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [Bahdanau et al.: Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) | paper | ~10 min (abstract) | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [Ainslie et al.: GQA](https://arxiv.org/abs/2305.13245) and [Shazeer: Multi-query attention](https://arxiv.org/abs/1911.02150) | paper | ~15 min (abstracts) | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [Dao et al.: FlashAttention](https://arxiv.org/abs/2205.14135) | paper | ~10 min (abstract) | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [Kaplan et al.: Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361), section 2.1 and Table 1 (compute per token) | paper | ~15 min | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
