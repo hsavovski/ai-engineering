@@ -1,6 +1,6 @@
 # 13 — Write chapter 1.3: Embeddings
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -58,3 +58,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
+
+## Answer
+
+Done 2026-11-09 on branch `issue-13`. Chapter `book/part-01-how-llms-work/1.3-embeddings.md` written with all six sections; experiment `experiments/07-embedding-space/` scaffolded (README skeleton only, the learner writes the code). Every link checked on 2026-11-09. Measured numbers (cosines, analogies, instruction effect, truncated dimensions) come from `qwen3-embedding:0.6b` on Ollama 0.40.14; the raw token-table neighbours come from Qwen3-0.6B's `embed_tokens` tensor, fetched with HTTP range requests. The 3Blue1Brown URL is resolved (video 12:27–22:22). Raschka ch. 2 sections 2.1, 2.7 and 2.8 were verified in the notebook. 13 resources and 8 glossary terms added. `npm run build` passes.

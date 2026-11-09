@@ -61,5 +61,18 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Hugging Face: How to generate text (decoding methods)](https://huggingface.co/blog/how-to-generate) | article | ~15 min | optional | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | [ ] | [Thinking Machines: Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) | article | ~30 min | essential | [1.8](/part-01-how-llms-work/1.8-sampling) |
 | [ ] | [Ollama Modelfile: parameters](https://docs.ollama.com/modelfile#valid-parameters-and-values) and [API: chat](https://docs.ollama.com/api/chat) | docs | ~10 min | essential | [1.8](/part-01-how-llms-work/1.8-sampling) |
+| [ ] | [3Blue1Brown: Transformers, the tech behind LLMs](https://www.youtube.com/watch?v=wjZofJX0v4M), 12:27–22:22 (embeddings and unembedding) | video | ~10 min | essential | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/) (Jay Alammar) | article | ~20 min | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | Raschka, *Build a Large Language Model (From Scratch)*, ch. 2, sections 2.1, 2.7, 2.8 ([code](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02/01_main-chapter-code), [embedding vs. matmul](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02/03_bonus_embedding-vs-matmul)) | book | ~45 min | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Mikolov et al.: Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) (word2vec) | paper | ~10 min (abstract) | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Nissim et al.: Fair is Better than Sensational](https://arxiv.org/abs/1905.09866) (limits of analogies) | paper | ~10 min (abstract) | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Ethayarajh: How Contextual are Contextualized Word Representations?](https://arxiv.org/abs/1909.00512) (anisotropy) | paper | ~10 min (abstract) | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Press & Wolf: Using the Output Embedding to Improve Language Models](https://arxiv.org/abs/1608.05859) (weight tying) | paper | ~10 min (abstract) | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Su et al.: RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) | paper | ~10 min (abstract) | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Reimers & Gurevych: Sentence-BERT](https://arxiv.org/abs/1908.10084) (bi-encoders) | paper | ~10 min (abstract) | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Kusupati et al.: Matryoshka Representation Learning](https://arxiv.org/abs/2205.13147) | paper | ~10 min (abstract) | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Qwen3-Embedding-0.6B model card](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) and [Qwen3 Embedding paper](https://arxiv.org/abs/2506.05176) | docs | ~15 min | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [Ollama API: embed](https://docs.ollama.com/api/embed) and [qwen3-embedding](https://ollama.com/library/qwen3-embedding) | docs | ~5 min | essential | [1.3](/part-01-how-llms-work/1.3-embeddings) |
+| [ ] | [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard) | docs (interactive) | ~10 min | optional | [1.3](/part-01-how-llms-work/1.3-embeddings) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

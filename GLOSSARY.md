@@ -26,6 +26,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Pre-tokenization | A regex that splits text into chunks (words with their leading space, numbers, punctuation) before BPE, so merges never cross those boundaries. | [1.2](book/part-01-how-llms-work/1.2-tokenization.md) |
 | Special token | A reserved token added by hand, never produced by BPE from normal text, that marks structure: end of text, message boundaries, thinking, tool calls. | [1.2](book/part-01-how-llms-work/1.2-tokenization.md) |
 | Glitch token | A token that is in the vocabulary but was almost absent from the model's training data, so its embedding is untrained and it triggers odd behavior. | [1.2](book/part-01-how-llms-work/1.2-tokenization.md) |
+| Embedding matrix | The `vocab_size × d_model` table with one learned vector per token id. Turning ids into vectors is a row lookup, mathematically a one-hot vector times the matrix. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
+| Unembedding (`lm_head`) | The output matrix that turns the final hidden vector into one logit per token: a dot product with each token's output vector. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
+| Weight tying | Using the same matrix for the input embedding and the unembedding. Saves a lot of parameters in small models (Qwen3-0.6B ties, Qwen3-8B doesn't). | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
+| Cosine similarity | The dot product of two vectors divided by their lengths: compares direction only, from −1 to 1. Equals the dot product for unit vectors. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
+| Anisotropy | Embedding vectors crowding into a narrow region instead of spreading out, so even unrelated items have high cosine. Only rankings transfer between models, not cosine values. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
+| RoPE | Rotary position embedding: rotates query and key vectors by a position-dependent angle inside attention, so their dot product depends on relative position. Qwen3 uses it. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
 
 ## Training
 
@@ -80,6 +86,8 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Tool calling | The model asks your code to run a named function with JSON arguments, then reads the result. | [2.6](book/part-02-programming-with-llms/2.6-tool-calling.md) |
 | Prompt caching | Reusing the processed prefix of a prompt across requests. Cheaper and faster when the prefix repeats. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
 | Embedding model | A model that turns a text into one vector, used for search and clustering. | [2.8](book/part-02-programming-with-llms/2.8-embeddings-in-practice.md) |
+| Bi-encoder vs. cross-encoder | A bi-encoder (embedding model) embeds each text once and compares vectors: fast, used for search. A cross-encoder reads the query and document together: slower but more accurate, used for reranking. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
+| Matryoshka embeddings | Embeddings trained so the first dimensions carry the most information, so a vector can be truncated (e.g. 1024 → 128) for cheaper storage and search at some cost in quality. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
 | RAG | Retrieval-augmented generation: fetch relevant documents and put them in the prompt. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
 | Hybrid search | Combining keyword search (BM25) with vector search. | [2.10](book/part-02-programming-with-llms/2.10-better-retrieval.md) |
 | Reranker | A model that re-scores retrieved results for relevance before they go into the prompt. | [2.10](book/part-02-programming-with-llms/2.10-better-retrieval.md) |
