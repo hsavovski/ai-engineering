@@ -1,6 +1,6 @@
 # 15 — Write chapter 1.5: The transformer block
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -61,3 +61,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
+
+## Answer
+
+Done 2026-11-09 on branch `issue-15`. Chapter `book/part-01-how-llms-work/1.5-transformer-block.md` written with all six sections. The practice is notes only (`notes/1.5-qwen3-14b-parameters.md`, written by the learner), so no experiment folder. Every link checked on 2026-11-09. The Karpathy video URL is resolved (1:24:25–1:42:39), and so is the Raschka architecture comparison URL. Raschka ch. 4 sections were verified from the notebook. The Qwen3-8B parameter table was computed from the real safetensors headers and matches the model card. 11 resources and 6 glossary terms added. `npm run build` passes.

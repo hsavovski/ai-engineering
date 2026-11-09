@@ -83,5 +83,16 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Ainslie et al.: GQA](https://arxiv.org/abs/2305.13245) and [Shazeer: Multi-query attention](https://arxiv.org/abs/1911.02150) | paper | ~15 min (abstracts) | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
 | [ ] | [Dao et al.: FlashAttention](https://arxiv.org/abs/2205.14135) | paper | ~10 min (abstract) | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
 | [ ] | [Kaplan et al.: Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361), section 2.1 and Table 1 (compute per token) | paper | ~15 min | optional | [1.4](/part-01-how-llms-work/1.4-attention) |
+| [ ] | [3Blue1Brown: How might LLMs store facts](https://www.youtube.com/watch?v=9-Jl0dxWQs8) (Deep Learning ch. 7), 0:00–17:04 ([text](https://www.3blue1brown.com/lessons/mlp)) | video | ~17 min | essential | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | Raschka, *Build a Large Language Model (From Scratch)*, ch. 4, sections 4.2–4.6 ([code](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch04/01_main-chapter-code)) and [Qwen3 From Scratch](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/11_qwen3) | book | ~1.5 h | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [Raschka: The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison), sections 2.2 and 6.1 first | article | ~30 min | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [Karpathy: Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY), 1:24:25–1:42:39 | video | ~18 min | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388), section 2 and Table 1 | paper | ~10 min | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [Elhage et al.: A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html), residual stream sections | article | ~20 min | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [EleutherAI: Rotary Embeddings: A Relative Revolution](https://blog.eleuther.ai/rotary-embeddings/) | article | ~20 min | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [Zhang & Sennrich: RMSNorm](https://arxiv.org/abs/1910.07467) and [Xiong et al.: On Layer Normalization in the Transformer Architecture](https://arxiv.org/abs/2002.04745) | paper | ~15 min (abstracts) | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [Shazeer: GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202) | paper | ~10 min | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [He et al.: Deep Residual Learning](https://arxiv.org/abs/1512.03385) and [Ba et al.: Layer Normalization](https://arxiv.org/abs/1607.06450) | paper | ~10 min (abstracts) | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | [Qwen3-14B config.json](https://huggingface.co/Qwen/Qwen3-14B/blob/main/config.json) and [model card](https://huggingface.co/Qwen/Qwen3-14B) | docs | ~10 min | essential | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
