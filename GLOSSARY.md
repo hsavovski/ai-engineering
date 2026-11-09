@@ -32,6 +32,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Cosine similarity | The dot product of two vectors divided by their lengths: compares direction only, from −1 to 1. Equals the dot product for unit vectors. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
 | Anisotropy | Embedding vectors crowding into a narrow region instead of spreading out, so even unrelated items have high cosine. Only rankings transfer between models, not cosine values. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
 | RoPE | Rotary position embedding: rotates query and key vectors by a position-dependent angle inside attention, so their dot product depends on relative position. Qwen3 uses it. | [1.3](book/part-01-how-llms-work/1.3-embeddings.md) |
+| Query, key, value (Q, K, V) | Three learned projections of each position's vector: what it looks for (query), what it advertises (key), and what it hands over if attended to (value). | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
+| Scaled dot-product attention | `softmax(Q·Kᵀ / √d_k) · V`: score every query against every key, scale, softmax each row into weights, and take the weighted average of the values. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
+| Attention pattern | The `n × n` matrix of softmax weights: how much each position attends to each other position. Its size is why attention costs O(n²). | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
+| Causal mask | Sets scores for future positions to −∞ before softmax, so each token only sees itself and earlier tokens. Makes parallel training and the KV cache possible. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
+| Multi-head attention | Several attentions in parallel, each with its own smaller Q/K/V projections, concatenated and projected by `W_O`. Qwen3-8B has 32 heads in each of 36 layers. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
+| GQA / MQA | Grouped-query attention: groups of query heads share one key/value head (Qwen3-8B: 32 query, 8 KV heads). Multi-query attention shares a single KV head. Both shrink the KV cache, not the n² compute. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
+| FlashAttention | An exact attention kernel that computes in tiles in fast on-chip memory and never stores the full `n × n` matrix: memory becomes linear in n, compute stays quadratic. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
 
 ## Training
 

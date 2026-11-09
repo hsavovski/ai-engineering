@@ -1,6 +1,6 @@
 # 14 — Write chapter 1.4: Attention
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -60,3 +60,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
+
+## Answer
+
+Done 2026-11-09 on branch `issue-14`. Chapter `book/part-01-how-llms-work/1.4-attention.md` written with all six sections. Experiment `experiments/08-attention-by-hand/` scaffolded: a README with input matrices (one head plus a second head and `W_O`) and tables to fill in, no solution. Every link checked on 2026-11-09. The 3Blue1Brown URL is resolved (video ch. 6, 1:39–18:21 and 19:19–23:19). Raschka ch. 3 sections were verified from the notebook, and the Kaplan compute formula from the PDF (Table 1). Prefill measurements come from `qwen3:8b` on Ollama 0.40.14. 9 resources and 7 glossary terms added. `npm run build` passes.
