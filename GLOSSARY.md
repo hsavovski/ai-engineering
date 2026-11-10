@@ -197,6 +197,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Few-shot prompting | Putting a few input/output examples in the prompt so the model copies the pattern. Examples should be relevant, diverse and clearly separated from instructions. | [2.3](book/part-02-programming-with-llms/2.3-prompting.md) |
 | XML tags (in prompts) | Descriptive tags such as `<commits>` or `<example>` that mark where instructions, examples and input begin and end. Plain text conventions, not validated. | [2.3](book/part-02-programming-with-llms/2.3-prompting.md) |
 | Prompt test set | A handful of varied inputs plus checks, re-run on every prompt version, so changes are measured instead of judged by feel. Part 4 grows it into evals. | [2.3](book/part-02-programming-with-llms/2.3-prompting.md) |
+| Constrained decoding | Masking the logits of tokens a grammar forbids before sampling, so the output can only be a legal string of the grammar (e.g. valid against a JSON Schema). | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| JSON mode | A setting that guarantees the output parses as JSON but not that it matches any particular shape (`format: "json"`, `response_format: json_object`). | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| JSON Schema | A JSON vocabulary for describing the shape of JSON: types, properties, required keys, enums. What every structured-output API accepts. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| Zod | TypeScript-first schema library: one definition gives the static type (`z.infer`), runtime validation (`safeParse`) and JSON Schema (`z.toJSONSchema`). | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| GBNF | llama.cpp's grammar format (GGML BNF); the engine converts a subset of JSON Schema into it for constrained decoding. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| Validate-and-retry | Parse and validate a reply; on failure send the validation error back to the model and try again, with a capped number of attempts. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
 
 ## Agents
 
