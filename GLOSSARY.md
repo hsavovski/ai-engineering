@@ -102,6 +102,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Speculative decoding | A small draft model proposes tokens that the big model verifies in one pass, speeding up generation. | [10.8](book/part-10-modifying-serving-models/10.8-serving-optimizations.md) |
 | Inference engine | The code that runs the forward pass on hardware (llama.cpp, MLX, vLLM). Owns speed and memory, not messages or HTTP. | [0.2](book/part-00-catch-up/0.2-the-stack.md) |
 | Keep-alive | How long Ollama keeps a model loaded in memory after a request (`keep_alive`, `OLLAMA_KEEP_ALIVE`). Faster next call, but the memory stays taken. | [0.4](book/part-00-catch-up/0.4-your-lab.md) |
+| KV cache size per token | `2 × layers × KV heads × head dim × bytes per number`. Qwen3-14B at 16-bit: 160 KiB per token. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+| `num_ctx` | Ollama's context length setting. The runtime reserves the KV cache for the whole window at load time, so a larger value uses more memory even for a short prompt. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+| KV cache quantization | Storing the cache at lower precision (`OLLAMA_KV_CACHE_TYPE`: `f16`, `q8_0`, `q4_0`) to cut its memory; needs Flash Attention. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+| Lost in the middle | Models use information at the start or end of a long context better than information in the middle. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+| Needle in a haystack | A test that hides one fact in a long document and asks for it. Near-perfect scores say little about real long-context work. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+| PagedAttention | Manages the KV cache in fixed-size blocks, like OS virtual memory, to avoid fragmentation and allow sharing across requests (vLLM). | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
 
 ## Programming with LLMs
 

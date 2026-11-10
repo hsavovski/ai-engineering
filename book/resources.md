@@ -117,5 +117,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | Nathan Lambert, [RLHF Book](https://rlhfbook.com): instruction tuning, reward models, direct alignment chapters | book | ~1.5 h | essential | [1.7](/part-01-how-llms-work/1.7-post-training) |
 | [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 2, "Post-Training" ([summary](https://github.com/chiphuyen/aie-book/blob/main/chapter-summaries.md)) | book | ~30 min | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
 | [ ] | Hugging Face [smol course](https://huggingface.co/learn/smol-course), units 1 and 3 | docs | ~1 h | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents), from "Why context engineering is important" | article | ~15 min | essential | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
+| [ ] | [Chroma: Context Rot](https://www.trychroma.com/research/context-rot) (Hong, Troynikov, Huber, 2025) | report | ~20 min | essential | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
+| [ ] | [Ollama: Context length](https://docs.ollama.com/context-length) and [FAQ: K/V cache quantization](https://docs.ollama.com/faq#how-can-i-set-the-quantization-type-for-the-kv-cache) | docs | ~10 min | essential | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
+| [ ] | [Liu et al.: Lost in the Middle](https://arxiv.org/abs/2307.03172) | paper | ~20 min | optional | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
+| [ ] | [Anthropic: Prompt caching, how it works](https://platform.claude.com/docs/en/build-with-claude/prompt-caching#how-prompt-caching-works) | docs | ~10 min | optional | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
+| [ ] | [Kwon et al.: PagedAttention / vLLM](https://arxiv.org/abs/2309.06180), abstract and intro | paper | ~15 min | optional | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

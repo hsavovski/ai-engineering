@@ -1,6 +1,6 @@
 # 19 — Write chapter 1.9: The KV cache and the context window
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -58,3 +58,5 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+- 2026-11-10 (agent): done. Planned resources: the Anthropic URL works (it redirects between /engineering/ and /research/; the chapter uses /research/); the Chroma report is at trychroma.com/research/context-rot (published July 14, 2025). Added Ollama's context-length and KV-cache-quantization docs, Liu et al., Anthropic prompt-caching docs and the PagedAttention paper. Key finding while checking the practice: this Mac's Ollama service runs with `OLLAMA_KV_CACHE_TYPE=q8_0` and `OLLAMA_FLASH_ATTENTION=1`, so measured memory per token is about half of a 16-bit estimate. The chapter does not give measured numbers; step 1 of the practice has the learner find the setting, and the server log (`/opt/homebrew/var/log/ollama.log`) shows the exact cache size. Experiment folder is `experiments/10-num-ctx/`. `needs` unchanged, so no `npm run map`.
