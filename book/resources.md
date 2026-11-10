@@ -135,5 +135,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410) | paper | ~20 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | [Claude docs: Steering and cost control](https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost) | docs | ~15 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | Sebastian Raschka, [*Build a Reasoning Model (From Scratch)*](https://github.com/rasbt/reasoning-from-scratch), chapters 4 and 6 | book | ~3 h (chapters 4 and 6) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison) (Raschka) | article | ~40 min | essential | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245) | paper | ~15 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) | paper | ~15 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071) | paper | ~25 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

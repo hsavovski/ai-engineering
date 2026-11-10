@@ -1,6 +1,6 @@
 # 25 — Write chapter 1.15: Efficient attention and long context
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-01-how-llms-work/1.15-efficient-attention.md`. Practice is notes-only; no experiment folder. Raschka comparison URL found and verified; all arXiv links opened.
