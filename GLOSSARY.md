@@ -194,6 +194,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Prefill | Ending `messages` with a partial assistant message so the model continues it. Rejected by Claude 4.6 and later. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
 | Rate limit (429) | A cap on requests or tokens per minute; the response carries `retry-after`. Not the same as a spend limit. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
 | Backoff with jitter | Waiting longer after each failed attempt, with a random spread, before retrying a transient error. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Few-shot prompting | Putting a few input/output examples in the prompt so the model copies the pattern. Examples should be relevant, diverse and clearly separated from instructions. | [2.3](book/part-02-programming-with-llms/2.3-prompting.md) |
+| XML tags (in prompts) | Descriptive tags such as `<commits>` or `<example>` that mark where instructions, examples and input begin and end. Plain text conventions, not validated. | [2.3](book/part-02-programming-with-llms/2.3-prompting.md) |
+| Prompt test set | A handful of varied inputs plus checks, re-run on every prompt version, so changes are measured instead of judged by feel. Part 4 grows it into evals. | [2.3](book/part-02-programming-with-llms/2.3-prompting.md) |
 
 ## Agents
 

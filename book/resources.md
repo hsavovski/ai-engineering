@@ -217,3 +217,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming) | docs | ~10 min | optional | [2.2](/part-02-programming-with-llms/2.2-streaming) |
 | [ ] | [MDN: Streams API concepts](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts) | docs | ~10 min | optional | [2.2](/part-02-programming-with-llms/2.2-streaming) |
 | [ ] | [Ollama: Streaming](https://docs.ollama.com/api/streaming) | docs | ~5 min | essential | [2.2](/part-02-programming-with-llms/2.2-streaming) |
+| [ ] | [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) | docs | ~25 min | essential | [2.3](/part-02-programming-with-llms/2.3-prompting) |
+| [ ] | [Chip Huyen, *AI Engineering*, chapter 5: Prompt Engineering](https://github.com/chiphuyen/aie-book/blob/main/chapter-summaries.md#chapter-5-prompt-engineering) | book | ~60 min (chapter) or ~10 min (summary) | optional | [2.3](/part-02-programming-with-llms/2.3-prompting) |
+| [ ] | [Prompt engineering overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | docs | ~5 min | essential | [2.3](/part-02-programming-with-llms/2.3-prompting) |
+| [ ] | [OpenAI: Prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering) | docs | ~15 min | optional | [2.3](/part-02-programming-with-llms/2.3-prompting) |
+| [ ] | [Anthropic's interactive prompt engineering tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | repo | ~2 h (hands-on) | optional | [2.3](/part-02-programming-with-llms/2.3-prompting) |
