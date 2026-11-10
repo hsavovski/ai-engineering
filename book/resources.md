@@ -195,6 +195,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673) | paper | ~20 min | optional | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
 | [ ] | [mlx-lm LoRA documentation](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md) | docs | ~20 min | essential | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
 | [ ] | [Hugging Face smol course](https://huggingface.co/learn/smol-course) | docs | ~1 h | optional | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+| [ ] | [mlx-lm LoRA documentation](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md) | docs | ~5 min (the Fuse section) | essential | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
+| [ ] | [mlx_lm/fuse.py](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/fuse.py) | repo | ~5 min | essential | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
+| [ ] | [Ollama: Importing a model](https://docs.ollama.com/import) | docs | ~5 min | essential | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
+| [ ] | [Ollama: API generate, the `raw` option](https://docs.ollama.com/api/generate) | docs | ~5 min | essential | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
+| [ ] | [Ollama: OpenAI compatibility](https://docs.ollama.com/api/openai-compatibility) | docs | ~5 min | essential | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
+| [ ] | [PEFT: LoRA developer guide, "Merge LoRA weights into the base model"](https://huggingface.co/docs/peft/main/en/developer_guides/lora) | docs | ~10 min | optional | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
+| [ ] | [llama.cpp: convert_lora_to_gguf.py](https://github.com/ggml-org/llama.cpp/blob/master/convert_lora_to_gguf.py) | repo | ~10 min | optional | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
+| [ ] | [llama.cpp: export-lora README](https://github.com/ggml-org/llama.cpp/tree/master/tools/export-lora) | docs | ~5 min | optional | [10.4](/part-10-modifying-serving-models/10.4-merge-and-serve) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
 

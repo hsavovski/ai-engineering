@@ -110,6 +110,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Overtraining | Training a model on far more tokens than Chinchilla-optimal so a smaller model reaches a given quality. Costs more to train, less to serve. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
 | Deduplication | Removing repeated URLs, documents (MinHash near-duplicates) and lines from training data. Reduces memorization and wasted compute. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
 | Data mixture | The proportions of web, code, math, multilingual and other data in a pretraining run, often changed between training stages. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
+| Fuse (merge an adapter) | Adding the LoRA update into the base weights (`W + scale · B A`) to get one ordinary model; `mlx_lm.fuse` does it. One-way, and rounds the sum into the weight dtype. | [10.4](book/part-10-modifying-serving-models/10.4-merge-and-serve.md) |
+| Serving an adapter separately | Keeping base and LoRA adapter as two artifacts and applying the adapter at load or run time (Ollama `ADAPTER`, llama.cpp `--lora`). Swappable, but the adapter format must match the engine and the base must be exact. | [10.4](book/part-10-modifying-serving-models/10.4-merge-and-serve.md) |
+| PEFT adapter format | Hugging Face PEFT's LoRA layout (`adapter_model.safetensors`, tensors named `…lora_A.weight` / `…lora_B.weight`), which llama.cpp's `convert_lora_to_gguf.py` reads. mlx-lm's `adapters.safetensors` is a different layout. | [10.4](book/part-10-modifying-serving-models/10.4-merge-and-serve.md) |
 
 ## Inference
 
@@ -149,6 +152,8 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Lost in the middle | Models use information at the start or end of a long context better than information in the middle. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
 | Needle in a haystack | A test that hides one fact in a long document and asks for it. Near-perfect scores say little about real long-context work. | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
 | PagedAttention | Manages the KV cache in fixed-size blocks, like OS virtual memory, to avoid fragmentation and allow sharing across requests (vLLM). | [1.9](book/part-01-how-llms-work/1.9-kv-cache-context-window.md) |
+| Template parity (train/serve) | Serving a fine-tune with exactly the prompt format it was trained on. Checked by sending the Hugging Face-rendered prompt with `raw: true` and comparing with the templated chat request. | [10.4](book/part-10-modifying-serving-models/10.4-merge-and-serve.md) |
+| raw (Ollama) | A `/api/generate` option that skips prompt templating, so the string you send is the prompt the model sees. | [10.4](book/part-10-modifying-serving-models/10.4-merge-and-serve.md) |
 
 ## Programming with LLMs
 

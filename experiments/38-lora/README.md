@@ -60,3 +60,48 @@ Free: everything runs locally (log it in `costs.md` as EUR 0 if you keep a line 
 ## Why
 
 <!-- Did validation loss and your metrics agree? What did the base model get wrong that the tuned one fixed, and the reverse? Would a three-example prompt have done the same? -->
+
+## 10.4: merge and serve
+
+Steps and acceptance check: [chapter 10.4](../../book/part-10-modifying-serving-models/10.4-merge-and-serve.md#practice). Inputs: your `adapters/`, `data/` and `compare.py` from 10.3, plus the llama.cpp clone from experiment 37. Keep `fused_model/` and `llama.cpp/` out of git (add them to a `.gitignore`; `*.gguf` and `*.safetensors` are already ignored at the repo root).
+
+```bash
+uv run mlx_lm.fuse --model Qwen/Qwen3-1.7B --adapter-path adapters --save-path fused_model
+# then: convert_hf_to_gguf.py -> llama-quantize -> Modelfile -> ollama create (see the chapter)
+```
+
+Free: local only, no paid API calls.
+
+### Predictions (before running)
+
+<!-- Fused size; fused vs. unfused metrics (exact / near / worse); does Q4_K_M keep your style rules? A reason for each. -->
+
+### Merge check (step 3)
+
+| Prompts with identical text, fused vs. unfused (of 10) | First difference looks like |
+|---|---|
+| | |
+
+### Template parity (step 7)
+
+| Prompt path | Output (first line) | Same as the HF-rendered raw prompt? |
+|---|---|---|
+| raw, HF-rendered, thinking off | | |
+| /api/chat, `think: false` | | |
+| /api/chat, `think` not set | | |
+
+### Four stages (step 8)
+
+Sample size: ___ test examples. Differences smaller than ___ I count as noise.
+
+| Model | Size | Metric 1 | Metric 2 | Notes |
+|---|---|---|---|---|
+| stock `qwen3:1.7b` (floor) | | | | |
+| tuned, unfused (mlx-lm) | | | | |
+| fused bf16 (mlx-lm) | | | | |
+| Q8_0 in Ollama | | | | |
+| Q4_K_M in Ollama | | | | |
+
+### Why
+
+<!-- Which step cost the most? Did it match the prediction? What did the fine-tune keep and lose (step 10)? -->
