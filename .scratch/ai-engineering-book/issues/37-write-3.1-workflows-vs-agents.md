@@ -1,6 +1,6 @@
 # 37 — Write chapter 3.1: Workflows vs. agents
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -54,3 +54,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 3.1 written in `book/part-03-agents/3.1-workflows-vs-agents.md`; experiment skeleton in `experiments/23-workflows/`; resources, glossary terms and BUILD-LOG line added.
