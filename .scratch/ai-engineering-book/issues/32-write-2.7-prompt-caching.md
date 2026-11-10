@@ -1,6 +1,6 @@
 # 32 — Write chapter 2.7: Prompt caching and cost
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -57,3 +57,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in book/part-02-programming-with-llms/2.7-prompt-caching.md; experiment skeleton in experiments/20-prompt-caching/.

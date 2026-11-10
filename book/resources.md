@@ -235,3 +235,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenAI: Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs) | docs | ~15 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [OpenRouter: Structured outputs](https://openrouter.ai/docs/guides/features/structured-outputs) | docs | ~8 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702) | paper | ~15 min (abstract, introduction) | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [Anthropic: Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) | docs | ~25 min | essential | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [Claude Code docs: How Claude Code uses prompt caching](https://code.claude.com/docs/en/prompt-caching) | docs | ~20 min | essential | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [Lessons from building Claude Code: Prompt caching is everything](https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything) | article | ~10 min | essential | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [OpenAI: Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching) | docs | ~10 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [OpenRouter: Prompt caching](https://openrouter.ai/docs/guides/best-practices/prompt-caching) | docs | ~10 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [DeepSeek: Context caching](https://api-docs.deepseek.com/guides/kv_cache) | docs | ~5 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
