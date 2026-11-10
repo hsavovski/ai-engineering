@@ -168,4 +168,16 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071) | paper | ~25 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 | [ ] | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 
+## Part 10 · Modifying & serving models
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Ollama: Modelfile reference](https://docs.ollama.com/modelfile) | docs | ~10 min | essential | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+| [ ] | [Ollama: Template docs](https://github.com/ollama/ollama/blob/main/docs/template.mdx) | docs | ~10 min | essential | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+| [ ] | [Ollama: Importing a model](https://docs.ollama.com/import) | docs | ~5 min | essential | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+| [ ] | [Hugging Face: Chat templates](https://huggingface.co/docs/transformers/chat_templating) | docs | ~20 min | optional | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+| [ ] | [Go: text/template](https://pkg.go.dev/text/template) | docs | ~15 min (the "Text and spaces", "Actions" and "Variables" sections) | optional | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+| [ ] | [Qwen3-14B model card](https://huggingface.co/Qwen/Qwen3-14B) | docs | ~10 min (the thinking-mode and best-practices sections) | optional | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+| [ ] | [Ollama Modelfile reference, ADAPTER section at v0.5.7](https://github.com/ollama/ollama/blob/v0.5.7/docs/modelfile.md#adapter) | docs | ~3 min | optional | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
