@@ -161,5 +161,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Tracing the thoughts of a large language model](https://www.anthropic.com/research/tracing-thoughts-language-model) | article | ~10 min | optional | [1.14](/part-01-how-llms-work/1.14-interpretability) |
 | [ ] | [Neuronpedia: Circuit Tracer for Gemma-2 2B](https://www.neuronpedia.org/gemma-2-2b/graph?slug=gemma-fact-dallas-austin) | docs | ~20 min | essential | [1.14](/part-01-how-llms-work/1.14-interpretability) |
 | [ ] | [circuit-tracer](https://github.com/safety-research/circuit-tracer), README | repo | ~10 min | optional | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison) (Raschka) | article | ~40 min | essential | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245) | paper | ~15 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) | paper | ~15 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071) | paper | ~25 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
+| [ ] | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
