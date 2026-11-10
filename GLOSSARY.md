@@ -232,6 +232,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Data residency multiplier | A price surcharge for pinning inference to a region, e.g. Anthropic `inference_geo: "us"` at 1.1x. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
 | Provider routing (OpenRouter) | Per-request `provider` settings (`order`, `allow_fallbacks`, `sort`, `data_collection`, `zdr`, `require_parameters`) that control which host serves a model and under what data policy. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
 | Silent parameter ignoring | An API accepts a parameter and does nothing with it, with no error (DeepSeek sampling parameters in thinking mode; unsupported parameters on OpenRouter unless `require_parameters` is true). | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
+| Model fallback (OpenRouter) | A `models` array in the request: if the first model errors, the next is tried, and the bill is for the model that answered. Differs from provider routing, which picks the host for one model. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| LiteLLM proxy | A self-hosted server that exposes an OpenAI-compatible endpoint and routes to local and paid models from a `config.yaml`. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| Virtual key (LiteLLM) | A proxy-issued API key, created with the master key, that can be limited by model list, budget and expiry; needs a database. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| Master key (LiteLLM) | The admin credential of a LiteLLM proxy, used to authenticate requests and to create virtual keys. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| Deployment group | Several LiteLLM `model_list` entries sharing one `model_name`; the router picks among them and cools down failing ones. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
 
 ## Agents
 
