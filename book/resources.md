@@ -169,3 +169,17 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
+
+## Part 2 · Programming with LLMs
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Using the Messages API](https://platform.claude.com/docs/en/build-with-claude/working-with-messages) | docs | ~15 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [OpenRouter API reference: overview](https://openrouter.ai/docs/api-reference/overview) | docs | ~10 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [Ollama: Chat API](https://docs.ollama.com/api/chat) and [OpenAI compatibility](https://docs.ollama.com/openai) | docs | ~10 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [Handling stop reasons](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons) | docs | ~10 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [Claude API errors](https://platform.claude.com/docs/en/api/errors) | docs | ~10 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [Rate limits](https://platform.claude.com/docs/en/api/rate-limits) | docs | ~10 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [OpenRouter: Errors](https://openrouter.ai/docs/api-reference/errors) and [Limits](https://openrouter.ai/docs/api-reference/limits) | docs | ~5 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [openai-node](https://github.com/openai/openai-node) | repo | ~10 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [Anthropic TypeScript SDK](https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/typescript) | docs | ~15 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |

@@ -180,6 +180,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Native API | A provider's or server's own API shape (Anthropic Messages, Ollama `/api/chat`), exposing features a compatible API can't carry. | [0.2](book/part-00-catch-up/0.2-the-stack.md) |
 | Token usage | The token counts a response reports (input, output, and breakdowns such as cached or thinking tokens). Multiply by per-MTok prices to get cost. | [0.4](book/part-00-catch-up/0.4-your-lab.md) |
 | Cost ledger | `costs.md`: one row per paid run (tokens, cost, actual or estimate), reconciled against the provider dashboards. | [0.4](book/part-00-catch-up/0.4-your-lab.md) |
+| Message / role | One turn in a conversation: `{ role, content }`, with roles such as `system`, `user` and `assistant`. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Content block | A typed piece of a message (`text`, `image`, `thinking`, `tool_use`, `tool_result`). Anthropic's `content` is an array of blocks. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Stop reason | Why the model stopped (`end_turn`, `max_tokens`, `tool_use`; `finish_reason` / `done_reason` elsewhere). Tells your code whether the output is complete. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Stateless API | An API that keeps no conversation between calls: you resend the whole history every time. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Prefill | Ending `messages` with a partial assistant message so the model continues it. Rejected by Claude 4.6 and later. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Rate limit (429) | A cap on requests or tokens per minute; the response carries `retry-after`. Not the same as a spend limit. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Backoff with jitter | Waiting longer after each failed attempt, with a random spread, before retrying a transient error. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
 
 ## Agents
 
