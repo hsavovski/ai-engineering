@@ -67,6 +67,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Cold-start data | A small set of long chain-of-thought examples used for SFT before reasoning RL, to make the early outputs readable and stable. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Sycophancy | Telling users what they want to hear, because preference data rewards agreement. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | Rejection sampling | Sampling many responses per prompt, keeping the reward model's best and fine-tuning on them. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| Decoder-only transformer | A stack of causal-attention blocks between a token embedding and an LM head; the architecture of GPT-style LLMs. The tiny GPT of 1.13 has the same structure as a frontier model, only smaller. | [1.13](book/part-01-how-llms-work/1.13-tiny-gpt.md) |
+| Block size | The context length a model is trained with: how many tokens a training window and the position table cover. Sampling crops to the last `block_size` tokens. | [1.13](book/part-01-how-llms-work/1.13-tiny-gpt.md) |
+| Validation loss | Loss on held-out text the model never trained on. Falling training loss with flat or rising validation loss means overfitting. | [1.13](book/part-01-how-llms-work/1.13-tiny-gpt.md) |
+| Overfitting | The model memorizes its training data instead of learning patterns that transfer: training loss keeps falling, validation loss stalls or rises. Likely when parameters outnumber training tokens. | [1.13](book/part-01-how-llms-work/1.13-tiny-gpt.md) |
+| MPS | Metal Performance Shaders: PyTorch's `mps` device, which runs tensors on an Apple Silicon GPU. No float64, and a few operators fall back to the CPU. | [1.13](book/part-01-how-llms-work/1.13-tiny-gpt.md) |
+| AdamW | The standard LLM optimizer: Adam with weight decay decoupled from the gradient update. | [1.13](book/part-01-how-llms-work/1.13-tiny-gpt.md) |
 | Constitutional AI / RLAIF | Training with AI-generated critiques and preference labels guided by written principles, instead of human labels. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | RLVR | Reinforcement learning with verifiable rewards (e.g. tests pass, the math answer is right). The main way reasoning models are trained. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Fine-tuning | Further training of an existing model on your own data. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
