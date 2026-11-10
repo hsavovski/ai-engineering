@@ -164,10 +164,11 @@ From the old `PROGRESS.md` (`ai-agents/`):
   ln -s ../../node_modules .worktrees/issue-NN/node_modules
   ```
 
-  The symlink saves an `npm install` and stays out of commits through `.git/info/exclude` (`.gitignore`'s `node_modules/` only matches directories). Claim, write and commit on `issue-NN` only; the learner merges into `main`, and other worktrees belong to other tasks. Shared files (`GLOSSARY.md`, `book/resources.md`, `BUILD-LOG.md`) get edits from every task, so only append rows or lines there, keeping existing ones in place and in their format, so merges stay clean.
+  The symlink saves an `npm install` and stays out of commits through `.git/info/exclude` (`.gitignore`'s `node_modules/` only matches directories). Claim, write and commit on `issue-NN` only; merging into `main` belongs to the learner or the batch workflow's merge step, and other worktrees belong to other tasks. Shared files (`GLOSSARY.md`, `book/resources.md`, `BUILD-LOG.md`) get edits from every task, so only append rows or lines there, keeping existing ones in place and in their format, so merges stay clean.
 - **The learner does the practical work.** Agents write explanations, scaffolding, starter code and reviews. Agents never fill in "My understanding" and never solve the practice for the learner.
 - Small batches: one task = one chapter, or one setup step.
 - When finishing a task, add a dated line to `BUILD-LOG.md`. Don't edit `PROGRESS.md`: it belongs to the learner, and its table is regenerated with `npm run progress` after merging into `main` (running it on parallel branches makes every branch conflict).
 - Commit at the end of each task (once the git repo exists) with a clear message. Don't push without asking.
 - **Experiment numbers are assigned in the issue file**, never picked at run time ("next free number" collides when tasks run in parallel). Numbers up to `44` are taken by existing issues; a new issue that needs an experiment takes the next unused number. Issues that share a folder (e.g. `38-lora`) build on each other, so don't run them in the same parallel batch.
+- **Batches** run through `scripts/workflows/book-batch.workflow.js`: a writer per issue (no fact-check, to save Pro usage), an optional fact-check pass on chapters chosen later, then one agent merges the branches into `main` without pushing. Its header says how to launch it.
 - Keep Claude Pro usage in mind: don't fan out subagents unless the task calls for it.
