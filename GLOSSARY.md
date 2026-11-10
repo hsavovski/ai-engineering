@@ -249,6 +249,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Virtual key (LiteLLM) | A proxy-issued API key, created with the master key, that can be limited by model list, budget and expiry; needs a database. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
 | Master key (LiteLLM) | The admin credential of a LiteLLM proxy, used to authenticate requests and to create virtual keys. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
 | Deployment group | Several LiteLLM `model_list` entries sharing one `model_name`; the router picks among them and cools down failing ones. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| Agentic search | Retrieval done by the model in a loop with search tools (list, grep, read) instead of a retriever that runs before the model; the model writes its own queries and decides when to stop. | [2.11](book/part-02-programming-with-llms/2.11-agentic-search.md) |
+| Just-in-time context loading | Keeping lightweight identifiers (paths, queries, links) in context and loading the content with tools only when needed, instead of pre-loading everything. | [2.11](book/part-02-programming-with-llms/2.11-agentic-search.md) |
+| Lightweight identifier | A short reference (file path, line range, stored query, URL) that an agent carries instead of the content it points to. | [2.11](book/part-02-programming-with-llms/2.11-agentic-search.md) |
+| Agentic RAG | RAG where autonomous agents manage retrieval (planning, reflection, tool use, repeated queries) instead of one fixed retrieve-then-generate pass. | [2.11](book/part-02-programming-with-llms/2.11-agentic-search.md) |
+| Repo map | A compact, ranked listing of a repository's files and key symbols placed in the prompt up front (Aider); structural retrieval without embeddings. | [2.11](book/part-02-programming-with-llms/2.11-agentic-search.md) |
 
 ## Agents
 
