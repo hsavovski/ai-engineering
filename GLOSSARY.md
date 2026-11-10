@@ -244,6 +244,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Precision@k | Share of the top k results that are relevant. Matters when k chunks all go in the prompt and noise hurts generation. | [2.10](book/part-02-programming-with-llms/2.10-better-retrieval.md) |
 | MRR (mean reciprocal rank) | Average over questions of `1 / rank` of the first relevant result (0 if absent). Sensitive to the top positions, so it shows what a reranker changes. | [2.10](book/part-02-programming-with-llms/2.10-better-retrieval.md) |
 | Stage-wise retrieval metrics | Measure each stage on its own: recall at the candidate depth for the first stage, MRR and recall@k (small k) after reranking. A reranker cannot repair a candidate list that lacks the answer. | [2.10](book/part-02-programming-with-llms/2.10-better-retrieval.md) |
+| Model fallback (OpenRouter) | A `models` array in the request: if the first model errors, the next is tried, and the bill is for the model that answered. Differs from provider routing, which picks the host for one model. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| LiteLLM proxy | A self-hosted server that exposes an OpenAI-compatible endpoint and routes to local and paid models from a `config.yaml`. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| Virtual key (LiteLLM) | A proxy-issued API key, created with the master key, that can be limited by model list, budget and expiry; needs a database. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| Master key (LiteLLM) | The admin credential of a LiteLLM proxy, used to authenticate requests and to create virtual keys. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
+| Deployment group | Several LiteLLM `model_list` entries sharing one `model_name`; the router picks among them and cools down failing ones. | [9.2](book/part-09-model-landscape-cost/9.2-openrouter-litellm.md) |
 
 ## Agents
 

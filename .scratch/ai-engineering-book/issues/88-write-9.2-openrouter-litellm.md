@@ -1,6 +1,6 @@
 # 88 — Write chapter 9.2: OpenRouter and LiteLLM
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -54,3 +54,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 9.2 written in `book/part-09-model-landscape-cost/9.2-openrouter-litellm.md`; experiment skeleton in `experiments/35-gateway/`. LiteLLM was not run locally (starting the proxy was denied in the session), so config and behaviour follow the docs only.

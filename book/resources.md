@@ -326,3 +326,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention) | docs | ~15 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
 | [ ] | [Gemini API terms](https://aistudio.google.com/docs/terms) | docs | ~10 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
 | [ ] | [OpenRouter: Provider routing](https://openrouter.ai/docs/guides/routing/provider-selection) | docs | ~15 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [OpenRouter: Provider routing](https://openrouter.ai/docs/guides/routing/provider-selection) | docs | ~15 min | essential | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
+| [ ] | [OpenRouter: Model fallbacks](https://openrouter.ai/docs/guides/routing/model-fallbacks) | docs | ~5 min | essential | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
+| [ ] | [OpenRouter: Usage accounting](https://openrouter.ai/docs/guides/guides/usage-accounting) | docs | ~10 min | optional | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
+| [ ] | [LiteLLM: Config](https://docs.litellm.ai/docs/proxy/configs) | docs | ~20 min | essential | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
+| [ ] | [LiteLLM: Virtual keys](https://docs.litellm.ai/docs/proxy/virtual_keys) | docs | ~15 min | essential | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
+| [ ] | [LiteLLM: Router, load balancing and fallbacks](https://docs.litellm.ai/docs/routing) | docs | ~15 min | optional | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
