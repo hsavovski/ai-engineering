@@ -1,6 +1,6 @@
 # 30 — Write chapter 2.5: Structured output
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
