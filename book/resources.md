@@ -135,5 +135,13 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410) | paper | ~20 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | [Claude docs: Steering and cost control](https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost) | docs | ~15 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | Sebastian Raschka, [*Build a Reasoning Model (From Scratch)*](https://github.com/rasbt/reasoning-from-scratch), chapters 4 and 6 | book | ~3 h (chapters 4 and 6) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [A Visual Guide to Quantization](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization) | article | ~30 min | essential | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [Ollama: qwen3 tags](https://ollama.com/library/qwen3/tags) | docs | ~5 min | essential | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [llama.cpp: quantize tool README](https://github.com/ggml-org/llama.cpp/blob/master/tools/quantize/README.md) | docs | ~15 min | essential | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [llama.cpp: perplexity tool README](https://github.com/ggml-org/llama.cpp/tree/master/tools/perplexity) | docs | ~10 min | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [k-quants pull request (llama.cpp #1684)](https://github.com/ggml-org/llama.cpp/pull/1684) | repo | ~15 min (the description and the perplexity table, not the whole thread) | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [Hugging Face: GGUF](https://huggingface.co/docs/hub/gguf) | docs | ~10 min | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) | paper | ~20 min (abstract and introduction) | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [FP8 Formats for Deep Learning](https://arxiv.org/abs/2209.05433) | paper | ~15 min (abstract and the format definitions) | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

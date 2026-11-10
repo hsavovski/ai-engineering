@@ -1,6 +1,6 @@
 # 22 — Write chapter 1.12: Quantization
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-01-how-llms-work/1.12-quantization.md`; experiment folder `experiments/12-quantization/` (README skeleton, learner writes `quant.ts` and `notes/quantization.md`); 8 resources, 10 glossary terms, BUILD-LOG line. Links opened and checked 2026-11-10.
