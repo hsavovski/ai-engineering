@@ -1,6 +1,6 @@
 # 85 — Write chapter 8.6: Streaming UI and auth
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in book/part-08-production/8.6-streaming-ui-auth.md; practice is experiments/32-streaming-ui (README skeleton). Pinned AI SDK 7.0.168 / @ai-sdk/react 4.0.172; stream capture run against local Ollama (qwen2.5:0.5b-instruct).

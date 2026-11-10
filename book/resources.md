@@ -235,3 +235,16 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenAI: Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs) | docs | ~15 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [OpenRouter: Structured outputs](https://openrouter.ai/docs/guides/features/structured-outputs) | docs | ~8 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702) | paper | ~15 min (abstract, introduction) | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+
+## Part 8 · Production
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [AI SDK: Chatbot](https://ai-sdk.dev/docs/ai-sdk-ui/chatbot) | docs | ~20 min | essential | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [AI SDK: Chatbot tool usage](https://ai-sdk.dev/docs/ai-sdk-ui/chatbot-tool-usage) | docs | ~15 min | essential | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [AI SDK: Chatbot resume streams](https://ai-sdk.dev/docs/ai-sdk-ui/chatbot-resume-streams) | docs | ~10 min | essential | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [AI SDK: Stream protocol](https://ai-sdk.dev/docs/ai-sdk-ui/stream-protocol) | docs | ~8 min | optional | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [MCP: Authorization](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) | docs | ~30 min | essential | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [MCP: Security best practices](https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices) | docs | ~20 min | essential | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [RFC 9728: OAuth 2.0 Protected Resource Metadata](https://datatracker.ietf.org/doc/html/rfc9728) | docs | ~15 min | optional | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [OWASP: Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | docs | ~15 min | optional | [8.6](/part-08-production/8.6-streaming-ui-auth) |
