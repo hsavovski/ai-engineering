@@ -56,3 +56,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-02-programming-with-llms/2.5-structured-output.md`; experiment skeleton in `experiments/18-structured-output/`.

@@ -187,6 +187,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Prefill | Ending `messages` with a partial assistant message so the model continues it. Rejected by Claude 4.6 and later. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
 | Rate limit (429) | A cap on requests or tokens per minute; the response carries `retry-after`. Not the same as a spend limit. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
 | Backoff with jitter | Waiting longer after each failed attempt, with a random spread, before retrying a transient error. | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
+| Constrained decoding | Masking the logits of tokens a grammar forbids before sampling, so the output can only be a legal string of the grammar (e.g. valid against a JSON Schema). | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| JSON mode | A setting that guarantees the output parses as JSON but not that it matches any particular shape (`format: "json"`, `response_format: json_object`). | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| JSON Schema | A JSON vocabulary for describing the shape of JSON: types, properties, required keys, enums. What every structured-output API accepts. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| Zod | TypeScript-first schema library: one definition gives the static type (`z.infer`), runtime validation (`safeParse`) and JSON Schema (`z.toJSONSchema`). | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| GBNF | llama.cpp's grammar format (GGML BNF); the engine converts a subset of JSON Schema into it for constrained decoding. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| Validate-and-retry | Parse and validate a reply; on failure send the validation error back to the model and try again, with a capped number of attempts. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
 
 ## Agents
 

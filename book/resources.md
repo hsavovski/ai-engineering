@@ -211,3 +211,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenRouter: Errors](https://openrouter.ai/docs/api-reference/errors) and [Limits](https://openrouter.ai/docs/api-reference/limits) | docs | ~5 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
 | [ ] | [openai-node](https://github.com/openai/openai-node) | repo | ~10 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
 | [ ] | [Anthropic TypeScript SDK](https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/typescript) | docs | ~15 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [Claude: Structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) | docs | ~20 min | essential | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [Ollama: Structured outputs](https://docs.ollama.com/capabilities/structured-outputs) | docs | ~8 min | essential | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [Zod: Basics](https://zod.dev/basics) and [Zod: JSON Schema](https://zod.dev/json-schema) | docs | ~15 min | essential | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [llama.cpp: GBNF grammars](https://github.com/ggml-org/llama.cpp/blob/master/grammars/README.md) | docs | ~10 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [OpenAI: Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs) | docs | ~15 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [OpenRouter: Structured outputs](https://openrouter.ai/docs/guides/features/structured-outputs) | docs | ~8 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702) | paper | ~15 min (abstract, introduction) | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
