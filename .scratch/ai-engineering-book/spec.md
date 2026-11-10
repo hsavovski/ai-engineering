@@ -88,6 +88,8 @@ Sections, in order:
 5. **Check questions**, with answers in collapsible `<details>`.
 6. **My understanding**: an empty section the **learner** writes in their own words. Agents never fill it.
 
+`npm run check -- <id>` enforces the mechanical parts of this format (the five `##` sections in order, no stub leftovers, `last_verified`, resource tags and their rows in `book/resources.md`, a `<details>` answer per check question, an empty "My understanding"); judgment calls such as sources, prices and "Look for" stay with the writer and the fact-checker. Invalid frontmatter (an unquoted `chapter` id, an unknown `tier` or `status`, a `needs` id that doesn't exist) fails `dev`, `build` and `npm run progress`.
+
 ### Accuracy rules
 
 - **Open and check every link** when writing a chapter. Never invent URLs. If a resource can't be verified, leave it out.

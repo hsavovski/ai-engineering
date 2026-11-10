@@ -6,7 +6,8 @@
     "preview": "vitepress preview book",
     "progress": "node scripts/progress.mjs",
     "smoke": "node --env-file-if-exists=.env experiments/01-keys-smoke-test/smoke.ts",
-    "test": "node --test scripts/"
+    "test": "node --test scripts/",
+    "check": "node scripts/chapter-check.mjs"
   },
   "repository": {
     "type": "git",

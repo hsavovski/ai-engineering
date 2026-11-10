@@ -49,11 +49,9 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 
 ## Acceptance criteria
 
-- All six sections present: Why this matters, Explanation, resources at the point of use, Practice, Check questions, My understanding
-- Every link opened and checked, and `last_verified` set
-- Resources added to `book/resources.md`
+- `npm run check -- 4.2` passes (sections, no stub leftovers, `last_verified`, tagged resources listed in `book/resources.md`, check-question answers, empty "My understanding")
+- Every link opened and checked
 - New terms added to `GLOSSARY.md`
-- "My understanding" left empty
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed

@@ -1,6 +1,7 @@
 // Loads the two catalogs the book is built from: chapters (book/part-NN-<slug>/ frontmatter)
 // and experiments (experiments/NN-name/README.md).
-// Shared by the VitePress config (sidebar, chapter index, scripts/book-build.mjs) and scripts/progress.mjs.
+// Shared by the VitePress config (sidebar, chapter index, scripts/book-build.mjs), scripts/chapter-check.mjs
+// and scripts/progress.mjs.
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -28,8 +29,32 @@ function titleCase(slug) {
   return slug.replace(/-/g, ' ').replace(/^\w/, (c) => c.toUpperCase())
 }
 
+const TIERS = ['core', 'deeper']
+const STATUSES = ['not-started', 'reading', 'practiced', 'understood']
+
+// Frontmatter problems in one chapter file; `needs` ids are checked against the whole book later.
+function frontmatterProblems(file, partNumber, data) {
+  const problems = []
+  const id = file.match(/^(\d+\.\d+)-/)?.[1]
+  if (typeof data.chapter !== 'string') {
+    problems.push(`chapter: ${JSON.stringify(data.chapter)} must be a quoted id (YAML reads 1.10 as 1.1)`)
+  } else if (data.chapter !== id) {
+    problems.push(`chapter: "${data.chapter}" doesn't match the file name (${id ?? 'no id prefix'})`)
+  }
+  if (data.part != null && data.part !== partNumber) problems.push(`part: ${data.part} but the file is in part ${partNumber}`)
+  if (data.tier != null && !TIERS.includes(data.tier)) problems.push(`tier: "${data.tier}" is not one of ${TIERS.join(', ')}`)
+  if (data.status != null && !STATUSES.includes(data.status)) problems.push(`status: "${data.status}" is not one of ${STATUSES.join(', ')}`)
+  for (const n of data.needs ?? []) {
+    if (typeof n !== 'string') problems.push(`needs: ${JSON.stringify(n)} must be a quoted id`)
+  }
+  return problems
+}
+
+// Throws on invalid chapter frontmatter, so a typo fails dev, build and progress instead of
+// rendering a wrong sidebar, badge or map.
 export function loadParts() {
   const parts = []
+  const problems = []
   for (const dir of fs.readdirSync(BOOK_DIR).sort()) {
     const m = dir.match(PART_DIR)
     if (!m) continue
@@ -45,6 +70,7 @@ export function loadParts() {
         continue
       }
       if (data.chapter == null) continue
+      for (const p of frontmatterProblems(file, Number(m[1]), data)) problems.push(`book/${dir}/${file}: ${p}`)
       chapters.push({
         id: String(data.chapter),
         title: data.title ?? file,
@@ -61,6 +87,13 @@ export function loadParts() {
     chapters.sort((a, b) => compareIds(a.id, b.id))
     parts.push({ number: Number(m[1]), title, dir, chapters })
   }
+
+  const ids = new Set(parts.flatMap((p) => p.chapters.map((c) => c.id)))
+  for (const c of parts.flatMap((p) => p.chapters)) {
+    for (const n of c.needs) if (!ids.has(n)) problems.push(`${c.file}: needs: "${n}" is not a chapter`)
+  }
+  if (problems.length) throw new Error(`Invalid chapter frontmatter:\n${problems.map((p) => `  ${p}`).join('\n')}`)
+
   return parts.sort((a, b) => a.number - b.number)
 }
 
