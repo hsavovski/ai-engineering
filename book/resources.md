@@ -211,3 +211,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenRouter: Errors](https://openrouter.ai/docs/api-reference/errors) and [Limits](https://openrouter.ai/docs/api-reference/limits) | docs | ~5 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
 | [ ] | [openai-node](https://github.com/openai/openai-node) | repo | ~10 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
 | [ ] | [Anthropic TypeScript SDK](https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/typescript) | docs | ~15 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [MDN: Using server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) | docs | ~10 min | essential | [2.2](/part-02-programming-with-llms/2.2-streaming) |
+| [ ] | [Anthropic: Streaming messages](https://platform.claude.com/docs/en/build-with-claude/streaming) | docs | ~20 min | essential | [2.2](/part-02-programming-with-llms/2.2-streaming) |
+| [ ] | [OpenRouter: Streaming](https://openrouter.ai/docs/api-reference/streaming) | docs | ~8 min | optional | [2.2](/part-02-programming-with-llms/2.2-streaming) |
+| [ ] | [Anthropic: Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming) | docs | ~10 min | optional | [2.2](/part-02-programming-with-llms/2.2-streaming) |
+| [ ] | [MDN: Streams API concepts](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts) | docs | ~10 min | optional | [2.2](/part-02-programming-with-llms/2.2-streaming) |
+| [ ] | [Ollama: Streaming](https://docs.ollama.com/api/streaming) | docs | ~5 min | essential | [2.2](/part-02-programming-with-llms/2.2-streaming) |
