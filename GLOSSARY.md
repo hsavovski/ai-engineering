@@ -259,6 +259,10 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Orchestrator-workers | A workflow pattern: a central LLM decides the subtasks from the input, delegates them to worker calls and synthesises the results. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
 | Evaluator-optimizer | A workflow pattern: one call generates, another critiques against criteria, and the output is revised in a loop capped by your code. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
 | Agent loop | The loop itself: call the model, run requested tools, append results, repeat until it stops. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
+| Turn (agent) | One pass through the agent loop: the model produces output and, if it requested tools, they run and the results go back. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
+| Max turns | A cap on loop iterations that ends a run the model hasn't finished; a distinct exit status, not an answer. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
+| Stop reason | The API field saying why a reply ended (`tool_use`, `end_turn`, `max_tokens`, `refusal`); the loop branches on it. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
+| Step log | A per-step record of a run (turn, model, tool calls, results, errors, tokens, time), usually JSONL. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
 | Context engineering | Curating what goes into the context window on each turn, so it holds the right tokens and few wasted ones. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Context rot | Quality degrades as the context grows, even within the window limit. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Compaction | Summarizing older conversation to free context space. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
