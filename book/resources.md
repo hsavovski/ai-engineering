@@ -298,6 +298,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Agent SDK: How the agent loop works](https://code.claude.com/docs/en/agent-sdk/agent-loop) | docs | ~15 min | essential | [3.2](/part-03-agents/3.2-agent-loop) |
 | [ ] | [Anthropic: Build a tool-using agent](https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent) | docs | ~30 min (rings 2 and 4) | optional | [3.2](/part-03-agents/3.2-agent-loop) |
 | [ ] | [Anthropic: Building agents with the Claude Agent SDK](https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk) | article | ~15 min | optional | [3.2](/part-03-agents/3.2-agent-loop) |
+| [ ] | [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | article | ~20 min | essential | [3.4](/part-03-agents/3.4-context-engineering) |
+| [ ] | [Claude Code docs: Explore the context window](https://code.claude.com/docs/en/context-window) | docs | ~15 min | essential | [3.4](/part-03-agents/3.4-context-engineering) |
+| [ ] | [Anthropic: Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing) and [Compaction overview](https://platform.claude.com/docs/en/build-with-claude/compaction) | docs | ~15 min | optional | [3.4](/part-03-agents/3.4-context-engineering) |
+| [ ] | [Claude Code docs: Subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min | optional | [3.4](/part-03-agents/3.4-context-engineering) |
 
 ## Part 8 · Production
 

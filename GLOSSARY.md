@@ -271,6 +271,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Context engineering | Curating what goes into the context window on each turn, so it holds the right tokens and few wasted ones. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Context rot | Quality degrades as the context grows, even within the window limit. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Compaction | Summarizing older conversation to free context space. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
+| Attention budget | Anthropic's framing of the limited capacity a model has for relating tokens in a long context; each added token draws it down (context is "a finite resource with diminishing marginal returns"). | [3.4](book/part-03-agents/3.4-context-engineering.md) |
+| Just-in-time retrieval | Keeping lightweight identifiers (paths, queries, links) in context and loading the data with tools when it is needed, instead of pre-loading it. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
+| Tool-result clearing | Replacing old tool results in the history with short placeholders; the lightest form of compaction, safe for results that can be re-fetched. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
+| Structured note-taking | The agent writes notes (goal, decisions, to-dos) to a file outside the context window and reads them back later, so state survives resets and compaction. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
+| Context editing | Anthropic API beta that clears old tool results or thinking blocks server-side by rule (trigger, keep, exclude), while your client keeps the full history. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Agent memory | Information an agent stores and retrieves across sessions (files, notes, databases). | [3.5](book/part-03-agents/3.5-memory.md) |
 | MCP | Model Context Protocol: an open standard for connecting AI applications to tools and data through servers. | [3.6](book/part-03-agents/3.6-mcp-using.md) |
 | AGENTS.md | An open format for project instructions for coding agents ("a README for agents"). | [3.8](book/part-03-agents/3.8-agents-md-and-skills.md) |
