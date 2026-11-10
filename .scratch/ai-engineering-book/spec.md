@@ -42,7 +42,8 @@ ai-engineering/
 ├── experiments/NN-name/    # code + README (what I tried, what happened, why)
 ├── project/                # the growing TS agent/harness (see "Growing project")
 ├── GLOSSARY.md
-├── PROGRESS.md             # per-chapter status summary + dated log
+├── PROGRESS.md             # the learner's chapter status + study log
+├── BUILD-LOG.md            # agents' dated log of finished tasks
 ├── costs.md                # spend ledger against the €30 budget
 ├── .env                    # ANTHROPIC_API_KEY, OPENROUTER_API_KEY (gitignored)
 └── .env.example
@@ -153,7 +154,7 @@ From the old `PROGRESS.md` (`ai-agents/`):
 - Read this spec and the task file first. Follow the `.scratch` tracker conventions in `docs/agents/issue-tracker.md`: set `Status:` to `claimed` before starting work, and to `resolved` when done.
 - **The learner does the practical work.** Agents write explanations, scaffolding, starter code and reviews. Agents never fill in "My understanding" and never solve the practice for the learner.
 - Small batches: one task = one chapter, or one setup step.
-- When finishing a task, add a dated line to the `PROGRESS.md` log and update the chapter status table if relevant.
+- When finishing a task, add a dated line to `BUILD-LOG.md`. Don't edit `PROGRESS.md`: it belongs to the learner, and its table is regenerated with `npm run progress` after merging into `main` (running it on parallel branches makes every branch conflict).
 - Commit at the end of each task (once the git repo exists) with a clear message. Don't push without asking.
-- **Parallel runs:** a task may run in a git worktree on its own `issue-NN` branch (under `.worktrees/`). Commit on that branch only; never merge into `main` or touch other worktrees. Other tasks edit the same shared files (`GLOSSARY.md`, `book/resources.md`, `PROGRESS.md`), so only append rows or lines there, don't reorder or reformat them, to keep merges clean.
+- **Parallel runs:** a task may run in a git worktree on its own `issue-NN` branch (under `.worktrees/`). Commit on that branch only; never merge into `main` or touch other worktrees. Other tasks edit the same shared files (`GLOSSARY.md`, `book/resources.md`, `BUILD-LOG.md`), so only append rows or lines there, don't reorder or reformat them, to keep merges clean.
 - Keep Claude Pro usage in mind: don't fan out subagents unless the task calls for it.

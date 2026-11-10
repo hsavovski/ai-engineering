@@ -156,4 +156,4 @@ Rule of thumb: weights take about *parameters × bits ÷ 8* bytes, plus the KV c
 4. Check the Ollama release page against `notes/setup.md`.
 5. Check the harness list for new entrants and changes in status (acquisitions, renames, license changes).
 6. Re-check the standards: MCP spec revision, A2A version, AAIF projects, OTel GenAI status.
-7. Update **Last refreshed** at the top, and add a dated line to the `PROGRESS.md` log.
+7. Update **Last refreshed** at the top, and add a dated line to `BUILD-LOG.md`.

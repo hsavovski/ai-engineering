@@ -57,5 +57,5 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - "My understanding" left empty
 - If `needs` changed, `npm run map` re-run
 - `npm run build` passes
-- A dated `PROGRESS.md` log line
+- A dated `BUILD-LOG.md` line
 - Committed

@@ -57,5 +57,5 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - "My understanding" left empty
 - If `needs` changed, `npm run map` re-run
 - `npm run build` passes
-- A dated `PROGRESS.md` log line
+- A dated `BUILD-LOG.md` line
 - Committed

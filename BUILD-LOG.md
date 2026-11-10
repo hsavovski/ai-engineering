@@ -1,0 +1,41 @@
+# Build log
+
+What agents built: one dated line per finished task (chapter written, setup step, Landscape refresh). Append only: parallel `issue-NN` branches all add lines here, so never reorder or reformat existing ones.
+
+Your own learning goes in `PROGRESS.md`, not here.
+
+## Setup checklist
+
+- [x] Repo restructured into `ai-engineering/`, own git repo (issue 01)
+- [x] Private GitHub remote: https://github.com/hsavovski/ai-engineering (issue 01)
+- [x] VitePress book scaffolded (issue 02)
+- [x] Old README, PROGRESS and experiment migrated to the new structure (issue 03)
+- [x] OpenRouter and Anthropic API keys in `.env`, `costs.md` ledger, smoke test against all three providers (issue 04)
+- [x] Detailed outline approved, chapter stubs and per-chapter tasks created, dependency map and paths filled in (issue 05)
+- [x] Starting glossary and dated Landscape page (issue 06)
+
+## Log
+
+- 2026-11-08: grilled the study plan → spec + tasks in `.scratch/ai-engineering-book/`. Renamed `ai-agents/` → `ai-engineering/`, own git repo (issue 01).
+- 2026-11-08: VitePress book scaffolded: chapter template, status badge, auto sidebar, `npm run progress` (issue 02).
+- 2026-11-08: restructure finished: new README, PROGRESS format, `GLOSSARY.md` started, speed-check experiment in the experiment format, empty `evals/` removed (issue 03).
+- 2026-11-08: detailed outline approved: 98 chapters (97 stubs + 0.0) across 12 parts, task files 07–103, per-part dependency maps (`npm run map`), 5 suggested paths, `project/ROADMAP.md` (issue 05).
+- 2026-11-08: `GLOSSARY.md` with 74 terms in 8 groups, rendered in the book (`npm run glossary`); `book/landscape.md` refreshed with verified models, prices, harnesses and standards (issue 06).
+- 2026-11-08: `.env.example`, `costs.md` ledger and the keys smoke test (`npm run smoke`) ready; waiting on API keys (issue 04).
+- 2026-11-08: API keys work: smoke test got replies from Ollama, OpenRouter and Anthropic; first costs logged (issue 04). Setup issues 01–06 all done.
+- 2026-11-08: chapter 0.1 "What changed from 2024 to 2026" written: six shifts with verified sources, durable-ideas table, practice brief and check questions; 6 resources and 4 glossary terms added (issue 07).
+- 2026-11-08: experiment 02 set up: rerun issue 07 with Sonnet 5.5 on branch `exp/issue-07-sonnet` and compare with the Opus 5.5 result (tag `issue-07-opus`).
+- 2026-11-08: experiment 02: Sonnet 5.5 rerun of issue 07 copied into `sonnet-5.5/`, measurable results and observed differences written up; Opus version stays as chapter 0.1. Experiments now appear in the book (Experiments section in the sidebar).
+- 2026-11-08: chapter 0.2 "The stack in one picture" written: six layers from weights to harness, a symptom-to-layer table, experiment 00 as a worked example, practice brief and check questions; 6 resources and 3 glossary terms added (issue 08).
+- 2026-11-08: chapter 1.1 "Next-token prediction: the big picture" written: the generation loop, logits/softmax/logprobs with a real qwen3:8b example, prefill vs. decode with a bandwidth estimate checked against experiment 00, Part 1 map; experiment 03 (logprobs) scaffolded; 6 resources and 5 glossary terms added (issue 11).
+- 2026-11-08: chapter 0.3 "Standards and orgs" written: MCP, AGENTS.md, Agent Skills and A2A by seam (file format vs. protocol), origins and AAIF governance with primary sources, a dated timeline (Agent Skills joined the AAIF 2026-10-22), practice brief and check questions; 7 resources and 5 glossary terms added (issue 09).
+- 2026-11-08: chapter 0.4 "Your lab: local and paid setup" written: the lab as local vs. paid routes, Ollama memory/`ollama ps`/context/keep-alive on 24 GB, OpenRouter vs. direct Anthropic, keys in `.env`, reading token usage and pricing it by hand, the cost ledger, smoke test as reference run; practice extends experiment 01; 6 resources and 3 glossary terms added (issue 10).
+- 2026-11-08: chapter 1.2 "Tokens and tokenization" written: why subwords, BPE by hand (Sennrich's toy corpus), pre-tokenization regexes, special tokens and Qwen3's chat template, measured token counts across GPT-2/cl100k/o200k/Qwen3 tokenizers, failure modes; experiment 04 (tokenizer) scaffolded; 9 resources and 5 glossary terms added (issue 12).
+- 2026-11-08: chapter 1.8 "Sampling and temperature" written: temperature, top-k/top-p/min-p and repetition penalties with worked examples from real qwen3:8b logprobs, seeds and batch-invariance nondeterminism, provider defaults (Claude API `2026-10-21` removed sampling parameters), settings by task; experiment 05 (temperature) scaffolded; 7 resources and 5 glossary terms added (issue 18).
+- 2026-11-08: issues 09, 10, 12, 18 (chapters 0.3, 0.4, 1.2, 1.8) written in parallel by a workflow (writer + fact-checker per chapter), merged to main. Experiment 06 records how the parallel runs went.
+- 2026-11-08: follow-ups from the parallel batch: Landscape AAIF and Agent Skills rows updated (AAIF at 10 projects, Agent Skills donated 2026-10-22); `smoke.ts` moved to `anthropic-version: 2026-10-21`.
+- 2026-11-09: chapter 1.3 "Embeddings" written: one-hot vs. dense, the embedding matrix as a lookup (Qwen3-8B embeddings = 1.24B of 8.2B params), weight tying, cosine vs. dot product, anisotropy and analogy limits with measured `qwen3-embedding:0.6b` numbers, nearest neighbours in Qwen3-0.6B's raw token table, positional encodings up to a RoPE preview, embedding models vs. internal embeddings; experiment 07 (embedding space) scaffolded; 13 resources and 8 glossary terms added (issue 13).
+- 2026-11-09: chapter 1.4 "Attention" written: the bottleneck attention solves, Q/K/V as learned projections, a 4-token worked example with causal mask, why √d_k (variance argument checked by simulation), multi-head and GQA with Qwen3-8B numbers, O(n²) cost via Kaplan's compute formula plus measured `qwen3:8b` prefill slowdown up to 33k tokens (1.87× per token); experiment 08 (attention by hand) scaffolded; 9 resources and 7 glossary terms added (issue 14).
+- 2026-11-09: chapter 1.5 "The transformer block" written: the Qwen3 pre-norm decoder block, residual stream, RMSNorm and pre- vs. post-norm, QK-Norm, the MLP and SwiGLU, RoPE intuition with a worked rotation example, stacking and the LM head, and an exact Qwen3-8B parameter count (8,190,735,360) read from the safetensors headers and checked against the model card; practice is a Qwen3-14B count in `notes/`; 11 resources and 6 glossary terms added (issue 15).
+- 2026-11-10: chapter 1.6 "Pretraining and scaling laws" written: next-token cross-entropy with a loss table and perplexity, the pretraining data pipeline (sources, safety and quality filters, URL/MinHash/line dedup, mixtures and staged training) from Llama 3, FineWeb and Qwen3, `C ≈ 6ND` checked against Llama 3 405B's 3.8e25 FLOPs, Kaplan vs. Chinchilla with the fitted loss formula worked through, overtraining with a break-even example (an 8B matching Chinchilla's loss pays off after ~5.3T tokens served) and Meta's 8B/405B strategy, and knowledge cutoffs; practice is a tokens-per-parameter note for two lab models; 12 resources and 7 glossary terms added (issue 16).
+- 2026-11-10: chapter 1.7 "Post-training: SFT, RLHF, DPO" written: base vs. instruct, SFT and chat templates as a post-training artifact, reward model (Bradley-Terry loss worked by hand) and PPO with KL penalty, verbosity and sycophancy as reward-proxy effects, DPO with a worked loss table, Constitutional AI/RLAIF, RLVR and tool-use post-training (Llama 3, Qwen3 reports); practice is experiment 09 (qwen2.5:0.5b base vs. instruct, raw vs. templated); 11 resources and 8 glossary terms added (issue 17).

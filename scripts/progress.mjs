@@ -9,18 +9,31 @@ const END = '<!-- status:end -->'
 
 const parts = loadParts()
 const chapters = parts.flatMap((p) => p.chapters)
+const written = chapters.filter((c) => c.written)
 
 const counts = { 'not-started': 0, reading: 0, practiced: 0, understood: 0 }
-for (const c of chapters) counts[c.status] = (counts[c.status] ?? 0) + 1
+for (const c of written) counts[c.status] = (counts[c.status] ?? 0) + 1
+
+// First written chapter in book order that isn't understood yet
+const next = written.find((c) => c.status !== 'understood')
+const nextLine = next
+  ? `**Next up:** [${next.id} ${next.title}](${next.file}) (${next.status})`
+  : '**Next up:** nothing written is left. Pick the next task from `.scratch/ai-engineering-book/issues/`.'
 
 const lines = [
   START,
-  `${chapters.length} chapters · ${Object.entries(counts).map(([s, n]) => `${s}: ${n}`).join(' · ')}`,
+  nextLine,
   '',
-  '| Chapter | Title | Tier | Status |',
-  '|---|---|---|---|',
+  `${written.length} of ${chapters.length} chapters written · ${Object.entries(counts).map(([s, n]) => `${s}: ${n}`).join(' · ')}`,
+  '',
+  '| Chapter | Title | Tier | Written | My status |',
+  '|---|---|---|---|---|',
   ...parts.flatMap((p) =>
-    p.chapters.map((c) => `| ${c.id} | [${c.title}](${c.file}) | ${c.tier} | ${c.status} |`),
+    p.chapters.map((c) =>
+      c.written
+        ? `| ${c.id} | [${c.title}](${c.file}) | ${c.tier} | ✓ | ${c.status} |`
+        : `| ${c.id} | ${c.title} | ${c.tier} | stub | |`,
+    ),
   ),
   END,
 ]
@@ -33,4 +46,4 @@ if (from === -1 || to === -1) {
   process.exit(1)
 }
 fs.writeFileSync(PROGRESS, text.slice(0, from) + lines.join('\n') + text.slice(to + END.length))
-console.log(`Updated PROGRESS.md: ${chapters.length} chapters`)
+console.log(`Updated PROGRESS.md: ${written.length} of ${chapters.length} chapters written`)

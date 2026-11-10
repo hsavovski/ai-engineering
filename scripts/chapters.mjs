@@ -35,7 +35,7 @@ export function loadParts() {
 
     for (const file of fs.readdirSync(partDir)) {
       if (!file.endsWith('.md')) continue
-      const { data } = matter(fs.readFileSync(path.join(partDir, file), 'utf8'))
+      const { data, content } = matter(fs.readFileSync(path.join(partDir, file), 'utf8'))
       if (file === 'index.md') {
         if (data.title) title = data.title
         continue
@@ -47,6 +47,8 @@ export function loadParts() {
         tier: data.tier ?? 'core',
         status: data.status ?? 'not-started',
         needs: (data.needs ?? []).map(String),
+        // Stubs carry the "::: warning Stub" box until their task writes them
+        written: !content.includes('::: warning Stub'),
         link: `/${dir}/${file.replace(/\.md$/, '')}`,
         file: path.join('book', dir, file),
       })
