@@ -1,5 +1,7 @@
 Study spec: `.scratch/ai-engineering-book/spec.md`. Read it before any task.
 
+**Running an issue:** work in its own worktree, `.worktrees/issue-NN` on branch `issue-NN`, created before you claim it. Setup is in the spec's "Working agreements".
+
 ## Agent skills
 
 ### Issue tracker

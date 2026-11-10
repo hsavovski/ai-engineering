@@ -157,10 +157,17 @@ From the old `PROGRESS.md` (`ai-agents/`):
 ## Working agreements for agents executing tasks
 
 - Read this spec and the task file first. Follow the `.scratch` tracker conventions in `docs/agents/issue-tracker.md`: set `Status:` to `claimed` before starting work, and to `resolved` when done.
+- **Every issue runs in its own worktree**: `.worktrees/issue-NN` on branch `issue-NN`, so parallel tasks and the learner's own work on `main` never share a checkout. Before claiming, if the session isn't already in that worktree, create it from `main` and switch into it (Claude Code: `EnterWorktree` with its `path`):
+
+  ```sh
+  git worktree add .worktrees/issue-NN -b issue-NN main
+  ln -s ../../node_modules .worktrees/issue-NN/node_modules
+  ```
+
+  The symlink saves an `npm install` and stays out of commits through `.git/info/exclude` (`.gitignore`'s `node_modules/` only matches directories). Claim, write and commit on `issue-NN` only; the learner merges into `main`, and other worktrees belong to other tasks. Shared files (`GLOSSARY.md`, `book/resources.md`, `BUILD-LOG.md`) get edits from every task, so only append rows or lines there, keeping existing ones in place and in their format, so merges stay clean.
 - **The learner does the practical work.** Agents write explanations, scaffolding, starter code and reviews. Agents never fill in "My understanding" and never solve the practice for the learner.
 - Small batches: one task = one chapter, or one setup step.
 - When finishing a task, add a dated line to `BUILD-LOG.md`. Don't edit `PROGRESS.md`: it belongs to the learner, and its table is regenerated with `npm run progress` after merging into `main` (running it on parallel branches makes every branch conflict).
 - Commit at the end of each task (once the git repo exists) with a clear message. Don't push without asking.
-- **Parallel runs:** a task may run in a git worktree on its own `issue-NN` branch (under `.worktrees/`). Commit on that branch only; never merge into `main` or touch other worktrees. Other tasks edit the same shared files (`GLOSSARY.md`, `book/resources.md`, `BUILD-LOG.md`), so only append rows or lines there, don't reorder or reformat them, to keep merges clean.
 - **Experiment numbers are assigned in the issue file**, never picked at run time ("next free number" collides when tasks run in parallel). Numbers up to `44` are taken by existing issues; a new issue that needs an experiment takes the next unused number. Issues that share a folder (e.g. `38-lora`) build on each other, so don't run them in the same parallel batch.
 - Keep Claude Pro usage in mind: don't fan out subagents unless the task calls for it.
