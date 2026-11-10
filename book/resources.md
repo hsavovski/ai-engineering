@@ -179,6 +179,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Go: text/template](https://pkg.go.dev/text/template) | docs | ~15 min (the "Text and spaces", "Actions" and "Variables" sections) | optional | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
 | [ ] | [Qwen3-14B model card](https://huggingface.co/Qwen/Qwen3-14B) | docs | ~10 min (the thinking-mode and best-practices sections) | optional | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
 | [ ] | [Ollama Modelfile reference, ADAPTER section at v0.5.7](https://github.com/ollama/ollama/blob/v0.5.7/docs/modelfile.md#adapter) | docs | ~3 min | optional | [10.1](/part-10-modifying-serving-models/10.1-ollama-modelfile) |
+| [ ] | [llama.cpp: quantize tool README](https://github.com/ggml-org/llama.cpp/blob/master/tools/quantize/README.md) | docs | ~15 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [llama.cpp: imatrix tool README](https://github.com/ggml-org/llama.cpp/blob/master/tools/imatrix/README.md) | docs | ~10 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [Ollama: Import](https://docs.ollama.com/import) | docs | ~5 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [llama.cpp: Build](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md) | docs | ~10 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [llama.cpp PR 4861: importance matrix](https://github.com/ggml-org/llama.cpp/pull/4861) | repo | ~15 min (the description's "Details" section, not the thread) | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [GGUF specification](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) | docs | ~15 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [safetensors README](https://github.com/huggingface/safetensors) | repo | ~10 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [Hugging Face: Use Ollama with any GGUF model on the Hub](https://huggingface.co/docs/hub/ollama) | docs | ~8 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [Ollama: Modelfile reference](https://docs.ollama.com/modelfile) | docs | ~10 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
 
