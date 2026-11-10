@@ -235,3 +235,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenAI: Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs) | docs | ~15 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [OpenRouter: Structured outputs](https://openrouter.ai/docs/guides/features/structured-outputs) | docs | ~8 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702) | paper | ~15 min (abstract, introduction) | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [Ollama: Embeddings](https://docs.ollama.com/capabilities/embeddings) | docs | ~5 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Claude docs: Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings) | docs | ~10 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Node.js: SQLite](https://nodejs.org/api/sqlite.html) | docs | ~10 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard) | docs (interactive) | ~10 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [pgvector](https://github.com/pgvector/pgvector) | repo | ~10 min | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Muennighoff et al.: MTEB: Massive Text Embedding Benchmark](https://arxiv.org/abs/2210.07316) | paper | ~15 min (abstract and introduction) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [SQLite FTS5](https://www.sqlite.org/fts5.html) | docs | ~10 min (opening sections and `bm25()`) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Weller et al.: On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) | paper | ~15 min (abstract and introduction) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Thakur et al.: BEIR](https://arxiv.org/abs/2104.08663) | paper | ~10 min (abstract) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
