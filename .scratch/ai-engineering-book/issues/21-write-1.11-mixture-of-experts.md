@@ -1,6 +1,6 @@
 # 21 — Write chapter 1.11: Mixture of experts
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

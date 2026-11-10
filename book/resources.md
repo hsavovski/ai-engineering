@@ -135,5 +135,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410) | paper | ~20 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | [Claude docs: Steering and cost control](https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost) | docs | ~15 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | Sebastian Raschka, [*Build a Reasoning Model (From Scratch)*](https://github.com/rasbt/reasoning-from-scratch), chapters 4 and 6 | book | ~3 h (chapters 4 and 6) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Mixture of Experts Explained](https://huggingface.co/blog/moe) (Hugging Face, 2023) | article | ~30 min | essential | [1.11](/part-01-how-llms-work/1.11-mixture-of-experts) |
+| [ ] | [Mixtral of Experts](https://arxiv.org/abs/2401.04088), sections 2 and 5 | paper | ~20 min | essential | [1.11](/part-01-how-llms-work/1.11-mixture-of-experts) |
+| [ ] | Raschka, [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison), sections 1.2, 6.2 and 9.2 | article | ~15 min | optional | [1.11](/part-01-how-llms-work/1.11-mixture-of-experts) |
+| [ ] | [DeepSeekMoE](https://arxiv.org/abs/2401.06066) and [Auxiliary-Loss-Free Load Balancing](https://arxiv.org/abs/2408.15664) | paper | ~20 min each (abstract, intro) | optional | [1.11](/part-01-how-llms-work/1.11-mixture-of-experts) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

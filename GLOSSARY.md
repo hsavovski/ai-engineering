@@ -45,6 +45,16 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | SwiGLU | The gated MLP used by modern LLMs: `W_down · (SiLU(W_gate·x) ⊙ W_up·x)`. Three matrices instead of two. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
 | QK-Norm | An RMSNorm applied to each query and key head before RoPE, for training stability. Used by Qwen3. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
 | LM head | The final unembedding layer (`lm_head`) that maps the last hidden vector to one logit per vocabulary entry. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
+| Dense model | A model where every token passes through every parameter. Compute per token grows with the parameter count. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Expert | One of many parallel MLPs in an MoE block (same SwiGLU shape, smaller hidden size). Experts split up parameters; in Mixtral they did not specialize by topic. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Router (gate) | A small linear layer in each MoE block that scores every expert for a token. Its weights are trained with the rest of the model. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Top-k routing | Running only the k highest-scoring experts per token (2 in Mixtral, 8 in Qwen3) and combining their outputs with the renormalized router weights. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Active parameters | The parameters a token actually uses: attention, router and the k chosen experts. They set per-token compute and speed. The A in 30B-A3B. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Total parameters | All parameters, every expert included. They set how much memory the weights need, because all experts must be loaded. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Load balancing | Training pressure that keeps tokens spread evenly over experts, to avoid routing collapse: an auxiliary loss `N·Σ fᵢ·pᵢ`, a global-batch version of it (Qwen3), or a load-based bias on router scores (DeepSeek). | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Routing collapse | Failure where a few experts get most tokens, train faster and get picked even more, while the rest are wasted. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Shared expert | An expert that runs for every token alongside the routed ones (DeepSeek-V3). Qwen3 dropped them. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Fine-grained experts | Many small experts with more of them active per token (Qwen3: 128 experts, 8 active) instead of a few large ones (Mixtral: 8, 2 active). | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
 
 ## Training
 
