@@ -245,3 +245,8 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Sandbox | An isolated environment that limits what an agent's commands can touch (files, network). | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Least privilege | Giving an agent only the access its task needs. | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Guardrail | A check on inputs or outputs (policy, PII, format). A filter, not a security boundary. | [8.4](book/part-08-production/8.4-guardrails.md) |
+| Modelfile | Ollama's recipe file for a model: `FROM`, `PARAMETER`, `SYSTEM`, `TEMPLATE`, `MESSAGE`, `ADAPTER`, `LICENSE`. `ollama create` turns it into a model. | [10.1](book/part-10-modifying-serving-models/10.1-ollama-modelfile.md) |
+| Go template | The `text/template` syntax Ollama uses for chat templates (variables like `.Messages`, `range` loops, trim markers). | [10.1](book/part-10-modifying-serving-models/10.1-ollama-modelfile.md) |
+| Generation prompt | The tokens that open the assistant turn at the end of the rendered prompt (`<|im_start|>assistant`), so the model replies instead of continuing the user's text. | [10.1](book/part-10-modifying-serving-models/10.1-ollama-modelfile.md) |
+| Stop sequence | A string (usually a control token like `<|im_end|>`) at which the server ends generation. `PARAMETER stop` in a Modelfile. | [10.1](book/part-10-modifying-serving-models/10.1-ollama-modelfile.md) |
+| ADAPTER | The Modelfile instruction that applies a LoRA adapter on top of the `FROM` model; the base must be the one the adapter was trained on. | [10.1](book/part-10-modifying-serving-models/10.1-ollama-modelfile.md) |
