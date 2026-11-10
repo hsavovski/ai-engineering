@@ -41,7 +41,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.2-streaming.md`,
 
 Extend the 2.1 script to stream from all three providers, print tokens as they arrive, and log TTFT and tokens/s for each.
 
-Where: `experiments/NN-streaming/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/15-streaming/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

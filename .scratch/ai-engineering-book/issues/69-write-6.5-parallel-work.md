@@ -41,7 +41,7 @@ Write the full chapter in `book/part-06-claude-code/6.5-parallel-work.md`, follo
 
 Run two chapter tasks from this repo in parallel worktrees, merge both, and note the token usage and any conflicts.
 
-Where: `experiments/NN-parallel/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/29-parallel/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

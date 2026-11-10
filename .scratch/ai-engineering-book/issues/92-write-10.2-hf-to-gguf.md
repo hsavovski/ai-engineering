@@ -40,7 +40,7 @@ Write the full chapter in `book/part-10-modifying-serving-models/10.2-hf-to-gguf
 
 Python with `uv`: download a small HF model, convert it to GGUF, quantize to Q4_K_M and Q8_0, import both into Ollama, and compare size, speed and output.
 
-Where: `experiments/NN-gguf/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/37-gguf/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

@@ -40,7 +40,7 @@ Write the full chapter in `book/part-09-model-landscape-cost/9.1-paid-apis.md`, 
 
 Run your eval set across 5 models via OpenRouter (Claude, GPT, Gemini, Kimi, DeepSeek). Record pass rate, latency and cost per task in `costs.md`.
 
-Where: `experiments/NN-model-mix/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/34-model-mix/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

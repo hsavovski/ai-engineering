@@ -40,7 +40,7 @@ Write the full chapter in `book/part-03-agents/3.12-a2a.md`, following the six-s
 
 Expose the `project/` agent as a minimal A2A server with an agent card, and call it from a second script.
 
-Where: `experiments/NN-a2a/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/24-a2a/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

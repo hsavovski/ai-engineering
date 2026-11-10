@@ -43,7 +43,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.3-prompting.md`,
 
 Pick one real task (e.g. summarizing commit messages). Write 5 test inputs, then iterate a prompt for a local model and a paid model, recording each version and its results.
 
-Where: `experiments/NN-prompting/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/16-prompting/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

@@ -39,7 +39,7 @@ Write the full chapter in `book/part-07-ai-native-development/7.4-ci-background-
 
 Set up a workflow that runs an agent on a labeled issue in this repo (or a scheduled weekly `landscape.md` freshness check) and opens a PR.
 
-Where: `experiments/NN-background-agent/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/31-background-agent/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

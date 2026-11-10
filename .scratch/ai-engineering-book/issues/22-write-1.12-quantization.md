@@ -41,7 +41,7 @@ Write the full chapter in `book/part-01-how-llms-work/1.12-quantization.md`, fol
 
 Pull the same model at two quantizations (e.g. qwen3:8b Q4 and Q8 tags) and compare memory, speed and answers on 5 prompts. Write the findings to `notes/quantization.md` (old roadmap item).
 
-Where: `experiments/NN-quantization/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/12-quantization/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

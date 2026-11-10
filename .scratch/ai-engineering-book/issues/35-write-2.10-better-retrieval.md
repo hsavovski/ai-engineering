@@ -41,7 +41,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.10-better-retrie
 
 Add BM25 + fusion and a reranker to the 2.9 pipeline. Report recall@5 before and after on the same 10+ questions.
 
-Where: `experiments/NN-rag/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/22-rag/`: a standalone experiment (number assigned up front so parallel tasks don't collide). Shared with issues 34, 36: whichever runs first creates the folder, later ones add to it.
 
 **Growing project**
 

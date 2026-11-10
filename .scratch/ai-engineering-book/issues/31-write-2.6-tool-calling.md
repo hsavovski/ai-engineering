@@ -42,7 +42,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.6-tool-calling.m
 
 Old roadmap item: give a model one tool (`read_file`) and handle one tool call round trip by hand, against local Qwen and a paid model. No loop yet.
 
-Where: `experiments/NN-tool-call/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/19-tool-call/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

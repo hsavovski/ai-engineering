@@ -39,7 +39,7 @@ Write the full chapter in `book/part-10-modifying-serving-models/10.6-nanochat.m
 
 Run nanochat's smallest configuration (locally if feasible, otherwise read through it). Log any GPU rental cost in `costs.md`.
 
-Where: `experiments/NN-nanochat/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/39-nanochat/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

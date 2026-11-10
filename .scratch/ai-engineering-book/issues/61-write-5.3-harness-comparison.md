@@ -42,7 +42,7 @@ Write the full chapter in `book/part-05-harnesses/5.3-harness-comparison.md`, fo
 
 Old roadmap item: run 3 tasks from your eval set in 3 harnesses (same paid model where possible). Compare in `notes/harnesses.md`: what each does well and how they manage context.
 
-Where: `experiments/NN-harness-comparison/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/25-harness-comparison/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

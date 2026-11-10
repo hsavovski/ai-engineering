@@ -40,7 +40,7 @@ Write the full chapter in `book/part-06-claude-code/6.6-mcp-plugins.md`, followi
 
 Package your 3.7 MCP server and 6.3 skill as a local Claude Code plugin, install it, and check the context cost.
 
-Where: `experiments/NN-plugin/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/30-plugin/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

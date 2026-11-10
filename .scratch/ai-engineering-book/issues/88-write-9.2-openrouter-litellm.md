@@ -40,7 +40,7 @@ Write the full chapter in `book/part-09-model-landscape-cost/9.2-openrouter-lite
 
 Old roadmap item: run LiteLLM with local Qwen and two paid models behind one endpoint. Point opencode or your harness at it and switch models by config.
 
-Where: `experiments/NN-gateway/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/35-gateway/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

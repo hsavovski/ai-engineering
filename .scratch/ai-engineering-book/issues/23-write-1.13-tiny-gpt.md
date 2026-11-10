@@ -43,7 +43,7 @@ Write the full chapter in `book/part-01-how-llms-work/1.13-tiny-gpt.md`, followi
 
 Python with `uv`: heavily commented starter code (data loader and training loop skeleton), with the model left for the learner. Train on a small corpus, plot loss, sample text. Part 10.5 builds on this.
 
-Where: `experiments/NN-tiny-gpt/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/13-tiny-gpt/`: a standalone experiment (number assigned up front so parallel tasks don't collide). Shared with issue 95: whichever runs first creates the folder, later ones add to it.
 
 **Growing project**
 

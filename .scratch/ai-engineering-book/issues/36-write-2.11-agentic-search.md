@@ -42,7 +42,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.11-agentic-searc
 
 Answer the same question set with your agent from 3.2 given only `grep`/`read_file` tools over the book. Compare accuracy, tokens and time with the 2.10 pipeline.
 
-Where: `experiments/NN-rag/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/22-rag/`: a standalone experiment (number assigned up front so parallel tasks don't collide). Shared with issues 34, 35: whichever runs first creates the folder, later ones add to it.
 
 **Growing project**
 

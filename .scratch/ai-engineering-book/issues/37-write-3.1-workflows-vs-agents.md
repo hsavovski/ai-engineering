@@ -40,7 +40,7 @@ Write the full chapter in `book/part-03-agents/3.1-workflows-vs-agents.md`, foll
 
 Implement one workflow (e.g. route → specialized prompt → evaluator-optimizer) in TS for a task of your choice, without any agent loop.
 
-Where: `experiments/NN-workflows/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/23-workflows/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

@@ -42,7 +42,7 @@ Write the full chapter in `book/part-06-claude-code/6.4-hooks-permissions.md`, f
 
 Add two hooks to this repo: one that runs `npm run build` after book edits, and one that blocks reading `.env`. Test both.
 
-Where: `experiments/NN-hooks/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/28-hooks/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

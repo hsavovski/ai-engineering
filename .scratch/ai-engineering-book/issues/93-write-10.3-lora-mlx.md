@@ -42,7 +42,7 @@ Write the full chapter in `book/part-10-modifying-serving-models/10.3-lora-mlx.m
 
 Python with `uv`: fine-tune a small Qwen with LoRA on a narrow task (e.g. your commit-message style), with heavily commented starter code. Evaluate before and after on a held-out set.
 
-Where: `experiments/NN-lora/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/38-lora/`: a standalone experiment (number assigned up front so parallel tasks don't collide). Shared with issues 94, 99: whichever runs first creates the folder, later ones add to it.
 
 **Growing project**
 

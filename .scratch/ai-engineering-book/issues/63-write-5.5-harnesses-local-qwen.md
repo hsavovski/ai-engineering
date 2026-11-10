@@ -40,7 +40,7 @@ Write the full chapter in `book/part-05-harnesses/5.5-harnesses-local-qwen.md`, 
 
 Old roadmap items: opencode, Aider and Cline/Continue with local Qwen on your eval tasks. Record pass rate, speed and failure modes vs a paid model.
 
-Where: `experiments/NN-local-harnesses/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/26-local-harnesses/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

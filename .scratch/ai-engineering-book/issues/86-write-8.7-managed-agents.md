@@ -40,7 +40,7 @@ Write the full chapter in `book/part-08-production/8.7-managed-agents.md`, follo
 
 If budget allows, run one small task on Anthropic's managed agents and compare cost and setup effort with `project/`. Log the cost.
 
-Where: `experiments/NN-managed-agent/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/33-managed-agent/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

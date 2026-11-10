@@ -42,7 +42,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.8-embeddings-in-
 
 Embed your own `notes/` and book chapters with a local embedding model, store them in SQLite (or in memory), and build a TS CLI that answers "which note talks about X?".
 
-Where: `experiments/NN-semantic-search/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/21-semantic-search/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

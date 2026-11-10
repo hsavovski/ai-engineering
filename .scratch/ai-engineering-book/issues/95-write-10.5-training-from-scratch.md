@@ -41,7 +41,7 @@ Write the full chapter in `book/part-10-modifying-serving-models/10.5-training-f
 
 Extend the 1.13 experiment: BPE tokenizer, a larger dataset, longer training. Compare loss and samples with the 1.13 run.
 
-Where: `experiments/NN-tiny-gpt/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/13-tiny-gpt/`: a standalone experiment (number assigned up front so parallel tasks don't collide). Shared with issue 23: whichever runs first creates the folder, later ones add to it.
 
 **Growing project**
 

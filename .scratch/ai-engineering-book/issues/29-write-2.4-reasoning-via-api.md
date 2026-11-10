@@ -42,7 +42,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.4-reasoning-via-
 
 Rerun the 1.10 task set through the APIs with different budgets/effort levels on one paid and one local model. Record correctness, tokens and cost in `costs.md`.
 
-Where: `experiments/NN-thinking-api/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/17-thinking-api/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

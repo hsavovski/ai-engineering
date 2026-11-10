@@ -42,7 +42,7 @@ Write the full chapter in `book/part-06-claude-code/6.3-skills.md`, following th
 
 Write a skill for this study (e.g. "write-chapter" that follows the spec's chapter format) and use it on one chapter task.
 
-Where: `experiments/NN-my-skill/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/27-my-skill/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

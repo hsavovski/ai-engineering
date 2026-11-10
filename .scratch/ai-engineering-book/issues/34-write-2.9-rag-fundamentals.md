@@ -41,7 +41,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.9-rag-fundamenta
 
 Extend the 2.8 search into a RAG Q&A over the book. Write 10 questions with known answers and check which failures are retrieval and which are generation.
 
-Where: `experiments/NN-rag/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/22-rag/`: a standalone experiment (number assigned up front so parallel tasks don't collide). Shared with issues 35, 36: whichever runs first creates the folder, later ones add to it.
 
 **Growing project**
 

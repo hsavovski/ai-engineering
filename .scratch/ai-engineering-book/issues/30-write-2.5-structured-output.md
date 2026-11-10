@@ -42,7 +42,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.5-structured-out
 
 Extract structured data (e.g. from 10 messy job-like or recipe texts) into a Zod schema with a local and a paid model. Measure validity rate with and without native structured output.
 
-Where: `experiments/NN-structured-output/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/18-structured-output/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

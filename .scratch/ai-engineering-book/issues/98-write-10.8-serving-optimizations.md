@@ -40,7 +40,7 @@ Write the full chapter in `book/part-10-modifying-serving-models/10.8-serving-op
 
 Try speculative decoding in llama.cpp or MLX with a small draft model and measure the speed-up on code vs prose.
 
-Where: `experiments/NN-speculative/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/41-speculative/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

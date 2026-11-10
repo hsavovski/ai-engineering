@@ -42,7 +42,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.1-calling-models
 
 Old roadmap item: one TS script that sends the same multi-turn conversation to Ollama, OpenRouter and Anthropic with raw `fetch`, then once via the official SDKs. Diff the request and response shapes.
 
-Where: `experiments/NN-first-api-call/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/14-first-api-call/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

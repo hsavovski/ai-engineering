@@ -41,7 +41,7 @@ Write the full chapter in `book/part-08-production/8.6-streaming-ui-auth.md`, fo
 
 Build a minimal web UI for `project/` (e.g. Vite + Vercel AI SDK UI) that streams text and shows tool calls as they happen.
 
-Where: `experiments/NN-streaming-ui/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/32-streaming-ui/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

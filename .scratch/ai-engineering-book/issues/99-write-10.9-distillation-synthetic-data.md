@@ -41,7 +41,7 @@ Write the full chapter in `book/part-10-modifying-serving-models/10.9-distillati
 
 Generate a synthetic dataset with a paid model, filter it, and use it to retrain the 10.3 LoRA. Compare with the hand-made dataset. Log the cost.
 
-Where: `experiments/NN-lora/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/38-lora/`: a standalone experiment (number assigned up front so parallel tasks don't collide). Shared with issues 93, 94: whichever runs first creates the folder, later ones add to it.
 
 **Growing project**
 

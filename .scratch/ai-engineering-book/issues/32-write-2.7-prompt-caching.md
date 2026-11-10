@@ -43,7 +43,7 @@ Write the full chapter in `book/part-02-programming-with-llms/2.7-prompt-caching
 
 Send a long fixed document plus 5 different questions to Claude with and without cache control. Record cache read/write tokens, latency and cost in `costs.md`.
 
-Where: `experiments/NN-prompt-caching/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/20-prompt-caching/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 

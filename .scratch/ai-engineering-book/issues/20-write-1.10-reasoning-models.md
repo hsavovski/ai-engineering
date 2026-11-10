@@ -1,6 +1,6 @@
 # 20 — Write chapter 1.10: Reasoning models and test-time compute
 
-Status: ready-for-agent
+Status: claimed
 Type: task
 Blocked by: 02
 
@@ -42,7 +42,7 @@ Write the full chapter in `book/part-01-how-llms-work/1.10-reasoning-models.md`,
 
 Make 5 tasks of rising difficulty (lookup → multi-step logic). Run qwen3:14b with thinking on and off, record correctness, tokens and time, and plot where thinking starts paying off.
 
-Where: `experiments/NN-thinking-tradeoff/`: a standalone experiment (NN = next free number; reuse the folder if an earlier chapter already created it).
+Where: `experiments/11-thinking-tradeoff/`: a standalone experiment (number assigned up front so parallel tasks don't collide).
 
 **Growing project**
 
