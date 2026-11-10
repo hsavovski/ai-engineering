@@ -257,6 +257,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [SQLite FTS5](https://www.sqlite.org/fts5.html) | docs | ~10 min (opening sections and `bm25()`) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
 | [ ] | [Weller et al.: On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) | paper | ~15 min (abstract and introduction) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
 | [ ] | [Thakur et al.: BEIR](https://arxiv.org/abs/2104.08663) | paper | ~10 min (abstract) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Chroma: Evaluating Chunking Strategies for Retrieval](https://research.trychroma.com/evaluating-chunking) | article | ~25 min | essential | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Anthropic: Introducing Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval) | article | ~20 min | essential | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Claude cookbook: Contextual Embeddings](https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide) | docs | ~15 min | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Claude docs: Citations](https://platform.claude.com/docs/en/build-with-claude/citations) | docs | ~10 min | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Claude docs: Search results](https://platform.claude.com/docs/en/build-with-claude/search-results) | docs | ~10 min | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Barnett et al.: Seven Failure Points When Engineering a Retrieval Augmented Generation System](https://arxiv.org/abs/2401.05856) | paper | ~20 min | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Liu et al.: Lost in the Middle](https://arxiv.org/abs/2307.03172) | paper | ~10 min (abstract and figures) | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Lewis et al.: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | paper | ~10 min (abstract and introduction) | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 6 "RAG and Agents", RAG half, pp. 253-275 ([ToC](https://github.com/chiphuyen/aie-book/blob/main/ToC.md)) | book | ~1 h | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
 
 ## Part 8 · Production
 
