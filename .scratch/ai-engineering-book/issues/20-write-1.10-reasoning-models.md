@@ -1,6 +1,6 @@
 # 20 — Write chapter 1.10: Reasoning models and test-time compute
 
-Status: claimed
+Status: resolved
 Type: task
 Blocked by: 02
 

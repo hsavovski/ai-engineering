@@ -123,5 +123,17 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Liu et al.: Lost in the Middle](https://arxiv.org/abs/2307.03172) | paper | ~20 min | optional | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 | [ ] | [Anthropic: Prompt caching, how it works](https://platform.claude.com/docs/en/build-with-claude/prompt-caching#how-prompt-caching-works) | docs | ~10 min | optional | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
 | [ ] | [Kwon et al.: PagedAttention / vLLM](https://arxiv.org/abs/2309.06180), abstract and intro | paper | ~15 min | optional | [1.9](/part-01-how-llms-work/1.9-kv-cache-context-window) |
+| [ ] | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | paper | ~45 min | essential | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) | paper | ~30 min (the GRPO section) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Understanding R1-Zero-Like Training: A Critical Perspective](https://arxiv.org/abs/2503.20783) | paper | ~20 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314) | paper | ~25 min | essential | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | paper | ~15 min (abstract, intro, figures) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916) | paper | ~15 min (abstract, intro, table 1) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388), sections 4.3 and 4.7 | paper | ~20 min | essential | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Ollama: Thinking](https://docs.ollama.com/capabilities/thinking) | docs | ~10 min | essential | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs](https://arxiv.org/abs/2412.21187) | paper | ~20 min | essential | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410) | paper | ~20 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Claude docs: Steering and cost control](https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost) | docs | ~15 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | Sebastian Raschka, [*Build a Reasoning Model (From Scratch)*](https://github.com/rasbt/reasoning-from-scratch), chapters 4 and 6 | book | ~3 h (chapters 4 and 6) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

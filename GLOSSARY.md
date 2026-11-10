@@ -62,6 +62,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | PPO | Proximal policy optimization: the policy-gradient algorithm that clips each update; used in classic RLHF. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | KL penalty | A charge for how far the tuned model drifts from a reference model, so it can't exploit the reward model's blind spots. DPO's β plays the same role. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | Reward hacking | Optimizing a proxy reward until it rises while real quality falls. Source of verbosity and sycophancy. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| GRPO | Group relative policy optimization: samples a group of outputs per question and uses each output's reward minus the group mean (divided by the group std) as its advantage, so no value model is needed. Used to train DeepSeek-R1. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Advantage | How much better an output's reward is than a baseline. In GRPO the baseline is the group average, so an output that beats its siblings gets pushed up. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Cold-start data | A small set of long chain-of-thought examples used for SFT before reasoning RL, to make the early outputs readable and stable. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Sycophancy | Telling users what they want to hear, because preference data rewards agreement. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | Rejection sampling | Sampling many responses per prompt, keeping the reward model's best and fine-tuning on them. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | Constitutional AI / RLAIF | Training with AI-generated critiques and preference labels guided by written principles, instead of human labels. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
@@ -96,6 +99,14 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Reasoning model | A model trained to produce a chain of thought ("thinking tokens") before its answer. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Test-time compute | Spending more tokens or samples at inference to get better answers. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Inference scaling | Another name for test-time compute: improving answers by spending more compute at inference instead of training. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Chain of thought (CoT) | Intermediate reasoning tokens written before the answer, used as scratch space. Prompted ('think step by step') or trained (reasoning models). | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Thinking tokens | The chain-of-thought output of a reasoning model. Billed and timed as output tokens, even when the API shows only a summary. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Thinking budget / effort | Limits on how much a model thinks: a token cap (Qwen3 cuts thinking off and forces an answer) or an effort level (Claude's adaptive thinking). | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Hybrid thinking model | One set of weights that can answer with or without thinking, switched by the chat template or a request parameter (Qwen3 `think`/`/no_think`). | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Self-consistency / majority vote | Parallel test-time compute: sample several reasoning paths and return the most common final answer. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Best-of-N | Sample N answers and keep the one a verifier or reward model scores highest. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| Overthinking | A reasoning model spending many tokens on a question it already answered correctly early on, with little or no accuracy gain. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
+| CoT faithfulness | Whether the written chain of thought reflects what actually drove the answer. Studies find models often omit factors they used. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Quantization | Storing weights in fewer bits (e.g. 4 or 8) to save memory and gain speed, at some quality cost. | [1.12](book/part-01-how-llms-work/1.12-quantization.md) |
 | GGUF | The model file format used by llama.cpp and Ollama, usually holding quantized weights (Q4_K_M, Q8_0...). | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
 | TTFT | Time to first token: how long until streaming output starts. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
