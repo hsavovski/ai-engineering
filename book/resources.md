@@ -147,5 +147,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Hugging Face: GGUF](https://huggingface.co/docs/hub/gguf) | docs | ~10 min | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
 | [ ] | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) | paper | ~20 min (abstract and introduction) | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
 | [ ] | [FP8 Formats for Deep Learning](https://arxiv.org/abs/2209.05433) | paper | ~15 min (abstract and the format definitions) | optional | [1.12](/part-01-how-llms-work/1.12-quantization) |
+| [ ] | [Karpathy: Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY) | video | ~1 h 56 min | essential | [1.13](/part-01-how-llms-work/1.13-tiny-gpt) |
+| [ ] | [karpathy/ng-video-lecture](https://github.com/karpathy/ng-video-lecture) | repo | ~20 min | optional | [1.13](/part-01-how-llms-work/1.13-tiny-gpt) |
+| [ ] | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | repo | ~30 min | optional | [1.13](/part-01-how-llms-work/1.13-tiny-gpt) |
+| [ ] | Sebastian Raschka, *Build a Large Language Model (From Scratch)*, ch. 4 and 5 ([ch04](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch04), [ch05](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05)) | book | ~3 h | optional | [1.13](/part-01-how-llms-work/1.13-tiny-gpt) |
+| [ ] | [PyTorch notes: MPS backend](https://docs.pytorch.org/docs/stable/notes/mps.html) | docs | ~10 min | optional | [1.13](/part-01-how-llms-work/1.13-tiny-gpt) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

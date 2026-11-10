@@ -1,6 +1,6 @@
 # 23 — Write chapter 1.13: Build a tiny GPT
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -57,3 +57,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-01-how-llms-work/1.13-tiny-gpt.md`; experiment `experiments/13-tiny-gpt/` (starter code, model and `generate()` left to the learner). Resources, glossary and BUILD-LOG updated.
