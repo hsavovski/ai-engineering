@@ -308,6 +308,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude API docs: Define tools](https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools) | docs | ~10 min | essential | [3.3](/part-03-agents/3.3-tool-design) |
 | [ ] | [Anthropic: Building effective agents, Appendix 2 "Prompt engineering your tools"](https://www.anthropic.com/engineering/building-effective-agents) | article | ~10 min (one appendix) | optional | [3.3](/part-03-agents/3.3-tool-design) |
 | [ ] | [Claude API docs: Text editor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool) | docs | ~15 min | optional | [3.3](/part-03-agents/3.3-tool-design) |
+| [ ] | [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | article | ~20 min | essential | [3.4](/part-03-agents/3.4-context-engineering) |
+| [ ] | [Claude Code docs: Explore the context window](https://code.claude.com/docs/en/context-window) | docs | ~15 min | essential | [3.4](/part-03-agents/3.4-context-engineering) |
+| [ ] | [Anthropic: Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing) and [Compaction overview](https://platform.claude.com/docs/en/build-with-claude/compaction) | docs | ~15 min | optional | [3.4](/part-03-agents/3.4-context-engineering) |
+| [ ] | [Claude Code docs: Subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min | optional | [3.4](/part-03-agents/3.4-context-engineering) |
 
 ## Part 8 · Production
 
