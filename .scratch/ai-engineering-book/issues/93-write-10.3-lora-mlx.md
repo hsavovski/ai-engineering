@@ -1,6 +1,6 @@
 # 93 — Write chapter 10.3: LoRA fine-tuning with mlx-lm
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-10-modifying-serving-models/10.3-lora-mlx.md`; experiment `experiments/38-lora/` (data prep and config given, `compare.py` skeleton). Check and build pass.

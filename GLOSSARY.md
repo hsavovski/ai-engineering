@@ -238,3 +238,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Sandbox | An isolated environment that limits what an agent's commands can touch (files, network). | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Least privilege | Giving an agent only the access its task needs. | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Guardrail | A check on inputs or outputs (policy, PII, format). A filter, not a security boundary. | [8.4](book/part-08-production/8.4-guardrails.md) |
+| QLoRA | LoRA on a frozen base model stored in 4 bits; only the small adapter is trained, in higher precision. In mlx-lm, pointing `--model` at a quantized model does it. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Rank (LoRA) | The width `r` of the bottleneck in `ΔW = B A`; adapter parameters per matrix are `r × (d_in + d_out)`. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Adapter | The small set of trained LoRA matrices, saved apart from the frozen base model (in mlx-lm, `adapters/`). Can be merged into the base weights. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| PEFT | Parameter-efficient fine-tuning: training a small number of added or selected parameters instead of all weights. LoRA is the main example. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Prompt masking | Computing the SFT loss only on the response tokens (`--mask-prompt` in mlx-lm). | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Held-out set | Examples never used for training or tuning decisions, kept to measure a fine-tune honestly. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |

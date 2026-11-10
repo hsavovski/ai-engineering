@@ -168,4 +168,16 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071) | paper | ~25 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 | [ ] | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 
+## Part 10 · Modifying & serving models
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 7 "Finetuning" ([ToC](https://github.com/chiphuyen/aie-book/blob/main/ToC.md)) | book | ~1.5 h | essential | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+| [ ] | [LoRA Without Regret](https://thinkingmachines.ai/blog/lora/) (Thinking Machines) | article | ~30 min | essential | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+| [ ] | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | paper | ~30 min | essential | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+| [ ] | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) | paper | ~25 min | optional | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+| [ ] | [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673) | paper | ~20 min | optional | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+| [ ] | [mlx-lm LoRA documentation](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md) | docs | ~20 min | essential | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+| [ ] | [Hugging Face smol course](https://huggingface.co/learn/smol-course) | docs | ~1 h | optional | [10.3](/part-10-modifying-serving-models/10.3-lora-mlx) |
+
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
