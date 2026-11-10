@@ -1,6 +1,6 @@
 # 87 — Write chapter 9.1: Paid APIs: Claude, GPT, Gemini, Kimi, DeepSeek
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -54,3 +54,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-09-model-landscape-cost/9.1-paid-apis.md`; experiment skeleton in `experiments/34-model-mix/`; 10 resource rows, 7 glossary terms, BUILD-LOG line added.
