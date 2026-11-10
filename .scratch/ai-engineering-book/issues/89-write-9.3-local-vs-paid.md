@@ -1,6 +1,6 @@
 # 89 — Write chapter 9.3: Local vs. paid
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
