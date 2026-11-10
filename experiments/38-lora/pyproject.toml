@@ -1,0 +1,8 @@
+[project]
+name = "lora-mlx"
+version = "0.1.0"
+description = "Experiment 38: LoRA fine-tuning with mlx-lm (chapter 10.3)"
+requires-python = ">=3.11"
+dependencies = [
+    "mlx-lm[train]",
+]

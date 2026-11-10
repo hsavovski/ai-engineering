@@ -1,0 +1,5 @@
+# Generated: the dataset holds your private diffs, the adapters are re-creatable
+data/
+adapters*/
+fused_model/
+.venv/

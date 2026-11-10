@@ -255,3 +255,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | llama-quantize | The llama.cpp tool that converts a full-precision GGUF into a quantized one (input, output, type such as Q4_K_M). Ollama does not do this on GGUF import. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
 | llama-imatrix | The llama.cpp tool that runs calibration text through a model to produce an importance matrix for `llama-quantize --imatrix`. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
 | Calibration data | The text used to compute an importance matrix; the matrix reflects it, so it should resemble real use. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
+| QLoRA | LoRA on a frozen base model stored in 4 bits; only the small adapter is trained, in higher precision. In mlx-lm, pointing `--model` at a quantized model does it. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Rank (LoRA) | The width `r` of the bottleneck in `ΔW = B A`; adapter parameters per matrix are `r × (d_in + d_out)`. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Adapter | The small set of trained LoRA matrices, saved apart from the frozen base model (in mlx-lm, `adapters/`). Can be merged into the base weights. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| PEFT | Parameter-efficient fine-tuning: training a small number of added or selected parameters instead of all weights. LoRA is the main example. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Prompt masking | Computing the SFT loss only on the response tokens (`--mask-prompt` in mlx-lm). | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
+| Held-out set | Examples never used for training or tuning decisions, kept to measure a fine-tune honestly. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |

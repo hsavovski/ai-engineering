@@ -1,0 +1,27 @@
+# Training settings for `uv run mlx_lm.lora --config lora_config.yaml`.
+# Command-line flags override these values (e.g. `--iters 100` for a smoke test).
+
+model: "Qwen/Qwen3-1.7B"          # bf16 weights -> plain LoRA. For QLoRA: "mlx-community/Qwen3-1.7B-4bit"
+train: true
+data: "data"                      # folder with train.jsonl / valid.jsonl / test.jsonl
+adapter_path: "adapters"          # where adapter_config.json and *.safetensors are written
+
+fine_tune_type: lora              # lora | dora | full
+num_layers: -1                    # adapt ALL transformer blocks (the default, 16, adapts only the last 16)
+mask_prompt: true                 # loss on the commit message only, not on the diff
+
+batch_size: 4                     # lower to 2 or 1 if memory runs out (see the chapter)
+iters: 600                        # 1 iteration = 1 batch. iters * batch_size / n_train = epochs
+learning_rate: 1.0e-4             # LoRA likes a much higher rate than full fine-tuning (default here is 1e-5)
+max_seq_length: 1024              # longer examples are truncated
+
+steps_per_report: 10              # print training loss every N iterations
+steps_per_eval: 100               # compute validation loss every N iterations
+val_batches: -1                   # use the whole validation set
+save_every: 100                   # checkpoint every N iterations (adapters/000100_adapters.safetensors, ...)
+seed: 0
+
+lora_parameters:
+  rank: 8                         # r, the width of the low-rank bottleneck
+  scale: 20.0                     # multiplier on the update. NOT alpha/r: mlx-lm uses this number directly
+  dropout: 0.0
