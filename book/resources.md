@@ -332,3 +332,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [LiteLLM: Config](https://docs.litellm.ai/docs/proxy/configs) | docs | ~20 min | essential | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
 | [ ] | [LiteLLM: Virtual keys](https://docs.litellm.ai/docs/proxy/virtual_keys) | docs | ~15 min | essential | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
 | [ ] | [LiteLLM: Router, load balancing and fallbacks](https://docs.litellm.ai/docs/routing) | docs | ~15 min | optional | [9.2](/part-09-model-landscape-cost/9.2-openrouter-litellm) |
+| [ ] | [Ollama: FAQ](https://docs.ollama.com/faq) | docs | ~15 min | essential | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
+| [ ] | [Ollama: Cloud](https://docs.ollama.com/cloud) | docs | ~5 min | essential | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
+| [ ] | [Apple Support: Mac mini power consumption and thermal output](https://support.apple.com/en-us/103253) | docs | ~5 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
+| [ ] | [Apple introduces M4 Pro and M4 Max](https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/) | article | ~10 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
+| [ ] | [Chip Huyen: AI Engineering, table of contents](https://github.com/chiphuyen/aie-book/blob/main/ToC.md) | repo | ~5 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
