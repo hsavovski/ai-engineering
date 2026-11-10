@@ -268,6 +268,10 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Max turns | A cap on loop iterations that ends a run the model hasn't finished; a distinct exit status, not an answer. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
 | Stop reason | The API field saying why a reply ended (`tool_use`, `end_turn`, `max_tokens`, `refusal`); the loop branches on it. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
 | Step log | A per-step record of a run (turn, model, tool calls, results, errors, tokens, time), usually JSONL. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
+| Agent-computer interface (ACI) | Anthropic's term for the tool surface an agent works through (names, descriptions, schemas, outputs), to be designed with as much care as a human-computer interface. | [3.3](book/part-03-agents/3.3-tool-design.md) |
+| Poka-yoke (tools) | Mistake-proofing a tool by changing its arguments so errors are hard to make (enums, required fields, absolute paths), instead of warning the model to be careful. | [3.3](book/part-03-agents/3.3-tool-design.md) |
+| Tool namespacing | Grouping related tools under a common prefix or suffix by service or resource (`asana_search`, `jira_search`) so selection stays unambiguous as the tool count grows. | [3.3](book/part-03-agents/3.3-tool-design.md) |
+| Tool description | The plain-text part of a tool definition saying what it does, when to use it and not, what each parameter means and what it returns; the biggest lever on tool-use quality. | [3.3](book/part-03-agents/3.3-tool-design.md) |
 | Context engineering | Curating what goes into the context window on each turn, so it holds the right tokens and few wasted ones. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Context rot | Quality degrades as the context grows, even within the window limit. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Compaction | Summarizing older conversation to free context space. | [3.4](book/part-03-agents/3.4-context-engineering.md) |

@@ -298,6 +298,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Agent SDK: How the agent loop works](https://code.claude.com/docs/en/agent-sdk/agent-loop) | docs | ~15 min | essential | [3.2](/part-03-agents/3.2-agent-loop) |
 | [ ] | [Anthropic: Build a tool-using agent](https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent) | docs | ~30 min (rings 2 and 4) | optional | [3.2](/part-03-agents/3.2-agent-loop) |
 | [ ] | [Anthropic: Building agents with the Claude Agent SDK](https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk) | article | ~15 min | optional | [3.2](/part-03-agents/3.2-agent-loop) |
+| [ ] | [Anthropic: Writing effective tools for agents, with agents](https://www.anthropic.com/research/writing-tools-for-agents) | article | ~25 min | essential | [3.3](/part-03-agents/3.3-tool-design) |
+| [ ] | [Claude API docs: Define tools](https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools) | docs | ~10 min | essential | [3.3](/part-03-agents/3.3-tool-design) |
+| [ ] | [Anthropic: Building effective agents, Appendix 2 "Prompt engineering your tools"](https://www.anthropic.com/engineering/building-effective-agents) | article | ~10 min (one appendix) | optional | [3.3](/part-03-agents/3.3-tool-design) |
+| [ ] | [Claude API docs: Text editor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool) | docs | ~15 min | optional | [3.3](/part-03-agents/3.3-tool-design) |
 
 ## Part 8 · Production
 
