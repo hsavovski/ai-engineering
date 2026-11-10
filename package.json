@@ -1,14 +1,12 @@
 {
   "name": "ai-engineering",
   "scripts": {
-    "dev": "node scripts/glossary.mjs && node scripts/experiments.mjs && vitepress dev book",
-    "build": "node scripts/glossary.mjs && node scripts/experiments.mjs && vitepress build book",
+    "dev": "vitepress dev book",
+    "build": "vitepress build book",
     "preview": "vitepress preview book",
     "progress": "node scripts/progress.mjs",
-    "map": "node scripts/map.mjs",
-    "glossary": "node scripts/glossary.mjs",
-    "experiments": "node scripts/experiments.mjs",
-    "smoke": "node --env-file-if-exists=.env experiments/01-keys-smoke-test/smoke.ts"
+    "smoke": "node --env-file-if-exists=.env experiments/01-keys-smoke-test/smoke.ts",
+    "test": "node --test scripts/"
   },
   "repository": {
     "type": "git",

@@ -36,11 +36,14 @@ ai-engineering/
 │   ├── paths.md            # suggested reading paths
 │   ├── resources.md        # resources catalog with checkboxes
 │   ├── landscape.md        # models / prices / tools, dated, refreshed often
-│   ├── glossary.md         # or rendered from GLOSSARY.md
+│   ├── glossary.md         # rendered from GLOSSARY.md at build time
+│   ├── experiments/        # rendered from experiments/*/README.md (gitignored)
 │   └── part-NN-<slug>/     # one folder per part, one file per chapter
 ├── notes/                  # the learner's free-form notes
 ├── experiments/NN-name/    # code + README (what I tried, what happened, why)
 ├── project/                # the growing TS agent/harness (see "Growing project")
+├── scripts/                # chapters.mjs (chapter + experiment catalogs), book-build.mjs, progress.mjs
+├── docs/adr/               # architecture decisions
 ├── GLOSSARY.md
 ├── PROGRESS.md             # the learner's chapter status + study log
 ├── BUILD-LOG.md            # agents' dated log of finished tasks
@@ -113,7 +116,7 @@ Individual chapters may also have their own small experiments.
 
 ## Outline (agreed, not set in stone)
 
-The detailed chapter list (approved 2026-11-08, issue 05) lives in the book itself: the stubs under `book/part-NN-*/`, the per-part maps on `book/index.md` (regenerate with `npm run map` after changing `needs`), and the project steps in `project/ROADMAP.md`. One task per chapter: issues 07–103.
+The detailed chapter list (approved 2026-11-08, issue 05) lives in the book itself: the stubs under `book/part-NN-*/`, the per-part maps on `book/index.md` (rendered at build time from each chapter's `needs`), and the project steps in `project/ROADMAP.md`. One task per chapter: issues 07–103.
 
 | Part | Title | Contents (Core unless marked) |
 |---|---|---|

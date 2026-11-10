@@ -52,7 +52,6 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - Resources added to `book/resources.md`
 - New terms added to `GLOSSARY.md`
 - "My understanding" left empty
-- If `needs` changed, `npm run map` re-run
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed

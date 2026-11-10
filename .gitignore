@@ -13,6 +13,8 @@ __pycache__/
 *.pyc
 book/.vitepress/cache/
 book/.vitepress/dist/
+# derived pages, written by scripts/book-build.mjs (docs/adr/0001)
+book/experiments/
 
 # model weights
 *.gguf
