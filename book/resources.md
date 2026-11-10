@@ -168,4 +168,18 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071) | paper | ~25 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 | [ ] | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | paper | ~20 min | optional | [1.15](/part-01-how-llms-work/1.15-efficient-attention) |
 
+## Part 10 · Modifying & serving models
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [llama.cpp: quantize tool README](https://github.com/ggml-org/llama.cpp/blob/master/tools/quantize/README.md) | docs | ~15 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [llama.cpp: imatrix tool README](https://github.com/ggml-org/llama.cpp/blob/master/tools/imatrix/README.md) | docs | ~10 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [Ollama: Import](https://docs.ollama.com/import) | docs | ~5 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [llama.cpp: Build](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md) | docs | ~10 min | essential | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [llama.cpp PR 4861: importance matrix](https://github.com/ggml-org/llama.cpp/pull/4861) | repo | ~15 min (the description's "Details" section, not the thread) | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [GGUF specification](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) | docs | ~15 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [safetensors README](https://github.com/huggingface/safetensors) | repo | ~10 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [Hugging Face: Use Ollama with any GGUF model on the Hub](https://huggingface.co/docs/hub/ollama) | docs | ~8 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+| [ ] | [Ollama: Modelfile reference](https://docs.ollama.com/modelfile) | docs | ~10 min | optional | [10.2](/part-10-modifying-serving-models/10.2-hf-to-gguf) |
+
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

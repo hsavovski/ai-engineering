@@ -238,3 +238,8 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Sandbox | An isolated environment that limits what an agent's commands can touch (files, network). | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Least privilege | Giving an agent only the access its task needs. | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Guardrail | A check on inputs or outputs (policy, PII, format). A filter, not a security boundary. | [8.4](book/part-08-production/8.4-guardrails.md) |
+| Safetensors | A tensors-only file format from Hugging Face: a JSON header (names, dtypes, shapes, offsets) followed by raw bytes. Safe to load, unlike pickle. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
+| convert_hf_to_gguf.py | The llama.cpp script that turns a Hugging Face model directory into a GGUF file; it needs the model's architecture to be supported. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
+| llama-quantize | The llama.cpp tool that converts a full-precision GGUF into a quantized one (input, output, type such as Q4_K_M). Ollama does not do this on GGUF import. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
+| llama-imatrix | The llama.cpp tool that runs calibration text through a model to produce an importance matrix for `llama-quantize --imatrix`. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
+| Calibration data | The text used to compute an importance matrix; the matrix reflects it, so it should resemble real use. | [10.2](book/part-10-modifying-serving-models/10.2-hf-to-gguf.md) |
