@@ -1,6 +1,6 @@
 # 33 — Write chapter 2.8: Embeddings in practice
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 2.8 written; experiment folder `experiments/21-semantic-search/` (README skeleton, brief in the chapter). check and build pass.

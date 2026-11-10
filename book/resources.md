@@ -248,3 +248,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenAI: Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching) | docs | ~10 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
 | [ ] | [OpenRouter: Prompt caching](https://openrouter.ai/docs/guides/best-practices/prompt-caching) | docs | ~10 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
 | [ ] | [DeepSeek: Context caching](https://api-docs.deepseek.com/guides/kv_cache) | docs | ~5 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [Ollama: Embeddings](https://docs.ollama.com/capabilities/embeddings) | docs | ~5 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Claude docs: Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings) | docs | ~10 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Node.js: SQLite](https://nodejs.org/api/sqlite.html) | docs | ~10 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard) | docs (interactive) | ~10 min | essential | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [pgvector](https://github.com/pgvector/pgvector) | repo | ~10 min | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Muennighoff et al.: MTEB: Massive Text Embedding Benchmark](https://arxiv.org/abs/2210.07316) | paper | ~15 min (abstract and introduction) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [SQLite FTS5](https://www.sqlite.org/fts5.html) | docs | ~10 min (opening sections and `bm25()`) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Weller et al.: On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) | paper | ~15 min (abstract and introduction) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
+| [ ] | [Thakur et al.: BEIR](https://arxiv.org/abs/2104.08663) | paper | ~10 min (abstract) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
