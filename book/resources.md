@@ -211,3 +211,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenRouter: Errors](https://openrouter.ai/docs/api-reference/errors) and [Limits](https://openrouter.ai/docs/api-reference/limits) | docs | ~5 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
 | [ ] | [openai-node](https://github.com/openai/openai-node) | repo | ~10 min | optional | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
 | [ ] | [Anthropic TypeScript SDK](https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/typescript) | docs | ~15 min | essential | [2.1](/part-02-programming-with-llms/2.1-calling-models) |
+| [ ] | [Claude docs: Thinking](https://platform.claude.com/docs/en/build-with-claude/thinking) | docs | ~20 min | essential | [2.4](/part-02-programming-with-llms/2.4-reasoning-via-api) |
+| [ ] | [Claude docs: Thinking in tool and multi-turn workflows](https://platform.claude.com/docs/en/build-with-claude/thinking-tool-workflows) | docs | ~10 min | essential | [2.4](/part-02-programming-with-llms/2.4-reasoning-via-api) |
+| [ ] | [Claude docs: Steering thinking](https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost) | docs | ~15 min | essential | [2.4](/part-02-programming-with-llms/2.4-reasoning-via-api) |
+| [ ] | [Ollama: Thinking](https://docs.ollama.com/capabilities/thinking) | docs | ~10 min | essential | [2.4](/part-02-programming-with-llms/2.4-reasoning-via-api) |
+| [ ] | [OpenAI: Reasoning models](https://developers.openai.com/api/docs/guides/reasoning) | docs | ~15 min | optional | [2.4](/part-02-programming-with-llms/2.4-reasoning-via-api) |
+| [ ] | [Gemini: Thinking](https://aistudio.google.com/docs/thinking) | docs | ~10 min | optional | [2.4](/part-02-programming-with-llms/2.4-reasoning-via-api) |

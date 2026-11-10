@@ -1,6 +1,6 @@
 # 29 — Write chapter 2.4: Using reasoning models through the API
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
