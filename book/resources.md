@@ -285,6 +285,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Transformers.js docs](https://huggingface.co/docs/transformers.js/index) and the [Xenova/bge-reranker-base model card](https://huggingface.co/Xenova/bge-reranker-base) | docs | ~15 min | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
 | [ ] | [Qwen3-Reranker-0.6B model card](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B) | docs | ~10 min | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
 | [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 6 "RAG and Agents", "Retrieval Algorithms" and "Retrieval Optimization", pp. 257-273 ([ToC](https://github.com/chiphuyen/aie-book/blob/main/ToC.md)) | book | ~1 h | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents) | article | ~20 min | essential | [2.11](/part-02-programming-with-llms/2.11-agentic-search) |
+| [ ] | [Cline: Why Cline doesn't index your codebase](https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing) | article | ~10 min | optional | [2.11](/part-02-programming-with-llms/2.11-agentic-search) |
+| [ ] | [Anthropic: How we built our multi-agent research system](https://www.anthropic.com/research/multi-agent-research-system) | article | ~20 min | optional | [2.11](/part-02-programming-with-llms/2.11-agentic-search) |
+| [ ] | [Singh et al.: Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](https://arxiv.org/abs/2501.09136) | paper | ~15 min (abstract and introduction) | optional | [2.11](/part-02-programming-with-llms/2.11-agentic-search) |
+| [ ] | [Aider: Repository map](https://aider.chat/docs/repomap.html) | docs | ~10 min | optional | [2.11](/part-02-programming-with-llms/2.11-agentic-search) |
+| [ ] | [Claude Code: How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works) and [Tools reference](https://code.claude.com/docs/en/tools-reference) (Grep and Glob behavior) | docs | ~20 min | optional | [2.11](/part-02-programming-with-llms/2.11-agentic-search) |
 
 ## Part 3 · Agents
 
