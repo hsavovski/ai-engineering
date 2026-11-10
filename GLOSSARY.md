@@ -62,6 +62,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | LoRA | Low-rank adaptation: fine-tuning small added matrices instead of all weights. Cheap enough for a Mac. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
 | Distillation | Training a smaller model to imitate a larger one's outputs. | [10.9](book/part-10-modifying-serving-models/10.9-distillation-synthetic-data.md) |
 | Open-weight model | A model whose trained weights are published for anyone to download and run (Qwen, DeepSeek, Mistral). The training data and code usually aren't. | [0.1](book/part-00-catch-up/0.1-what-changed.md) |
+| Cross-entropy loss | The pretraining loss: −log of the probability the model gave the real next token, averaged over every position. Measured in nats. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
+| Perplexity | `exp(loss)`: the effective number of tokens the model is choosing between. Only comparable across models with the same tokenizer and evaluation text. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
+| Training compute (`C ≈ 6ND`) | FLOPs to train a model of N parameters on D tokens: about 2N per token forward, 4N backward. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
+| Chinchilla-optimal | The compute-optimal split of a training budget: scale parameters and tokens equally, about 20 tokens per parameter (Hoffmann et al., 2022). | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
+| Overtraining | Training a model on far more tokens than Chinchilla-optimal so a smaller model reaches a given quality. Costs more to train, less to serve. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
+| Deduplication | Removing repeated URLs, documents (MinHash near-duplicates) and lines from training data. Reduces memorization and wasted compute. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
+| Data mixture | The proportions of web, code, math, multilingual and other data in a pretraining run, often changed between training stages. | [1.6](book/part-01-how-llms-work/1.6-pretraining.md) |
 
 ## Inference
 

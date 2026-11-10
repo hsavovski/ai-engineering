@@ -1,6 +1,6 @@
 # 16 — Write chapter 1.6: Pretraining and scaling laws
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -59,3 +59,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `PROGRESS.md` log line
 - Committed
+
+## Comments
+
+- 2026-11-10: written on branch `issue-16` (branched from `issue-15`, which isn't merged to `main` yet). All links opened and checked with curl; quotes grepped from the arXiv HTML, the Meta Llama 3 blog, the FineWeb blog and the Claude models overview. Practice token counts deliberately left out of the explanation (the chapter never states Qwen3's token count), so the learner finds them. Chinchilla-fit worked examples are labelled illustrative. `needs` unchanged, so no `npm run map`. `npm run build` passes.

@@ -94,5 +94,17 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Shazeer: GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202) | paper | ~10 min | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
 | [ ] | [He et al.: Deep Residual Learning](https://arxiv.org/abs/1512.03385) and [Ba et al.: Layer Normalization](https://arxiv.org/abs/1607.06450) | paper | ~10 min (abstracts) | optional | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
 | [ ] | [Qwen3-14B config.json](https://huggingface.co/Qwen/Qwen3-14B/blob/main/config.json) and [model card](https://huggingface.co/Qwen/Qwen3-14B) | docs | ~10 min | essential | [1.5](/part-01-how-llms-work/1.5-transformer-block) |
+| [ ] | Raschka, *Build a Large Language Model (From Scratch)*, ch. 5, sections 5.1.2–5.2 ([code](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/01_main-chapter-code)) | book | ~1.5 h | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Karpathy: Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI), 1:00–7:47 and 42:52–59:23 | video | ~24 min | essential | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 2, "Training Data" and "Model Size"; ch. 3, "Understanding Language Modeling Metrics" ([ToC](https://github.com/chiphuyen/aie-book/blob/main/ToC.md)) | book | ~1 h | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Hoffmann et al.: Training Compute-Optimal Large Language Models (Chinchilla)](https://arxiv.org/abs/2203.15556), abstract, section 3.3 and Table 3 | paper | ~30 min | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Kaplan et al.: Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361), section 1.1 | paper | ~15 min | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783), sections 3.1–3.2.1 | paper | ~45 min | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Introducing Meta Llama 3](https://ai.meta.com/blog/meta-llama-3/), scaling paragraph | article | ~10 min | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [FineWeb blog post](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1) ([paper](https://arxiv.org/abs/2406.17557), [dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb)) | article | ~45 min | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Lee et al.: Deduplicating Training Data Makes Language Models Better](https://arxiv.org/abs/2107.06499) | paper | ~10 min (abstract) | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Sardana et al.: Beyond Chinchilla-Optimal](https://arxiv.org/abs/2401.00448) | paper | ~15 min | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Cheng et al.: Dated Data: Tracing Knowledge Cutoffs](https://arxiv.org/abs/2403.12958) | paper | ~10 min (abstract) | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) section 3, [Qwen2.5](https://arxiv.org/abs/2412.15115) and [Qwen2.5-Coder](https://arxiv.org/abs/2409.12186) reports, for training-token counts | paper | ~20 min | essential | [1.6](/part-01-how-llms-work/1.6-pretraining) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->
