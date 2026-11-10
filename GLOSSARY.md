@@ -39,6 +39,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Multi-head attention | Several attentions in parallel, each with its own smaller Q/K/V projections, concatenated and projected by `W_O`. Qwen3-8B has 32 heads in each of 36 layers. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
 | GQA / MQA | Grouped-query attention: groups of query heads share one key/value head (Qwen3-8B: 32 query, 8 KV heads). Multi-query attention shares a single KV head. Both shrink the KV cache, not the n² compute. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
 | FlashAttention | An exact attention kernel that computes in tiles in fast on-chip memory and never stores the full `n × n` matrix: memory becomes linear in n, compute stays quadratic. | [1.4](book/part-01-how-llms-work/1.4-attention.md) |
+| Residual stream | The per-position vector that runs from the embedding to the unembedding. Each attention and MLP sub-layer reads a normalized copy and adds its output back (`x = x + f(Norm(x))`). | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
+| RMSNorm / pre-norm | RMSNorm rescales a vector by its root mean square times a learned scale (LayerNorm without mean subtraction). Pre-norm applies it to each sub-layer's input, leaving the residual path as pure additions. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
+| MLP (feed-forward layer) | The per-position network in each block: up-project to `d_ff`, nonlinearity, down-project. Holds about two-thirds of a dense model's parameters. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
+| SwiGLU | The gated MLP used by modern LLMs: `W_down · (SiLU(W_gate·x) ⊙ W_up·x)`. Three matrices instead of two. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
+| QK-Norm | An RMSNorm applied to each query and key head before RoPE, for training stability. Used by Qwen3. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
+| LM head | The final unembedding layer (`lm_head`) that maps the last hidden vector to one logit per vocabulary entry. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
 
 ## Training
 
