@@ -1,6 +1,6 @@
 # 46 — Write chapter 3.10: Multi-agent patterns
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 3.10 written in `book/part-03-agents/3.10-multi-agent.md`; 4 resources, 4 glossary terms, BUILD-LOG line. No experiment folder (practice is a `project/` step, `notes/multi-agent.md`).

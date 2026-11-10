@@ -298,6 +298,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Agent SDK: How the agent loop works](https://code.claude.com/docs/en/agent-sdk/agent-loop) | docs | ~15 min | essential | [3.2](/part-03-agents/3.2-agent-loop) |
 | [ ] | [Anthropic: Build a tool-using agent](https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent) | docs | ~30 min (rings 2 and 4) | optional | [3.2](/part-03-agents/3.2-agent-loop) |
 | [ ] | [Anthropic: Building agents with the Claude Agent SDK](https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk) | article | ~15 min | optional | [3.2](/part-03-agents/3.2-agent-loop) |
+| [ ] | [Anthropic: How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) | article | ~20 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
+| [ ] | [Cognition: Don't Build Multi-Agents](https://cognition.com/blog/dont-build-multi-agents) | article | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
+| [ ] | [Claude Agent SDK: Subagents in the SDK](https://code.claude.com/docs/en/agent-sdk/subagents) | docs | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
+| [ ] | [Claude Code: Create custom subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min (intro, built-in subagents, when to use the main conversation) | optional | [3.10](/part-03-agents/3.10-multi-agent) |
 
 ## Part 8 · Production
 
