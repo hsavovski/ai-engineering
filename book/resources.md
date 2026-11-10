@@ -235,3 +235,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenAI: Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs) | docs | ~15 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [OpenRouter: Structured outputs](https://openrouter.ai/docs/guides/features/structured-outputs) | docs | ~8 min | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
 | [ ] | [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702) | paper | ~15 min (abstract, introduction) | optional | [2.5](/part-02-programming-with-llms/2.5-structured-output) |
+| [ ] | [Claude: Define tools](https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools) | docs | ~20 min | essential | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
+| [ ] | [Claude: Handle tool calls](https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls) | docs | ~15 min | essential | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
+| [ ] | [Ollama: Tool calling](https://docs.ollama.com/capabilities/tool-calling) | docs | ~10 min | essential | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
+| [ ] | [Claude: Parallel tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use) | docs | ~10 min | optional | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
+| [ ] | [Claude: How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works) | docs | ~10 min | optional | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
+| [ ] | [OpenAI: Function calling](https://developers.openai.com/api/docs/guides/function-calling) and [OpenRouter: Tool calling](https://openrouter.ai/docs/guides/features/tool-calling) | docs | ~15 min | optional | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
+| [ ] | [Anthropic: Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents) | article | ~20 min | optional | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |

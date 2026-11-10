@@ -1,6 +1,6 @@
 # 31 — Write chapter 2.6: Tool calling
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 2.6 written in `book/part-02-programming-with-llms/2.6-tool-calling.md`; experiment skeleton in `experiments/19-tool-call/`; resources, glossary terms and BUILD-LOG line added.
