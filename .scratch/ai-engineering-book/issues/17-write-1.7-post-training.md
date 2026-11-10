@@ -1,6 +1,6 @@
 # 17 — Write chapter 1.7: Post-training: SFT, RLHF, DPO
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

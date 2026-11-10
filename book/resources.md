@@ -106,5 +106,16 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Sardana et al.: Beyond Chinchilla-Optimal](https://arxiv.org/abs/2401.00448) | paper | ~15 min | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
 | [ ] | [Cheng et al.: Dated Data: Tracing Knowledge Cutoffs](https://arxiv.org/abs/2403.12958) | paper | ~10 min (abstract) | optional | [1.6](/part-01-how-llms-work/1.6-pretraining) |
 | [ ] | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) section 3, [Qwen2.5](https://arxiv.org/abs/2412.15115) and [Qwen2.5-Coder](https://arxiv.org/abs/2409.12186) reports, for training-token counts | paper | ~20 min | essential | [1.6](/part-01-how-llms-work/1.6-pretraining) |
+| [ ] | [Ouyang et al.: Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155) | paper | ~30 min (sections 3, 4.1) | essential | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [Rafailov et al.: Direct Preference Optimization](https://arxiv.org/abs/2305.18290) | paper | ~30 min | essential | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206) | paper | ~10 min (abstract, intro) | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [Bai et al.: Constitutional AI](https://arxiv.org/abs/2212.08073) | paper | ~20 min | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [Bai et al.: Training a Helpful and Harmless Assistant with RLHF](https://arxiv.org/abs/2204.05862) | paper | ~10 min (abstract) | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [A Long Way to Go: Length Correlations in RLHF](https://arxiv.org/abs/2310.03716) | paper | ~10 min (abstract) | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [Towards Understanding Sycophancy in Language Models](https://arxiv.org/abs/2310.13548) | paper | ~15 min | essential | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | [Llama 3 paper](https://arxiv.org/abs/2407.21783), section 4 "Post-Training" | paper | ~30 min | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | Nathan Lambert, [RLHF Book](https://rlhfbook.com): instruction tuning, reward models, direct alignment chapters | book | ~1.5 h | essential | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 2, "Post-Training" ([summary](https://github.com/chiphuyen/aie-book/blob/main/chapter-summaries.md)) | book | ~30 min | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
+| [ ] | Hugging Face [smol course](https://huggingface.co/learn/smol-course), units 1 and 3 | docs | ~1 h | optional | [1.7](/part-01-how-llms-work/1.7-post-training) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

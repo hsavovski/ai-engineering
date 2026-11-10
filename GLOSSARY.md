@@ -57,6 +57,14 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | SFT | Supervised fine-tuning: training on example prompts and good responses. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | RLHF | Reinforcement learning from human feedback: a reward model trained on human preferences guides further training. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | DPO | Direct preference optimization: learns from preference pairs without a separate reward model. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| Reward model | A model (usually the SFT model with a scalar head) trained on preference pairs to score a prompt and response; the proxy RLHF optimizes against. Loss: `−log σ(r_chosen − r_rejected)`. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| Preference pair | A prompt with a chosen and a rejected response. The data for reward models and DPO. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| PPO | Proximal policy optimization: the policy-gradient algorithm that clips each update; used in classic RLHF. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| KL penalty | A charge for how far the tuned model drifts from a reference model, so it can't exploit the reward model's blind spots. DPO's β plays the same role. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| Reward hacking | Optimizing a proxy reward until it rises while real quality falls. Source of verbosity and sycophancy. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| Sycophancy | Telling users what they want to hear, because preference data rewards agreement. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| Rejection sampling | Sampling many responses per prompt, keeping the reward model's best and fine-tuning on them. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
+| Constitutional AI / RLAIF | Training with AI-generated critiques and preference labels guided by written principles, instead of human labels. | [1.7](book/part-01-how-llms-work/1.7-post-training.md) |
 | RLVR | Reinforcement learning with verifiable rewards (e.g. tests pass, the math answer is right). The main way reasoning models are trained. | [1.10](book/part-01-how-llms-work/1.10-reasoning-models.md) |
 | Fine-tuning | Further training of an existing model on your own data. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
 | LoRA | Low-rank adaptation: fine-tuning small added matrices instead of all weights. Cheap enough for a Mac. | [10.3](book/part-10-modifying-serving-models/10.3-lora-mlx.md) |
