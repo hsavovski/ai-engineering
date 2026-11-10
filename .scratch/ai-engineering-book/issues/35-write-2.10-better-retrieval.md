@@ -1,6 +1,6 @@
 # 35 — Write chapter 2.10: Better retrieval: hybrid search and reranking
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 2.10 written in `book/part-02-programming-with-llms/2.10-better-retrieval.md`; practice is experiment `22-rag` (README section added, no solution code); 11 resource rows and 12 glossary terms added.

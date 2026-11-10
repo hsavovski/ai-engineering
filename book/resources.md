@@ -274,6 +274,17 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Liu et al.: Lost in the Middle](https://arxiv.org/abs/2307.03172) | paper | ~10 min (abstract and figures) | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
 | [ ] | [Lewis et al.: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | paper | ~10 min (abstract and introduction) | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
 | [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 6 "RAG and Agents", RAG half, pp. 253-275 ([ToC](https://github.com/chiphuyen/aie-book/blob/main/ToC.md)) | book | ~1 h | optional | [2.9](/part-02-programming-with-llms/2.9-rag-fundamentals) |
+| [ ] | [Cormack, Clarke and Büttcher: Reciprocal Rank Fusion outperforms Condorcet and individual rank learning methods](http://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf) | paper | ~10 min (2 pages) | essential | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Sentence Transformers: Retrieve & Re-Rank](https://www.sbert.net/examples/sentence_transformer/applications/retrieve_rerank/README.html) | docs | ~15 min | essential | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Hamel Husain: Evals FAQ, "How should I approach evaluating my RAG system?"](https://hamel.dev/blog/posts/evals-faq/#q-how-should-i-approach-evaluating-my-rag-system) | article | ~10 min (that answer) | essential | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Anthropic: Introducing Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval) (the BM25 and reranking sections, second reading) | article | ~10 min | essential | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [SQLite FTS5](https://www.sqlite.org/fts5.html) (query syntax and `bm25()`) | docs | ~15 min | essential | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Jason Liu: Systematically Improving Your RAG](https://jxnl.co/writing/2024/05/22/systematically-improving-your-rag/) | article | ~25 min | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Gao et al.: Precise Zero-Shot Dense Retrieval without Relevance Labels (HyDE)](https://arxiv.org/abs/2212.10496) | paper | ~15 min (abstract and introduction) | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Thakur et al.: BEIR](https://arxiv.org/abs/2104.08663) (abstract, second reading for BM25 vs. re-rankers) | paper | ~10 min | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Transformers.js docs](https://huggingface.co/docs/transformers.js/index) and the [Xenova/bge-reranker-base model card](https://huggingface.co/Xenova/bge-reranker-base) | docs | ~15 min | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | [Qwen3-Reranker-0.6B model card](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B) | docs | ~10 min | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
+| [ ] | Chip Huyen, *AI Engineering* (O'Reilly, 2025), ch. 6 "RAG and Agents", "Retrieval Algorithms" and "Retrieval Optimization", pp. 257-273 ([ToC](https://github.com/chiphuyen/aie-book/blob/main/ToC.md)) | book | ~1 h | optional | [2.10](/part-02-programming-with-llms/2.10-better-retrieval) |
 
 ## Part 3 · Agents
 
