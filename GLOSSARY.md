@@ -55,6 +55,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Routing collapse | Failure where a few experts get most tokens, train faster and get picked even more, while the rest are wasted. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
 | Shared expert | An expert that runs for every token alongside the routed ones (DeepSeek-V3). Qwen3 dropped them. | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
 | Fine-grained experts | Many small experts with more of them active per token (Qwen3: 128 experts, 8 active) instead of a few large ones (Mixtral: 8, 2 active). | [1.11](book/part-01-how-llms-work/1.11-mixture-of-experts.md) |
+| Feature (interpretability) | A property of the input the model represents internally, hypothesized to be a direction in activation space rather than a single neuron. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Superposition | A model storing more features than it has dimensions, as non-orthogonal directions, which works because features are sparse. Causes polysemantic neurons. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Sparse autoencoder (SAE) | A wide autoencoder trained on a model's activations with a sparsity penalty, so each activation is rebuilt from a few dictionary directions (features). | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Transcoder / CLT | Like an SAE, but predicts an MLP's output from its input through sparse features. A cross-layer transcoder (CLT) also writes to all later layers. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Attribution graph | A graph for one prompt: nodes are active features, tokens, error terms and logits; edges are linear effects. Shows a circuit. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Steering | Changing behavior by clamping or adding a feature's direction in the residual stream (e.g. Golden Gate Claude). | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
 
 ## Training
 
