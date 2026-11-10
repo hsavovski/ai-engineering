@@ -258,6 +258,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Weller et al.: On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) | paper | ~15 min (abstract and introduction) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
 | [ ] | [Thakur et al.: BEIR](https://arxiv.org/abs/2104.08663) | paper | ~10 min (abstract) | optional | [2.8](/part-02-programming-with-llms/2.8-embeddings-in-practice) |
 
+## Part 3 · Agents
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) | article | ~25 min | essential | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
+| [ ] | [OpenAI: A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | article (PDF) | ~25 min (pp. 4-6 and 12-17) | essential | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
+| [ ] | [Simon Willison: "I think 'agent' may finally have a widely enough agreed upon definition to be useful jargon now"](https://simonwillison.net/2025/Sep/18/agents/) | article | ~10 min | optional | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
+| [ ] | [Anthropic: How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) | article | ~20 min | optional | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
+
 ## Part 8 · Production
 
 | Done | Resource | Type | Time | Priority | Chapter |

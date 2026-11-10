@@ -216,6 +216,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 |---|---|---|
 | Workflow | LLM calls orchestrated by fixed code paths (chaining, routing, parallelization). | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
 | Agent | Model + harness running a loop: think → call tool → read result → repeat. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
+| Agentic system | Anthropic's umbrella term for both workflows (predefined code paths) and agents (the model directs its own process). | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
+| Augmented LLM | The building block of agentic systems: a model call enhanced with retrieval, tools and memory. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
+| Prompt chaining | A workflow pattern: a fixed sequence of LLM calls, each processing the previous output, with optional code gates between steps. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
+| Routing | A workflow pattern: classify the input, then send it to a specialised prompt, model or sub-workflow. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
+| Parallelization | A workflow pattern: run LLM calls at once, either as independent subtasks (sectioning) or repeated attempts aggregated by code (voting). | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
+| Orchestrator-workers | A workflow pattern: a central LLM decides the subtasks from the input, delegates them to worker calls and synthesises the results. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
+| Evaluator-optimizer | A workflow pattern: one call generates, another critiques against criteria, and the output is revised in a loop capped by your code. | [3.1](book/part-03-agents/3.1-workflows-vs-agents.md) |
 | Agent loop | The loop itself: call the model, run requested tools, append results, repeat until it stops. | [3.2](book/part-03-agents/3.2-agent-loop.md) |
 | Context engineering | Curating what goes into the context window on each turn, so it holds the right tokens and few wasted ones. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Context rot | Quality degrades as the context grows, even within the window limit. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
