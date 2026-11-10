@@ -156,6 +156,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 |---|---|---|
 | OpenAI-compatible API | The Chat Completions request shape that many providers and local servers accept (OpenRouter, Ollama `/v1`). | [2.1](book/part-02-programming-with-llms/2.1-calling-models.md) |
 | Streaming | Receiving output incrementally (server-sent events) instead of waiting for the full response. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
+| SSE (server-sent events) | A text protocol for a long-lived HTTP response: messages of `field: value` lines (`event`, `data`, `id`, `retry`) ended by a blank line; lines starting with `:` are comments. Anthropic and OpenAI-style APIs stream with it. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
+| NDJSON | Newline-delimited JSON: one JSON object per line. Ollama's native API streams with it. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
+| Delta | One incremental piece of a streamed reply (`text_delta`, `thinking_delta`, `input_json_delta`, or `delta.content`). You accumulate deltas to rebuild the message. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
+| Partial JSON | The string fragments a model streams for a tool call's arguments; only valid JSON once complete, so accumulate and parse at the block end (and guard the parse). | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
+| Fine-grained tool streaming | Anthropic option (`eager_input_streaming`) that streams tool arguments without server-side buffering or validation: lower latency, but the JSON may be invalid. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
+| Backpressure | A slow consumer signalling the producer to slow down, so queues don't grow without bound. `for await` over a response body gives it for free. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
+| Throughput (tok/s) | Output tokens per second after the first token (decode speed), as opposed to TTFT. | [2.2](book/part-02-programming-with-llms/2.2-streaming.md) |
 | System prompt | Instructions that frame the whole conversation, separate from user messages. | [2.3](book/part-02-programming-with-llms/2.3-prompting.md) |
 | Structured output | Constraining or validating model output to match a schema, usually JSON Schema. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
 | Tool calling | The model asks your code to run a named function with JSON arguments, then reads the result. | [2.6](book/part-02-programming-with-llms/2.6-tool-calling.md) |
