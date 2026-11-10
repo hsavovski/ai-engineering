@@ -1,6 +1,6 @@
 # 24 — Write chapter 1.14: Interpretability basics
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 1.14 written in `book/part-01-how-llms-work/1.14-interpretability.md`; 9 resources, 6 glossary terms. Practice is notes-only (`notes/1.14-attribution-graph.md`, written by the learner).

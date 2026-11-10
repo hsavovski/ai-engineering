@@ -135,5 +135,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410) | paper | ~20 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | [Claude docs: Steering and cost control](https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost) | docs | ~15 min | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
 | [ ] | Sebastian Raschka, [*Build a Reasoning Model (From Scratch)*](https://github.com/rasbt/reasoning-from-scratch), chapters 4 and 6 | book | ~3 h (chapters 4 and 6) | optional | [1.10](/part-01-how-llms-work/1.10-reasoning-models) |
+| [ ] | [Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html) | paper | ~40 min | essential | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [How might LLMs store facts](https://www.youtube.com/watch?v=9-Jl0dxWQs8) (3Blue1Brown), superposition section from 17:04 | video | ~6 min | optional | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html) | paper | ~45 min | essential | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude) | article | ~5 min | optional | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [Circuit Tracing: Revealing Computational Graphs in Language Models](https://transformer-circuits.pub/2025/attribution-graphs/methods.html) | paper | ~45 min | optional | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) | paper | ~60 min | essential | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [Tracing the thoughts of a large language model](https://www.anthropic.com/research/tracing-thoughts-language-model) | article | ~10 min | optional | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [Neuronpedia: Circuit Tracer for Gemma-2 2B](https://www.neuronpedia.org/gemma-2-2b/graph?slug=gemma-fact-dallas-austin) | docs | ~20 min | essential | [1.14](/part-01-how-llms-work/1.14-interpretability) |
+| [ ] | [circuit-tracer](https://github.com/safety-research/circuit-tracer), README | repo | ~10 min | optional | [1.14](/part-01-how-llms-work/1.14-interpretability) |
 
 <!-- Chapter tasks add one table per part, in part order, with the same columns. -->

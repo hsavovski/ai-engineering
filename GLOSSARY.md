@@ -45,6 +45,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | SwiGLU | The gated MLP used by modern LLMs: `W_down · (SiLU(W_gate·x) ⊙ W_up·x)`. Three matrices instead of two. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
 | QK-Norm | An RMSNorm applied to each query and key head before RoPE, for training stability. Used by Qwen3. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
 | LM head | The final unembedding layer (`lm_head`) that maps the last hidden vector to one logit per vocabulary entry. | [1.5](book/part-01-how-llms-work/1.5-transformer-block.md) |
+| Feature (interpretability) | A property of the input the model represents internally, hypothesized to be a direction in activation space rather than a single neuron. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Superposition | A model storing more features than it has dimensions, as non-orthogonal directions, which works because features are sparse. Causes polysemantic neurons. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Sparse autoencoder (SAE) | A wide autoencoder trained on a model's activations with a sparsity penalty, so each activation is rebuilt from a few dictionary directions (features). | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Transcoder / CLT | Like an SAE, but predicts an MLP's output from its input through sparse features. A cross-layer transcoder (CLT) also writes to all later layers. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Attribution graph | A graph for one prompt: nodes are active features, tokens, error terms and logits; edges are linear effects. Shows a circuit. | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
+| Steering | Changing behavior by clamping or adding a feature's direction in the residual stream (e.g. Golden Gate Claude). | [1.14](book/part-01-how-llms-work/1.14-interpretability.md) |
 
 ## Training
 
