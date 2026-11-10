@@ -203,6 +203,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Zod | TypeScript-first schema library: one definition gives the static type (`z.infer`), runtime validation (`safeParse`) and JSON Schema (`z.toJSONSchema`). | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
 | GBNF | llama.cpp's grammar format (GGML BNF); the engine converts a subset of JSON Schema into it for constrained decoding. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
 | Validate-and-retry | Parse and validate a reply; on failure send the validation error back to the model and try again, with a capped number of attempts. | [2.5](book/part-02-programming-with-llms/2.5-structured-output.md) |
+| Prompt caching | The provider reuses the processed prefix of an earlier request, so a repeated prefix costs a fraction of normal input and skips its prefill. Needs an exact prefix match. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
+| Cache breakpoint (`cache_control`) | Anthropic marker that ends the prefix to cache; up to 4 per request. A top-level `cache_control` turns on automatic caching instead. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
+| Cache write / cache read | Anthropic bills writing a prefix at 1.25x (5 min) or 2x (1 h) of input price and reading it at a small fraction (0.1x on most models). Usage fields: `cache_creation_input_tokens`, `cache_read_input_tokens`. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
+| Cache TTL | How long a cache entry lives without use: 5 minutes by default, 1 hour optional on Anthropic; each hit refreshes it. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
+| Automatic (implicit) caching | Caching the provider does without markers (OpenAI, DeepSeek, Gemini 2.5+, others); you control only prompt order. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
+| Cache hit rate | Cache-read tokens divided by total input tokens; the number to monitor when tuning prompt layout. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
 
 ## Agents
 

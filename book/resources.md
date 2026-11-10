@@ -242,3 +242,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude: How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works) | docs | ~10 min | optional | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
 | [ ] | [OpenAI: Function calling](https://developers.openai.com/api/docs/guides/function-calling) and [OpenRouter: Tool calling](https://openrouter.ai/docs/guides/features/tool-calling) | docs | ~15 min | optional | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
 | [ ] | [Anthropic: Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents) | article | ~20 min | optional | [2.6](/part-02-programming-with-llms/2.6-tool-calling) |
+| [ ] | [Anthropic: Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) | docs | ~25 min | essential | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [Claude Code docs: How Claude Code uses prompt caching](https://code.claude.com/docs/en/prompt-caching) | docs | ~20 min | essential | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [Lessons from building Claude Code: Prompt caching is everything](https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything) | article | ~10 min | essential | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [OpenAI: Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching) | docs | ~10 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [OpenRouter: Prompt caching](https://openrouter.ai/docs/guides/best-practices/prompt-caching) | docs | ~10 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
+| [ ] | [DeepSeek: Context caching](https://api-docs.deepseek.com/guides/kv_cache) | docs | ~5 min | optional | [2.7](/part-02-programming-with-llms/2.7-prompt-caching) |
