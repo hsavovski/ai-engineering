@@ -209,6 +209,17 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Cache TTL | How long a cache entry lives without use: 5 minutes by default, 1 hour optional on Anthropic; each hit refreshes it. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
 | Automatic (implicit) caching | Caching the provider does without markers (OpenAI, DeepSeek, Gemini 2.5+, others); you control only prompt order. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
 | Cache hit rate | Cache-read tokens divided by total input tokens; the number to monitor when tuning prompt layout. | [2.7](book/part-02-programming-with-llms/2.7-prompt-caching.md) |
+| RAG pipeline | Two pipelines meeting at an index: offline (load, clean, chunk, embed, index) and per question (embed query, retrieve top-k, build prompt, generate). The model sees only what retrieval put in the prompt. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Chunking | Splitting documents into the units that are embedded, retrieved, put in the prompt and cited. Size trades sharp vectors against surrounding context; changing it means re-embedding everything. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Recursive chunking | Split by the largest natural separator first (blank line), falling back to line, sentence, then word only for pieces still too long. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Semantic chunking | Placing chunk boundaries where embedding similarity between neighbouring sentences or windows drops; costs an embedding (or LLM) pass at index time. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Document-aware chunking | Chunking along the source structure (headings, sections, functions, table rows) and keeping the heading trail and path as metadata. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Chunk overlap | Repeating the tail of one chunk at the start of the next so boundary sentences survive; costs index size and creates near-duplicate hits. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Contextual retrieval | Anthropic technique: an LLM writes a short situating sentence per chunk, prepended before embedding and BM25 indexing; reported to cut top-20 retrieval failures by 35% (embeddings) and 49% (with BM25). | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Grounded answer | An answer whose claims are supported by the sources in the prompt; checked per claim, separately from whether retrieval found the right chunk. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Citations (RAG) | Source markers (`[n]` in your own prompt scheme, or Claude `citations` / `search_result` blocks) tying each claim to a retrieved chunk; verify that the ids exist and support the claim. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Hit rate at k / MRR | Hit rate at k (recall@k): share of questions whose answer-bearing chunk is in the top k. MRR: mean of 1 / rank of the first right chunk. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Retrieval vs. generation failure | Retrieval failure: no answer-bearing chunk in the prompt, so no prompt or model change can fix it. Generation failure: the right chunk was there and the answer is still wrong. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
 
 ## Agents
 
