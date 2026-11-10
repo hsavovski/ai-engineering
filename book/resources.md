@@ -283,6 +283,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenAI: A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | article (PDF) | ~25 min (pp. 4-6 and 12-17) | essential | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
 | [ ] | [Simon Willison: "I think 'agent' may finally have a widely enough agreed upon definition to be useful jargon now"](https://simonwillison.net/2025/Sep/18/agents/) | article | ~10 min | optional | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
 | [ ] | [Anthropic: How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) | article | ~20 min | optional | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
+| [ ] | [Anthropic: How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works) | docs | ~10 min | essential | [3.2](/part-03-agents/3.2-agent-loop) |
+| [ ] | [Claude Agent SDK: How the agent loop works](https://code.claude.com/docs/en/agent-sdk/agent-loop) | docs | ~15 min | essential | [3.2](/part-03-agents/3.2-agent-loop) |
+| [ ] | [Anthropic: Build a tool-using agent](https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent) | docs | ~30 min (rings 2 and 4) | optional | [3.2](/part-03-agents/3.2-agent-loop) |
+| [ ] | [Anthropic: Building agents with the Claude Agent SDK](https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk) | article | ~15 min | optional | [3.2](/part-03-agents/3.2-agent-loop) |
 
 ## Part 8 · Production
 
