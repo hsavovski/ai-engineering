@@ -220,6 +220,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Citations (RAG) | Source markers (`[n]` in your own prompt scheme, or Claude `citations` / `search_result` blocks) tying each claim to a retrieved chunk; verify that the ids exist and support the claim. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
 | Hit rate at k / MRR | Hit rate at k (recall@k): share of questions whose answer-bearing chunk is in the top k. MRR: mean of 1 / rank of the first right chunk. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
 | Retrieval vs. generation failure | Retrieval failure: no answer-bearing chunk in the prompt, so no prompt or model change can fix it. Generation failure: the right chunk was there and the answer is still wrong. | [2.9](book/part-02-programming-with-llms/2.9-rag-fundamentals.md) |
+| Reasoning tokens (thinking tokens) | Tokens a reasoning model generates before its answer. Billed as output tokens even when hidden or only summarised; reported in `output_tokens_details` (Anthropic `thinking_tokens`, OpenAI `reasoning_tokens`). Count against `max_tokens`. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
+| Cost per passed task | Cost per call divided by pass rate: the expected spend to get one correct result when failures are retried. The fair way to compare a cheap, error-prone model with a dear, reliable one. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
+| Batch API | Asynchronous bulk endpoint sold at a discount (Anthropic 50% off input and output; Gemini and Kimi list their own). Trade latency for price. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
+| Zero data retention (ZDR) | An arrangement under which the provider does not store prompts or responses after the API call returns. Usually approved per organisation, with some features excluded. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
+| Data residency multiplier | A price surcharge for pinning inference to a region, e.g. Anthropic `inference_geo: "us"` at 1.1x. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
+| Provider routing (OpenRouter) | Per-request `provider` settings (`order`, `allow_fallbacks`, `sort`, `data_collection`, `zdr`, `require_parameters`) that control which host serves a model and under what data policy. | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
+| Silent parameter ignoring | An API accepts a parameter and does nothing with it, with no error (DeepSeek sampling parameters in thinking mode; unsupported parameters on OpenRouter unless `require_parameters` is true). | [9.1](book/part-09-model-landscape-cost/9.1-paid-apis.md) |
 
 ## Agents
 

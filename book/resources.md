@@ -288,3 +288,18 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [MCP: Security best practices](https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices) | docs | ~20 min | essential | [8.6](/part-08-production/8.6-streaming-ui-auth) |
 | [ ] | [RFC 9728: OAuth 2.0 Protected Resource Metadata](https://datatracker.ietf.org/doc/html/rfc9728) | docs | ~15 min | optional | [8.6](/part-08-production/8.6-streaming-ui-auth) |
 | [ ] | [OWASP: Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | docs | ~15 min | optional | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+
+## Part 9 · Model landscape & cost
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Anthropic: Pricing](https://platform.claude.com/docs/en/about-claude/pricing) | docs | ~15 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [OpenAI: Reasoning models](https://developers.openai.com/api/docs/guides/reasoning) | docs | ~15 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [DeepSeek: Thinking mode](https://api-docs.deepseek.com/guides/thinking_mode) | docs | ~10 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [Gemini: Thinking](https://aistudio.google.com/docs/thinking) | docs | ~15 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [Kimi: Migrating from OpenAI](https://platform.kimi.ai/docs/guide/migrating-from-openai-to-kimi) | docs | ~10 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [OpenRouter: Logging and data policies](https://openrouter.ai/docs/guides/privacy/logging) | docs | ~10 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [OpenAI: Data controls in the OpenAI API](https://developers.openai.com/api/docs/guides/your-data) | docs | ~10 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [Anthropic: API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention) | docs | ~15 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [Gemini API terms](https://aistudio.google.com/docs/terms) | docs | ~10 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [OpenRouter: Provider routing](https://openrouter.ai/docs/guides/routing/provider-selection) | docs | ~15 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
