@@ -405,3 +405,10 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | structuredContent / outputSchema | An MCP tool result field holding JSON that conforms to the tool's declared `outputSchema`, returned alongside a text rendering; unrelated to LLM structured outputs. | [3.7](book/part-03-agents/3.7-mcp-building.md) |
 | Resource template | An MCP resource registered as a URI pattern (`study://chapter/{id}`) instead of one fixed URI; matched variables reach the read callback. | [3.7](book/part-03-agents/3.7-mcp-building.md) |
 | State handle (MCP) | An explicit identifier a creation tool returns and later calls take as an argument, because stateless MCP has no per-connection session to hold state. | [3.7](book/part-03-agents/3.7-mcp-building.md) |
+| Eval case | One test: an input (goal and fixture) plus an expectation of what a pass looks like, with an id, a category and a source. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Eval set | The versioned collection of eval cases you run after every change. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Golden answer | A specific expected output or outcome (a string, a file state, passing tests) that code can compare against. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Rubric | Binary criteria a good answer must meet, applied by a judge or a human when there is no single right output. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Capability vs regression case | Capability cases start at a low pass rate and give you something to climb; regression cases should pass nearly always and guard what already works. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Eval saturation | When the agent passes every solvable case, so the set no longer shows improvement. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Synthetic dimensions | Axes your inputs should vary on; you generate tuples of values, then turn each tuple into a task in a separate step. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
