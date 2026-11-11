@@ -426,3 +426,6 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [opencode repository: `tool/AGENTS.md`](https://github.com/anomalyco/opencode/blob/135d46cea78eb9cc6ff2c6b77f318dfa8e1ffe26/packages/core/src/tool/AGENTS.md) | repo | ~10 min | essential | [5.2](/part-05-harnesses/5.2-harness-anatomy) |
 | [ ] | [opencode docs: Permissions](https://opencode.ai/docs/permissions/) | docs | ~10 min | essential | [5.2](/part-05-harnesses/5.2-harness-anatomy) |
 | [ ] | [opencode docs: Agents](https://opencode.ai/docs/agents/) | docs | ~10 min | optional | [5.2](/part-05-harnesses/5.2-harness-anatomy) |
+| [ ] | [OWASP GenAI LLM Top 10 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) | docs | ~60 min | essential | [8.2](/part-08-production/8.2-owasp) |
+| [ ] | [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) | docs | ~45 min | essential | [8.2](/part-08-production/8.2-owasp) |
+| [ ] | [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/) | docs | ~15 min | optional | [8.2](/part-08-production/8.2-owasp) |

@@ -390,6 +390,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Dual LLM pattern | A privileged LLM with tools never sees untrusted text; a quarantined LLM without tools handles it, and a controller passes results as opaque variables. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
 | Plan-then-execute | The agent fixes its list of tool calls from the user's request before reading untrusted data, so tool results can't add new actions. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
 | CaMeL | A DeepMind defense: the request becomes a program in a restricted language, run by an interpreter that tracks data provenance and enforces capability policies before tool calls. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| OWASP Top 10 for LLM Applications | OWASP's ranked list of ten risk classes for apps that use an LLM as a component. The 2026 edition renumbered the 2025 one (Excessive Agency went from LLM06 to LLM03). | [8.2](book/part-08-production/8.2-owasp.md) |
+| OWASP Top 10 for Agentic Applications | OWASP's list ASI01 to ASI10 for agents that plan, call tools and carry memory (published 2025-12-09). Meant to be read together with the LLM list. | [8.2](book/part-08-production/8.2-owasp.md) |
+| Excessive Agency | An LLM system with more functionality, permissions or autonomy than its task needs, so a model error or injection causes damage. | [8.2](book/part-08-production/8.2-owasp.md) |
+| Least agency | OWASP's agentic extension of least privilege: don't give an agent autonomy it doesn't need. | [8.2](book/part-08-production/8.2-owasp.md) |
+| Threat model | A written walk through a system's data flows and entry points, with a status (mitigated, accepted, open) for each identified risk. | [8.2](book/part-08-production/8.2-owasp.md) |
 | Sandbox | An isolated environment that limits what an agent's commands can touch (files, network). | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Least privilege | Giving an agent only the access its task needs. | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Guardrail | A check on inputs or outputs (policy, PII, format). A filter, not a security boundary. | [8.4](book/part-08-production/8.4-guardrails.md) |
