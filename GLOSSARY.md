@@ -399,3 +399,10 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | MCP tool prefixing | Namespacing aggregated tools with the configured server key (Claude Code: `mcp__server__tool`), because tool names are unique only within one server. | [3.6](book/part-03-agents/3.6-mcp-using.md) |
 | MCP Inspector | The MCP project's developer tool for connecting to a server, listing its tools and calling them by hand, showing raw messages. | [3.6](book/part-03-agents/3.6-mcp-using.md) |
 | Elicitation (MCP) | A client primitive: the server asks the user for input or confirmation mid-request. | [3.6](book/part-03-agents/3.6-mcp-using.md) |
+| Eval case | One test: an input (goal and fixture) plus an expectation of what a pass looks like, with an id, a category and a source. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Eval set | The versioned collection of eval cases you run after every change. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Golden answer | A specific expected output or outcome (a string, a file state, passing tests) that code can compare against. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Rubric | Binary criteria a good answer must meet, applied by a judge or a human when there is no single right output. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Capability vs regression case | Capability cases start at a low pass rate and give you something to climb; regression cases should pass nearly always and guard what already works. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Eval saturation | When the agent passes every solvable case, so the set no longer shows improvement. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Synthetic dimensions | Axes your inputs should vary on; you generate tuples of values, then turn each tuple into a task in a separate step. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |

@@ -338,6 +338,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | article | ~25 min | essential | [4.1](/part-04-evals-observability/4.1-error-analysis) |
 | [ ] | [Hamel Husain: A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/) | article | ~25 min | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
 | [ ] | [Shankar et al.: Who Validates the Validators?](https://arxiv.org/abs/2404.12272) | paper | ~15 min (abstract and introduction) | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
+| [ ] | [Hamel Husain and Shreya Shankar: Evals FAQ, synthetic data and number of examples](https://hamel.dev/blog/posts/evals-faq/#q-what-is-the-best-approach-for-generating-synthetic-data) | article | ~15 min (synthetic data, how many examples, binary vs Likert, stale datasets) | essential | [4.2](/part-04-evals-observability/4.2-eval-sets) |
+| [ ] | [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | article | ~20 min (re-read, focus on task design) | essential | [4.2](/part-04-evals-observability/4.2-eval-sets) |
+| [ ] | [Claude docs: Define success criteria and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests) | docs | ~15 min | optional | [4.2](/part-04-evals-observability/4.2-eval-sets) |
 
 ## Part 5 · Harnesses
 
