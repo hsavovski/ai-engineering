@@ -429,3 +429,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OWASP GenAI LLM Top 10 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) | docs | ~60 min | essential | [8.2](/part-08-production/8.2-owasp) |
 | [ ] | [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) | docs | ~45 min | essential | [8.2](/part-08-production/8.2-owasp) |
 | [ ] | [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/) | docs | ~15 min | optional | [8.2](/part-08-production/8.2-owasp) |
+| [ ] | [Claude Code docs: Run Claude Code programmatically](https://code.claude.com/docs/en/headless) | docs | ~15 min | essential | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Codex: Agent approvals and security](https://learn.chatgpt.com/docs/agent-approvals-security) | docs | ~10 min | essential | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Aider: Repository map](https://aider.chat/docs/repomap.html) | docs | ~5 min | essential | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [opencode docs: Providers](https://opencode.ai/docs/providers/) | docs | ~10 min | essential | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Cline docs: Auto Approve](https://docs.cline.bot/features/auto-approve.md) | docs | ~10 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Aider: Edit formats](https://aider.chat/docs/more/edit-formats.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Aider: Chat modes](https://aider.chat/docs/usage/modes.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Aider: Git integration](https://aider.chat/docs/git.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Continue docs: Plan mode guide](https://docs.continue.dev/guides/plan-mode-guide) | docs | ~10 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
