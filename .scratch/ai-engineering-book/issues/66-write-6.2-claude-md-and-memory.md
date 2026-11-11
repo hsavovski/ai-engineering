@@ -54,3 +54,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in book/part-06-claude-code/6.2-claude-md-and-memory.md; practice is notes/memory-audit.md (no experiment folder).
