@@ -1,6 +1,6 @@
 # 65 — Write chapter 6.1: How Claude Code works
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 6.1 written in `book/part-06-claude-code/6.1-how-claude-code-works.md`; 6 resources, 6 glossary terms, BUILD-LOG line. Practice is notes only (`notes/claude-code.md`), no experiment folder.
