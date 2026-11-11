@@ -1,6 +1,6 @@
 # 61 — Write chapter 5.3: Harness comparison
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 5.3 written in book/part-05-harnesses/5.3-harness-comparison.md; experiment folder experiments/25-harness-comparison/ added (README template).
