@@ -1,6 +1,6 @@
 # 54 — Write chapter 4.5: Evaluating agents
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
