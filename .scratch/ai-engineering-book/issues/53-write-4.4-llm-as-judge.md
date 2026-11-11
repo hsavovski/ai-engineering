@@ -1,6 +1,6 @@
 # 53 — Write chapter 4.4: LLM-as-judge vs. human labels
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
