@@ -316,6 +316,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Structured note-taking | The agent writes notes (goal, decisions, to-dos) to a file outside the context window and reads them back later, so state survives resets and compaction. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Context editing | Anthropic API beta that clears old tool results or thinking blocks server-side by rule (trigger, keep, exclude), while your client keeps the full history. | [3.4](book/part-03-agents/3.4-context-engineering.md) |
 | Agent memory | Information an agent stores and retrieves across sessions (files, notes, databases). | [3.5](book/part-03-agents/3.5-memory.md) |
+| Working / episodic / semantic / procedural memory | CoALA's four agent memory types: the current context; stored past experience; facts about the world and the agent; and how-to knowledge (prompts, rules, code). | [3.5](book/part-03-agents/3.5-memory.md) |
+| Memory tool | Anthropic's client-side tool (`memory_20250818`): Claude requests view/create/str_replace/insert/delete/rename on a `/memories` directory and your handler runs them against storage you control. | [3.5](book/part-03-agents/3.5-memory.md) |
+| Auto memory | Claude Code's notes Claude writes itself per repository (`MEMORY.md` index plus topic files); only the first 200 lines or 25 KB of the index load at session start. | [3.5](book/part-03-agents/3.5-memory.md) |
+| Memory poisoning | An attacker gets content written into an agent's persistent memory, so the injection re-fires in later sessions (OWASP agentic ASI06). | [3.5](book/part-03-agents/3.5-memory.md) |
+| Dreaming | Anthropic's name for an offline pass that reflects on transcripts to correct notes, merge duplicates and build wiki-like representations. | [3.5](book/part-03-agents/3.5-memory.md) |
 | MCP | Model Context Protocol: an open standard for connecting AI applications to tools and data through servers. | [3.6](book/part-03-agents/3.6-mcp-using.md) |
 | AGENTS.md | An open format for project instructions for coding agents ("a README for agents"). | [3.8](book/part-03-agents/3.8-agents-md-and-skills.md) |
 | Agent skill | A folder with a `SKILL.md` and resources that an agent loads on demand (progressive disclosure). | [3.8](book/part-03-agents/3.8-agents-md-and-skills.md) |
