@@ -321,6 +321,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: How Claude remembers your project](https://code.claude.com/docs/en/memory) | docs | ~15 min | essential | [3.5](/part-03-agents/3.5-memory) |
 | [ ] | [Sumers et al.: Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) | paper | ~30 min | optional | [3.5](/part-03-agents/3.5-memory) |
 | [ ] | [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) | article | ~20 min | optional | [3.5](/part-03-agents/3.5-memory) |
+| [ ] | [MCP: Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) | docs | ~20 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP specification: Tools](https://modelcontextprotocol.io/specification/2026-07-28/server/tools) | docs | ~15 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP TypeScript SDK: Build a client (first-client tutorial)](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/get-started/first-client.md) | docs | ~15 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~20 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP specification: Authorization](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) | docs | ~30 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP: Security best practices](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices) | docs | ~25 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP reference servers (modelcontextprotocol/servers)](https://github.com/modelcontextprotocol/servers) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
 
 ## Part 8 · Production
 
