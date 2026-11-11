@@ -426,3 +426,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Capability vs regression case | Capability cases start at a low pass rate and give you something to climb; regression cases should pass nearly always and guard what already works. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
 | Eval saturation | When the agent passes every solvable case, so the set no longer shows improvement. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
 | Synthetic dimensions | Axes your inputs should vary on; you generate tuples of values, then turn each tuple into a task in a separate step. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Location (opencode) | The project directory a session runs in, with its own scoped services (tools, permissions, filesystem). | [5.2](book/part-05-harnesses/5.2-harness-anatomy.md) |
+| Inbox (opencode) | The durable queue of input waiting to be delivered into a session: user prompts and control items such as `/compact`. | [5.2](book/part-05-harnesses/5.2-harness-anatomy.md) |
+| Drain / step (opencode) | A drain is one turn, from queued input to idle; a step is one model call plus the tools it requested. A drain runs steps in a loop. | [5.2](book/part-05-harnesses/5.2-harness-anatomy.md) |
+| Decline defect tunnel | Throwing a user's permission decline as an uncatchable defect, so tool code cannot turn a "no" into model-visible text and keep going. | [5.2](book/part-05-harnesses/5.2-harness-anatomy.md) |
+| Cache-aware compaction | Compacting so the summary request reuses the prompt cache, and holding a background summary until compaction is due so the cached prefix is not rewritten early. | [5.2](book/part-05-harnesses/5.2-harness-anatomy.md) |
+| Output truncation chokepoint | One place that caps every tool result (lines and bytes), saves the full text to a file and returns a preview with the path. | [5.2](book/part-05-harnesses/5.2-harness-anatomy.md) |

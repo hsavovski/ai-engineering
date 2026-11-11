@@ -1,6 +1,6 @@
 # 60 — Write chapter 5.2: Anatomy: reading opencode's source
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
