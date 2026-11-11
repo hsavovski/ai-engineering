@@ -339,6 +339,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Hamel Husain: A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/) | article | ~25 min | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
 | [ ] | [Shankar et al.: Who Validates the Validators?](https://arxiv.org/abs/2404.12272) | paper | ~15 min (abstract and introduction) | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
 
+## Part 5 · Harnesses
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Claude Code docs: How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works) | docs | ~15 min | essential | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+| [ ] | [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents) | article | ~20 min | essential | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+| [ ] | [Lewis: Same Model, Different Harness: Different Coding-Agent Results](https://arxiv.org/abs/2608.26218) | paper | ~10 min (abstract and the tight-window results) | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+| [ ] | [Anthropic: Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents) | article | ~20 min | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+
 ## Part 8 · Production
 
 | Done | Resource | Type | Time | Priority | Chapter |
