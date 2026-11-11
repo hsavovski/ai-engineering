@@ -316,6 +316,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Cognition: Don't Build Multi-Agents](https://cognition.com/blog/dont-build-multi-agents) | article | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Claude Agent SDK: Subagents in the SDK](https://code.claude.com/docs/en/agent-sdk/subagents) | docs | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Claude Code: Create custom subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min (intro, built-in subagents, when to use the main conversation) | optional | [3.10](/part-03-agents/3.10-multi-agent) |
+| [ ] | [Anthropic: The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) | article | ~25 min | essential | [3.5](/part-03-agents/3.5-memory) |
+| [ ] | [Claude API docs: Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool) | docs | ~20 min | essential | [3.5](/part-03-agents/3.5-memory) |
+| [ ] | [Claude Code docs: How Claude remembers your project](https://code.claude.com/docs/en/memory) | docs | ~15 min | essential | [3.5](/part-03-agents/3.5-memory) |
+| [ ] | [Sumers et al.: Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) | paper | ~30 min | optional | [3.5](/part-03-agents/3.5-memory) |
+| [ ] | [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) | article | ~20 min | optional | [3.5](/part-03-agents/3.5-memory) |
 
 ## Part 8 · Production
 

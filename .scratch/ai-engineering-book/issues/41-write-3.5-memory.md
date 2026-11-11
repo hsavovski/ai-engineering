@@ -1,6 +1,6 @@
 # 41 — Write chapter 3.5: Memory
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
