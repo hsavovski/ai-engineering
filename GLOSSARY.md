@@ -351,6 +351,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Term | Meaning | Chapter |
 |---|---|---|
 | Eval | A repeatable test of an LLM system's behavior on a set of cases. | [4.2](book/part-04-evals-observability/4.2-eval-sets.md) |
+| Open coding | First pass of error analysis: read one trace at a time and write free-form notes on what went wrong, in your own words, with no predefined categories. | [4.1](book/part-04-evals-observability/4.1-error-analysis.md) |
+| Axial coding | Second pass: group open-coding notes into a few named categories, each implying a specific action. Produces the failure taxonomy. | [4.1](book/part-04-evals-observability/4.1-error-analysis.md) |
+| Failure taxonomy | A short list of the specific ways your application fails, each with a name, definition, owner, count and examples. | [4.1](book/part-04-evals-observability/4.1-error-analysis.md) |
+| Theoretical saturation | The stopping rule for trace review: stop when new traces no longer reveal new failure modes or change existing categories. | [4.1](book/part-04-evals-observability/4.1-error-analysis.md) |
+| Generic metric | A score defined without looking at your system (helpfulness, hallucination, ROUGE). Easy to compute and easy to mistake for quality. | [4.1](book/part-04-evals-observability/4.1-error-analysis.md) |
 | Error analysis | Reading real traces and categorizing failures before deciding what to measure. | [4.1](book/part-04-evals-observability/4.1-error-analysis.md) |
 | LLM-as-judge | Using a model to grade outputs, checked against human labels. | [4.4](book/part-04-evals-observability/4.4-llm-as-judge.md) |
 | pass@k / pass^k | pass@k: at least one of k attempts succeeds. pass^k: all k attempts succeed (consistency). | [4.5](book/part-04-evals-observability/4.5-evaluating-agents.md) |
