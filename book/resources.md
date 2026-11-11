@@ -330,6 +330,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
 | [ ] | [MCP reference servers (modelcontextprotocol/servers)](https://github.com/modelcontextprotocol/servers) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
 
+## Part 4 · Evals & observability
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Hamel Husain and Shreya Shankar: Evals FAQ](https://hamel.dev/blog/posts/evals-faq/) | article | ~30 min (error analysis, number of examples, generic metrics) | essential | [4.1](/part-04-evals-observability/4.1-error-analysis) |
+| [ ] | [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | article | ~25 min | essential | [4.1](/part-04-evals-observability/4.1-error-analysis) |
+| [ ] | [Hamel Husain: A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/) | article | ~25 min | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
+| [ ] | [Shankar et al.: Who Validates the Validators?](https://arxiv.org/abs/2404.12272) | paper | ~15 min (abstract and introduction) | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
+
 ## Part 8 · Production
 
 | Done | Resource | Type | Time | Priority | Chapter |

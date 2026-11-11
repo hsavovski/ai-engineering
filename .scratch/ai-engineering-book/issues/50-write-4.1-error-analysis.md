@@ -1,6 +1,6 @@
 # 50 — Write chapter 4.1: Error analysis first
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
