@@ -317,6 +317,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Agent SDK: Subagents in the SDK](https://code.claude.com/docs/en/agent-sdk/subagents) | docs | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Claude Code: Create custom subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min (intro, built-in subagents, when to use the main conversation) | optional | [3.10](/part-03-agents/3.10-multi-agent) |
 
+## Part 5 · Harnesses
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Claude Code docs: How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works) | docs | ~15 min | essential | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+| [ ] | [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents) | article | ~20 min | essential | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+| [ ] | [Lewis: Same Model, Different Harness: Different Coding-Agent Results](https://arxiv.org/abs/2608.26218) | paper | ~10 min (abstract and the tight-window results) | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+| [ ] | [Anthropic: Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents) | article | ~20 min | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+
 ## Part 8 · Production
 
 | Done | Resource | Type | Time | Priority | Chapter |

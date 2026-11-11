@@ -343,6 +343,9 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Hook | A command the harness runs automatically on an event (e.g. before a tool call, after an edit). | [6.4](book/part-06-claude-code/6.4-hooks-permissions.md) |
 | Permission mode | How much a harness lets the agent do without asking (ask, accept edits, auto, bypass...). | [6.4](book/part-06-claude-code/6.4-hooks-permissions.md) |
 | Worktree | A second checkout of the same git repo, used to run agents in parallel without conflicts. | [6.5](book/part-06-claude-code/6.5-parallel-work.md) |
+| Harness engineering | Designing, measuring and revising everything around the model (tools, prompts, context handling, permissions, verification) as a deliberate discipline. A young label with loose edges. | [5.1](book/part-05-harnesses/5.1-what-is-a-harness.md) |
+| Model-harness co-design | Models are trained on a harness's tool shapes, and harnesses are built around known model behaviour. Scaffolding encodes bets about model weaknesses that go stale as models improve. | [5.1](book/part-05-harnesses/5.1-what-is-a-harness.md) |
+| Context anxiety | A model wrapping up tasks early as it senses its context limit approaching (Anthropic's name for a Sonnet 4.5 behaviour, fixed by harness context resets). | [5.1](book/part-05-harnesses/5.1-what-is-a-harness.md) |
 | Managed agent | An agent whose loop, sandbox and sessions are hosted by the provider. | [8.7](book/part-08-production/8.7-managed-agents.md) |
 | Background agent | An agent that runs unattended in a cloud sandbox, started from an issue, chat or CI event, and returns a pull request or report. | [7.4](book/part-07-ai-native-development/7.4-ci-background-agents.md) |
 

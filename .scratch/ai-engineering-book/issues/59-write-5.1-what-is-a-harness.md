@@ -1,6 +1,6 @@
 # 59 — Write chapter 5.1: What a harness is
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
