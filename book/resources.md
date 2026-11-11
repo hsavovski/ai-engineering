@@ -346,6 +346,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Hamel Husain and Shreya Shankar: Evals FAQ, synthetic data and number of examples](https://hamel.dev/blog/posts/evals-faq/#q-what-is-the-best-approach-for-generating-synthetic-data) | article | ~15 min (synthetic data, how many examples, binary vs Likert, stale datasets) | essential | [4.2](/part-04-evals-observability/4.2-eval-sets) |
 | [ ] | [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | article | ~20 min (re-read, focus on task design) | essential | [4.2](/part-04-evals-observability/4.2-eval-sets) |
 | [ ] | [Claude docs: Define success criteria and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests) | docs | ~15 min | optional | [4.2](/part-04-evals-observability/4.2-eval-sets) |
+| [ ] | [OpenTelemetry: Traces](https://opentelemetry.io/docs/concepts/signals/traces/) | docs | ~10 min | essential | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [OpenTelemetry GenAI conventions: inference spans](https://github.com/open-telemetry/semantic-conventions-genai/blob/main/docs/gen-ai/client-inference.md) | docs | ~20 min | essential | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [Langfuse: OpenTelemetry integration](https://langfuse.com/docs/opentelemetry) | docs | ~15 min | essential | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [Langfuse: self-hosting with Docker Compose](https://langfuse.com/self-hosting/deployment/docker-compose) | docs | ~10 min | optional | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [Langfuse: masking](https://langfuse.com/docs/observability/features/masking) | docs | ~5 min | optional | [4.7](/part-04-evals-observability/4.7-tracing) |
 
 ## Part 5 · Harnesses
 
