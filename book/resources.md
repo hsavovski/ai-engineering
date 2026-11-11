@@ -411,3 +411,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Apple Support: Mac mini power consumption and thermal output](https://support.apple.com/en-us/103253) | docs | ~5 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
 | [ ] | [Apple introduces M4 Pro and M4 Max](https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/) | article | ~10 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
 | [ ] | [Chip Huyen: AI Engineering, table of contents](https://github.com/chiphuyen/aie-book/blob/main/ToC.md) | repo | ~5 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
+| [ ] | [opencode repository: `tool/plugin/edit.ts`](https://github.com/anomalyco/opencode/blob/135d46cea78eb9cc6ff2c6b77f318dfa8e1ffe26/packages/core/src/tool/plugin/edit.ts) | repo | ~20 min | essential | [5.2](/part-05-harnesses/5.2-harness-anatomy) |
+| [ ] | [opencode repository: `tool/AGENTS.md`](https://github.com/anomalyco/opencode/blob/135d46cea78eb9cc6ff2c6b77f318dfa8e1ffe26/packages/core/src/tool/AGENTS.md) | repo | ~10 min | essential | [5.2](/part-05-harnesses/5.2-harness-anatomy) |
+| [ ] | [opencode docs: Permissions](https://opencode.ai/docs/permissions/) | docs | ~10 min | essential | [5.2](/part-05-harnesses/5.2-harness-anatomy) |
+| [ ] | [opencode docs: Agents](https://opencode.ai/docs/agents/) | docs | ~10 min | optional | [5.2](/part-05-harnesses/5.2-harness-anatomy) |
