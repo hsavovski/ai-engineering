@@ -329,6 +329,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [MCP: Security best practices](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices) | docs | ~25 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
 | [ ] | [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
 | [ ] | [MCP reference servers (modelcontextprotocol/servers)](https://github.com/modelcontextprotocol/servers) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP TypeScript SDK: Build a server (first-server tutorial)](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/get-started/first-server.md) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
+| [ ] | [MCP Inspector: documentation](https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
+| [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
+| [ ] | [MCP TypeScript SDK: Resources](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/servers/resources.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
+| [ ] | [MCP TypeScript SDK: Testing](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/testing.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
 
 ## Part 4 · Evals & observability
 
