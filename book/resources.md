@@ -365,6 +365,17 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Lewis: Same Model, Different Harness: Different Coding-Agent Results](https://arxiv.org/abs/2608.26218) | paper | ~10 min (abstract and the tight-window results) | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
 | [ ] | [Anthropic: Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents) | article | ~20 min | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
 
+## Part 6 · Claude Code mastery
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Claude Code docs: Explore the context window](https://code.claude.com/docs/en/context-window) | docs | ~15 min | essential | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
+| [ ] | [Claude Code docs: Settings files and precedence](https://code.claude.com/docs/en/settings) | docs | ~20 min | essential | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
+| [ ] | [Claude Code docs: Explore the .claude directory](https://code.claude.com/docs/en/claude-directory) | docs | ~15 min | essential | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
+| [ ] | [Claude Code docs: Permission modes](https://code.claude.com/docs/en/permission-modes) | docs | ~15 min | essential | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
+| [ ] | [Claude Code docs: Configure permissions](https://code.claude.com/docs/en/permissions) | docs | ~15 min (the "Permission system" table first) | optional | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
+| [ ] | [Claude Code docs: Best practices](https://code.claude.com/docs/en/best-practices) | docs | ~20 min | optional | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
+
 ## Part 8 · Production
 
 | Done | Resource | Type | Time | Priority | Chapter |
