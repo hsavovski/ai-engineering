@@ -316,6 +316,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Cognition: Don't Build Multi-Agents](https://cognition.com/blog/dont-build-multi-agents) | article | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Claude Agent SDK: Subagents in the SDK](https://code.claude.com/docs/en/agent-sdk/subagents) | docs | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Claude Code: Create custom subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min (intro, built-in subagents, when to use the main conversation) | optional | [3.10](/part-03-agents/3.10-multi-agent) |
+| [ ] | [MCP: Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) | docs | ~20 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP specification: Tools](https://modelcontextprotocol.io/specification/2026-07-28/server/tools) | docs | ~15 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP TypeScript SDK: Build a client (first-client tutorial)](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/get-started/first-client.md) | docs | ~15 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~20 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP specification: Authorization](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) | docs | ~30 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP: Security best practices](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices) | docs | ~25 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [MCP reference servers (modelcontextprotocol/servers)](https://github.com/modelcontextprotocol/servers) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
 
 ## Part 8 · Production
 
