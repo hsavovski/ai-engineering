@@ -1,6 +1,6 @@
 # 52 — Write chapter 4.3: Code-based checks
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -53,3 +53,7 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-04-evals-observability/4.3-code-based-checks.md`; no experiment folder (project step 13).
