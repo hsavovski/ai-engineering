@@ -375,6 +375,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: Permission modes](https://code.claude.com/docs/en/permission-modes) | docs | ~15 min | essential | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
 | [ ] | [Claude Code docs: Configure permissions](https://code.claude.com/docs/en/permissions) | docs | ~15 min (the "Permission system" table first) | optional | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
 | [ ] | [Claude Code docs: Best practices](https://code.claude.com/docs/en/best-practices) | docs | ~20 min | optional | [6.1](/part-06-claude-code/6.1-how-claude-code-works) |
+| [ ] | [Claude Code docs: How Claude remembers your project](https://code.claude.com/docs/en/memory) | docs | ~20 min | essential | [6.2](/part-06-claude-code/6.2-claude-md-and-memory) |
+| [ ] | [Claude Code docs: Best practices](https://code.claude.com/docs/en/best-practices) | docs | ~10 min (the CLAUDE.md sections) | essential | [6.2](/part-06-claude-code/6.2-claude-md-and-memory) |
+| [ ] | [Matt Pocock: writing-for-agents](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md) | repo | ~10 min | optional | [6.2](/part-06-claude-code/6.2-claude-md-and-memory) |
+| [ ] | [Claude API docs: Token counting](https://platform.claude.com/docs/en/build-with-claude/token-counting) | docs | ~10 min | optional | [6.2](/part-06-claude-code/6.2-claude-md-and-memory) |
 
 ## Part 8 · Production
 
