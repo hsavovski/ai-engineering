@@ -1,6 +1,6 @@
 # 56 — Write chapter 4.7: Tracing: OpenTelemetry GenAI and Langfuse
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 4.7 written in `book/part-04-evals-observability/4.7-tracing.md`. 5 resource rows, 7 glossary terms. No experiment folder (project step 17).

@@ -338,6 +338,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | article | ~25 min | essential | [4.1](/part-04-evals-observability/4.1-error-analysis) |
 | [ ] | [Hamel Husain: A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/) | article | ~25 min | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
 | [ ] | [Shankar et al.: Who Validates the Validators?](https://arxiv.org/abs/2404.12272) | paper | ~15 min (abstract and introduction) | optional | [4.1](/part-04-evals-observability/4.1-error-analysis) |
+| [ ] | [OpenTelemetry: Traces](https://opentelemetry.io/docs/concepts/signals/traces/) | docs | ~10 min | essential | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [OpenTelemetry GenAI conventions: inference spans](https://github.com/open-telemetry/semantic-conventions-genai/blob/main/docs/gen-ai/client-inference.md) | docs | ~20 min | essential | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [Langfuse: OpenTelemetry integration](https://langfuse.com/docs/opentelemetry) | docs | ~15 min | essential | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [Langfuse: self-hosting with Docker Compose](https://langfuse.com/self-hosting/deployment/docker-compose) | docs | ~10 min | optional | [4.7](/part-04-evals-observability/4.7-tracing) |
+| [ ] | [Langfuse: masking](https://langfuse.com/docs/observability/features/masking) | docs | ~5 min | optional | [4.7](/part-04-evals-observability/4.7-tracing) |
 
 ## Part 5 · Harnesses
 

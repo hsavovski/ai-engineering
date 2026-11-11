@@ -369,6 +369,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | pass@k / pass^k | pass@k: at least one of k attempts succeeds. pass^k: all k attempts succeed (consistency). | [4.5](book/part-04-evals-observability/4.5-evaluating-agents.md) |
 | Regression eval | An eval that guards against breaking what already works, run on every change. | [4.6](book/part-04-evals-observability/4.6-regression-evals-ci.md) |
 | Trace | A record of every step in a request (model calls, tool calls, timings, tokens), made of spans. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
+| Span | One timed unit of work in a trace: a name, start and end, status, parent span ID and attributes. A span with no parent is the root. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
+| Span attribute | A key-value pair on a span (string, boolean, number or arrays of those), used to filter and aggregate. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
+| OpenTelemetry (OTel) | Vendor-neutral standard and SDKs for producing and exporting traces, metrics and logs, usually over OTLP. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
+| OTLP | The OpenTelemetry Protocol for shipping telemetry, over HTTP or gRPC. Langfuse accepts the HTTP form only. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
+| Semantic conventions | Agreed attribute and span names so different tools read the same telemetry. The GenAI ones (`gen_ai.*`) are in Development status. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
+| Langfuse | Open-source LLM observability platform that ingests OpenTelemetry traces; cloud or self-hosted. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
+| Content capture (opt-in) | The choice to record prompts, completions and tool arguments or results on spans. Off by default in the GenAI conventions because it is sensitive and large. | [4.7](book/part-04-evals-observability/4.7-tracing.md) |
 
 ## Security
 
