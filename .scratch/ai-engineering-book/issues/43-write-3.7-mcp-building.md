@@ -1,6 +1,6 @@
 # 43 — Write chapter 3.7: Build an MCP server
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-03-agents/3.7-mcp-building.md`; 5 resource rows and 6 glossary terms added; BUILD-LOG line added. check and build pass.
