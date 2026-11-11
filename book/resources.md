@@ -407,3 +407,6 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Apple Support: Mac mini power consumption and thermal output](https://support.apple.com/en-us/103253) | docs | ~5 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
 | [ ] | [Apple introduces M4 Pro and M4 Max](https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/) | article | ~10 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
 | [ ] | [Chip Huyen: AI Engineering, table of contents](https://github.com/chiphuyen/aie-book/blob/main/ToC.md) | repo | ~5 min | optional | [9.3](/part-09-model-landscape-cost/9.3-local-vs-paid) |
+| [ ] | [OWASP GenAI LLM Top 10 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) | docs | ~60 min | essential | [8.2](/part-08-production/8.2-owasp) |
+| [ ] | [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) | docs | ~45 min | essential | [8.2](/part-08-production/8.2-owasp) |
+| [ ] | [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/) | docs | ~15 min | optional | [8.2](/part-08-production/8.2-owasp) |
