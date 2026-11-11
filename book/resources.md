@@ -360,6 +360,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [MCP: Security best practices](https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices) | docs | ~20 min | essential | [8.6](/part-08-production/8.6-streaming-ui-auth) |
 | [ ] | [RFC 9728: OAuth 2.0 Protected Resource Metadata](https://datatracker.ietf.org/doc/html/rfc9728) | docs | ~15 min | optional | [8.6](/part-08-production/8.6-streaming-ui-auth) |
 | [ ] | [OWASP: Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | docs | ~15 min | optional | [8.6](/part-08-production/8.6-streaming-ui-auth) |
+| [ ] | [Simon Willison: The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) | article | ~10 min | essential | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) | docs | ~10 min | essential | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Beurer-Kellner et al.: Design Patterns for Securing LLM Agents against Prompt Injections](https://arxiv.org/abs/2506.08837) | paper | ~45 min | essential | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Meta: Agents Rule of Two](https://ai.meta.com/blog/practical-ai-agent-security/) | article | ~8 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Simon Willison: The Dual LLM pattern for building AI assistants that can resist prompt injection](https://simonwillison.net/2023/Apr/25/dual-llm-pattern/) | article | ~10 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Nasr et al.: The Attacker Moves Second](https://arxiv.org/abs/2510.09023) | paper | ~30 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Anthropic: Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses) | article | ~12 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Simon Willison: GitHub MCP exploited](https://simonwillison.net/2025/May/26/github-mcp-exploited/) | article | ~5 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
 
 ## Part 9 · Model landscape & cost
 

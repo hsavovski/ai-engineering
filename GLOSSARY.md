@@ -376,6 +376,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 |---|---|---|
 | Prompt injection | Instructions hidden in content the model reads, which hijack its behavior. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
 | Lethal trifecta | Private data + untrusted content + a way to send data out. With all three, injection can steal data. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| Direct prompt injection | The person talking to the model writes the hostile instruction in their own message. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| Indirect prompt injection | The hostile instruction sits in content the agent reads (web page, file, email, tool result), written by someone who never talks to the agent. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| Exfiltration | Getting data out of the system to a place an attacker can read: an HTTP request, email, pull request, link or auto-loaded image. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| Agents Rule of Two | Meta's rule: within one session an agent should have no more than two of untrusted input, sensitive access and the ability to change state or communicate externally. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| Dual LLM pattern | A privileged LLM with tools never sees untrusted text; a quarantined LLM without tools handles it, and a controller passes results as opaque variables. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| Plan-then-execute | The agent fixes its list of tool calls from the user's request before reading untrusted data, so tool results can't add new actions. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
+| CaMeL | A DeepMind defense: the request becomes a program in a restricted language, run by an interpreter that tracks data provenance and enforces capability policies before tool calls. | [8.1](book/part-08-production/8.1-prompt-injection.md) |
 | Sandbox | An isolated environment that limits what an agent's commands can touch (files, network). | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Least privilege | Giving an agent only the access its task needs. | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Guardrail | A check on inputs or outputs (policy, PII, format). A filter, not a security boundary. | [8.4](book/part-08-production/8.4-guardrails.md) |
