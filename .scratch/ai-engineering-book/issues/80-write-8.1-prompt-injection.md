@@ -1,6 +1,6 @@
 # 80 — Write chapter 8.1: Prompt injection and the lethal trifecta
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -54,3 +54,7 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 8.1 written in `book/part-08-production/8.1-prompt-injection.md`; 8 resource rows, 7 glossary terms, BUILD-LOG line added. No experiment folder.
