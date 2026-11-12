@@ -3,11 +3,13 @@
 // written chapter through generated fact-check issues (Opus for chapters with flagged claims, Sonnet
 // for the rest). Before a batch it reads the real 5-hour and 7-day usage from a tiny Haiku call and
 // waits if the batch would push the week past WEEKLY_CAP, so the week's limit is never hit.
+// After each merge it pushes main to origin (fast-forward only), which deploys the book to GitHub Pages.
 //
 //   node scripts/book-auto.mjs install     start the launchd job (runs a tick right away)
 //   node scripts/book-auto.mjs uninstall   stop it
 //   node scripts/book-auto.mjs status      what's open, usage, last batches
 //   node scripts/book-auto.mjs pause|resume
+//   node scripts/book-auto.mjs push        push main to origin now (deploys the book)
 //   node scripts/book-auto.mjs tick        one step by hand
 //   node scripts/book-auto.mjs fc-preview  the fact-check issues it would generate now
 //
@@ -316,7 +318,7 @@ Branches to merge, in this order: ${branches.join(', ')}.
    - After each merge, run \`npm run check\` and \`npm run build\`. If either fails, fix it only if the cause is the merge itself (a lost or duplicated row); otherwise \`git reset --hard HEAD~1\`, skip the branch, and carry on.
 3. After the last merge: \`npm run progress\`, and commit the PROGRESS.md change (if any) as "Update progress table" ending with "${CO_AUTHOR}". This regenerates the table only; leave the rest of PROGRESS.md to the learner.
 4. For each merged branch: \`git worktree remove .worktrees/<branch>\` (add --force only for the untracked node_modules symlink) and \`git branch -d <branch>\`. Keep the worktrees of skipped branches.
-5. Don't push.
+5. Don't push (the script pushes main after you finish).
 Finish with a short report: merged, skipped and why, conflicts and how you resolved them.`
 
 // ---------- worktrees and verification ----------
@@ -384,6 +386,30 @@ async function mergeBranches(state, entries, batchDir) {
   }
   if (left.length) log(`not merged yet, retrying next tick: ${left.map((e) => e.branch).join(', ')}. Merge agent: ${lastText(out).slice(0, 400)}`)
   state.pendingMerge = left
+  pushMain(state)
+}
+
+// Publishes the merges: a push to main deploys the book to GitHub Pages (.github/workflows/deploy.yml).
+// Fast-forward only. If origin/main moved (a push from elsewhere), it notifies once and leaves it to you.
+function pushMain(state) {
+  if (gitBusy()) return
+  const ahead = Number(tryGit('rev-list', '--count', 'origin/main..main') ?? 0)
+  if (!ahead) return
+  try {
+    execFileSync('git', ['push', 'origin', 'main'], {
+      cwd: ROOT, encoding: 'utf8', stdio: 'pipe', timeout: 2 * 60_000,
+      env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
+    })
+    log(`pushed ${ahead} commit(s) to origin/main`)
+    delete state.notified.push
+  } catch (e) {
+    const why = String(e.stderr || e.message).trim().split('\n').slice(-2).join(' ')
+    log(`push failed: ${why}`)
+    if (!state.notified.push) {
+      state.notified.push = now()
+      notify('Book push failed', `main is ${ahead} commit(s) ahead of origin and the push failed: ${why.slice(0, 120)}`)
+    }
+  }
 }
 
 // ---------- the tick ----------
@@ -568,4 +594,15 @@ else if (cmd === 'uninstall') uninstall()
 else if (cmd === 'status') await status()
 else if (cmd === 'pause') fs.mkdirSync(STATE_DIR, { recursive: true }), fs.writeFileSync(PAUSED, now()), log('paused')
 else if (cmd === 'resume') fs.rmSync(PAUSED, { force: true }), log('resumed')
-else console.log('usage: node scripts/book-auto.mjs [tick|install|uninstall|status [--usage]|pause|resume]')
+else if (cmd === 'push') {
+  if (!takeLock()) console.log('a batch is running')
+  else {
+    try {
+      const state = loadState()
+      pushMain(state)
+      saveState(state)
+    } finally {
+      fs.rmSync(LOCK, { force: true })
+    }
+  }
+} else console.log('usage: node scripts/book-auto.mjs [tick|install|uninstall|status [--usage]|pause|resume|push]')
