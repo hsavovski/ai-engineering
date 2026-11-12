@@ -469,6 +469,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OWASP LLM06:2025 Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/) | docs | ~10 min | optional | [8.3](/part-08-production/8.3-sandboxing) |
 | [ ] | [anthropics/sandbox-runtime](https://github.com/anthropics/sandbox-runtime) | repo | ~15 min (README) | optional | [8.3](/part-08-production/8.3-sandboxing) |
 | [ ] | [Docker Sandboxes](https://docs.docker.com/ai/sandboxes/) | docs | ~10 min | optional | [8.3](/part-08-production/8.3-sandboxing) |
+| [ ] | [Anthropic: Rate limits](https://platform.claude.com/docs/en/api/rate-limits) | docs | ~15 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Anthropic: Errors](https://platform.claude.com/docs/en/api/errors) | docs | ~10 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [AWS Builders' Library: Timeouts, retries, and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) | article | ~15 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Stripe: Idempotent requests](https://docs.stripe.com/api/idempotent_requests) | docs | ~8 min | optional | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [BullMQ: Retrying failing jobs](https://docs.bullmq.io/guide/retrying-failing-jobs) and [Stalled jobs](https://docs.bullmq.io/guide/workers/stalled-jobs) | docs | ~10 min | optional | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Temporal: Workflows](https://docs.temporal.io/workflows) | docs | ~15 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Temporal: Why Temporal?](https://docs.temporal.io/evaluate/why-temporal) | docs | ~10 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Inngest: How functions are executed](https://www.inngest.com/docs/learn/how-functions-are-executed) | docs | ~15 min | optional | [8.5](/part-08-production/8.5-durable-agents) |
 
 ## Part 9 · Model landscape & cost
 
