@@ -1,6 +1,6 @@
 # 74 — Write chapter 7.2: TDD with agents
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
