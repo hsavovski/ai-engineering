@@ -1,6 +1,6 @@
 # 84 — Write chapter 8.5: Durable agents: queues, retries, rate limits
 
-Status: ready-for-agent
+Status: claimed
 Type: task
 Blocked by: 02
 

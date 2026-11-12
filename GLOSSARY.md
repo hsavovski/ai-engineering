@@ -596,3 +596,20 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Tautological test | A test whose expected value is computed the way the code computes it, so it passes by construction. | [7.2](book/part-07-ai-native-development/7.2-tdd-with-agents.md) |
 | Test weakening | An agent making a failing test pass by editing, skipping, loosening or mocking it instead of fixing the code. | [7.2](book/part-07-ai-native-development/7.2-tdd-with-agents.md) |
 | Diff gate | A check (a `Stop` hook or CI step) that fails when test files differ from the commit that froze them. | [7.2](book/part-07-ai-native-development/7.2-tdd-with-agents.md) |
+
+## Durable agents
+
+| Term | Meaning | Chapter |
+|---|---|---|
+| Exponential backoff | Waiting longer after each failed attempt (typically doubling up to a cap) before retrying. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Jitter | A random amount added to or taken from a retry delay so clients that failed together do not retry together. "Full jitter" sleeps a random time between zero and the exponential cap. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Idempotent | An operation that has the same effect done several times as done once, so retrying it is safe. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Idempotency key | A unique value sent with a request so the server recognizes a retry and returns the first result instead of repeating the work. For agents, derive it from the run id and the tool-call id. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| At-least-once delivery | The guarantee of queues and durable-execution systems: a step may run again after a failure, never zero times. Exactly-once effects come from idempotent steps. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Checkpoint (agent) | Saved state (run id, messages, turn counter, status) that lets a fresh process continue a run. Save the model reply before running its tools and each result after it runs. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Job queue and worker | A queue holds jobs (for agents, a run id); workers take jobs and run them, and the workers' concurrency limits parallel runs. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Stalled job | A queue job whose worker stopped renewing its lock; the queue returns it to waiting for another worker (BullMQ's term). | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Durable execution | Running code so its progress is recorded and it can continue on another process after a crash without redoing finished steps. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Event history and replay (Temporal) | Temporal records every step of a Workflow; to resume, it re-runs the Workflow code from the start, feeding it recorded results, so the code must be deterministic. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Activity (Temporal) | A unit of work that touches the outside world (API call, LLM call, file I/O); it runs once, its result is recorded, and it has a retry policy. | [8.5](book/part-08-production/8.5-durable-agents.md) |
+| Step memoization (Inngest) | Saving each `step.run` result and returning it on later invocations of the function instead of running the step again. | [8.5](book/part-08-production/8.5-durable-agents.md) |

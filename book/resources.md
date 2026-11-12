@@ -462,6 +462,14 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Nasr et al.: The Attacker Moves Second](https://arxiv.org/abs/2510.09023) | paper | ~30 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
 | [ ] | [Anthropic: Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses) | article | ~12 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
 | [ ] | [Simon Willison: GitHub MCP exploited](https://simonwillison.net/2025/May/26/github-mcp-exploited/) | article | ~5 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Anthropic: Rate limits](https://platform.claude.com/docs/en/api/rate-limits) | docs | ~15 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Anthropic: Errors](https://platform.claude.com/docs/en/api/errors) | docs | ~10 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [AWS Builders' Library: Timeouts, retries, and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) | article | ~15 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Stripe: Idempotent requests](https://docs.stripe.com/api/idempotent_requests) | docs | ~8 min | optional | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [BullMQ: Retrying failing jobs](https://docs.bullmq.io/guide/retrying-failing-jobs) and [Stalled jobs](https://docs.bullmq.io/guide/workers/stalled-jobs) | docs | ~10 min | optional | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Temporal: Workflows](https://docs.temporal.io/workflows) | docs | ~15 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Temporal: Why Temporal?](https://docs.temporal.io/evaluate/why-temporal) | docs | ~10 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Inngest: How functions are executed](https://www.inngest.com/docs/learn/how-functions-are-executed) | docs | ~15 min | optional | [8.5](/part-08-production/8.5-durable-agents) |
 
 ## Part 9 · Model landscape & cost
 
