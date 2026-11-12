@@ -492,3 +492,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Aider: Chat modes](https://aider.chat/docs/usage/modes.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
 | [ ] | [Aider: Git integration](https://aider.chat/docs/git.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
 | [ ] | [Continue docs: Plan mode guide](https://docs.continue.dev/guides/plan-mode-guide) | docs | ~10 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Anthropic: Writing effective tools for agents, with agents](https://www.anthropic.com/research/writing-tools-for-agents) | article | ~25 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
+| [ ] | [Claude API docs: Text editor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool) | docs | ~15 min | essential | [5.4](/part-05-harnesses/5.4-mini-harness) |
+| [ ] | [Aider: Unified diffs make GPT-4 Turbo 3X less lazy](https://aider.chat/2023/12/21/unified-diffs.html) | article | ~10 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
+| [ ] | [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) | paper | ~30 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
+| [ ] | [Claude Code docs: Configure permissions](https://code.claude.com/docs/en/permissions) | docs | ~15 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
+| [ ] | [Anthropic: Streaming messages](https://platform.claude.com/docs/en/build-with-claude/streaming) | docs | ~10 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
+| [ ] | [Claude Code docs: Checkpointing](https://code.claude.com/docs/en/checkpointing) | docs | ~10 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |

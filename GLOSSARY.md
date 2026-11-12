@@ -386,6 +386,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Context anxiety | A model wrapping up tasks early as it senses its context limit approaching (Anthropic's name for a Sonnet 4.5 behaviour, fixed by harness context resets). | [5.1](book/part-05-harnesses/5.1-what-is-a-harness.md) |
 | Managed agent | An agent whose loop, sandbox and sessions are hosted by the provider. | [8.7](book/part-08-production/8.7-managed-agents.md) |
 | Background agent | An agent that runs unattended in a cloud sandbox, started from an issue, chat or CI event, and returns a pull request or report. | [7.4](book/part-07-ai-native-development/7.4-ci-background-agents.md) |
+| Exact-match edit (search/replace) | An edit tool that takes `old_string` and `new_string` and applies the change only if `old_string` occurs exactly once (or `replace_all` is set). Zero or several matches change nothing and return a message that says which case it was. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
+| Permission gate | The function a harness runs before every tool call that returns allow, ask or deny, from rules, session approvals and whether a human is attached. Policy inside the harness, not an operating-system boundary. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
+| Session approval | A rule saved when the user answers "yes, for this session" at a permission prompt. It should be narrow (one tool, one path or command) and must never override a deny rule. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
+| Compound command | A shell command joined with operators (`&&`, `||`, `;`, pipes, newlines) or containing substitutions. A permission rule has to check every part, or a prefix match approves the dangerous half. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
+| Snapshot store (undo) | A harness-side copy of each file's original contents (or a "did not exist" marker) taken before the first write of a turn, so a turn's edits can be restored. Covers the edit tool, not shell-made changes. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
 
 ## Evals and observability
 
