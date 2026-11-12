@@ -35,7 +35,7 @@ const PLIST = path.join(os.homedir(), 'Library/LaunchAgents', `${LABEL}.plist`)
 const CO_AUTHOR = 'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>'
 
 const WEEKLY_CAP = 0.9 // stop starting batches once the 7-day window would pass this
-const FIVE_HOUR_START_MAX = 0.6 // a batch is ~20% of the 5-hour window; start only below this
+const FIVE_HOUR_START_MAX = 0.5 // a batch of 4 writers used ~33% of the 5-hour window (2026-11-12)
 const BATCH_WEIGHT = 4 // a Sonnet writer weighs 1, an Opus fact-check 1, a Sonnet fact-check 0.5
 const WEIGHT = { write: 1, 'fc-opus': 1, 'fc-sonnet': 0.5 }
 const DEFAULT_WEEKLY_PER_WEIGHT = 0.007 // 58 issues used ~40% of the week, 2026-11-08..12
@@ -351,6 +351,16 @@ function verify(i, dir) {
   return null
 }
 
+// The main checkout mid-rebase/merge, or off main (an editor's "Sync" once started a rebase here)
+function gitBusy() {
+  const gitDir = path.join(ROOT, '.git')
+  for (const [f, what] of [['rebase-merge', 'a rebase'], ['rebase-apply', 'a rebase'], ['MERGE_HEAD', 'a merge'], ['CHERRY_PICK_HEAD', 'a cherry-pick']]) {
+    if (fs.existsSync(path.join(gitDir, f))) return `${what} is in progress`
+  }
+  const branch = tryGit('symbolic-ref', '--short', 'HEAD')
+  return branch === 'main' ? null : `the main checkout is on ${branch ?? 'a detached HEAD'}, not main`
+}
+
 const merged = (branch) => tryGit('merge-base', '--is-ancestor', branch, 'main') !== null
 
 async function mergeBranches(state, entries, batchDir) {
@@ -383,6 +393,15 @@ async function tick() {
   if (!takeLock()) return console.log('a batch is running')
   try {
     const state = loadState()
+    const busy = gitBusy()
+    if (busy) {
+      if (!state.notified[`busy:${busy}`]) {
+        state.notified[`busy:${busy}`] = now()
+        notify('Book automation waiting', `${busy} in ${ROOT}; nothing runs until it's finished.`)
+      }
+      return saveState(state)
+    }
+    delete state.notified[Object.keys(state.notified).find((k) => k.startsWith('busy:'))]
     fs.mkdirSync(path.join(STATE_DIR, 'runs'), { recursive: true })
 
     if (state.pendingMerge.length) {
