@@ -4,6 +4,8 @@ Study spec: `.scratch/ai-engineering-book/spec.md`. Read it before any task.
 
 **Running a batch** (several issues, or fact-checking chapters): `scripts/workflows/book-batch.workflow.js`; its header says how to launch it.
 
+**Unattended release:** `scripts/book-auto.mjs` (launchd, every 15 min) writes the open issues, then generates and runs fact-check issues, within the weekly usage cap. `node scripts/book-auto.mjs status`; state and logs in `.book-auto/`. While it runs, don't leave uncommitted changes to tracked files on `main` (merges wait for a clean tree).
+
 ## Agent skills
 
 ### Issue tracker
