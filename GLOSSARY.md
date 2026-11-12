@@ -362,6 +362,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Protocol binding | A mapping of A2A's abstract operations onto a wire format: JSON-RPC, gRPC or HTTP+JSON (REST). | [3.12](book/part-03-agents/3.12-a2a.md) |
 | Extended Agent Card | A fuller Agent Card returned only to authenticated clients, for skills or details the public card shouldn't reveal. | [3.12](book/part-03-agents/3.12-a2a.md) |
 | MCP Tasks | An MCP extension that lets a server answer with a durable task handle the client polls, instead of blocking until done. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| Mandate (AP2) | A signed object that records what a user authorized an agent to buy or pay: "open" mandates hold constraints (amount, payees, items), "closed" ones bind one concrete purchase. | [3.13](book/part-03-agents/3.13-agent-payments.md) |
+| Human-present / human-not-present | AP2's two flows: the user approves the final cart in person, or signs constraints in advance and the agent shops alone within them. | [3.13](book/part-03-agents/3.13-agent-payments.md) |
+| Delegated payment (ACP) | ACP call that turns a buyer's payment details into a single-use token limited by amount, currency, expiry, merchant and checkout session. | [3.13](book/part-03-agents/3.13-agent-payments.md) |
+| Shared Payment Token (SPT) | Stripe's single-use payment token for agent purchases, carrying amount, currency and expiry limits. | [3.13](book/part-03-agents/3.13-agent-payments.md) |
+| Merchant of record | The seller legally responsible for the sale, refunds and chargebacks; in ACP it stays the merchant, not the agent platform. | [3.13](book/part-03-agents/3.13-agent-payments.md) |
+| x402 | Open protocol that uses HTTP status 402 so a client can pay per request with a signed stablecoin transfer; governed by the x402 Foundation at the Linux Foundation. | [3.13](book/part-03-agents/3.13-agent-payments.md) |
+| Facilitator (x402) | Service that verifies x402 payment payloads and broadcasts the transfer; it pays gas but cannot change amount or destination. | [3.13](book/part-03-agents/3.13-agent-payments.md) |
 
 ## Harnesses and Claude Code
 

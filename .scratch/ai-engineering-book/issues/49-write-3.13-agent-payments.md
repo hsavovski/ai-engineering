@@ -1,6 +1,6 @@
 # 49 — Write chapter 3.13: Agent payments (sidebar)
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
