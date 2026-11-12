@@ -575,3 +575,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Effort level | A per-model dial (`/effort`) for how much the model reasons on each step; lower is faster and cheaper, and thinking tokens are billed as output. | [6.8](book/part-06-claude-code/6.8-pro-limits.md) |
 | Cache lifetime (TTL) | How long a prompt-cache entry survives inactivity (five minutes or one hour in Claude Code); the first message after it expires reprocesses the whole context. | [6.8](book/part-06-claude-code/6.8-pro-limits.md) |
 | /compact | Replaces the conversation with a summary to keep continuity; itself a request that reads the whole history, so it is costliest on a large or cold context. | [6.8](book/part-06-claude-code/6.8-pro-limits.md) |
+
+## AI-native development
+
+| Term | Meaning | Chapter |
+|---|---|---|
+| Spec-driven development (SDD) | Writing a spec before the code and using it as the reference that humans review and agents implement. Comes in three levels: spec-first, spec-anchored and spec-as-source. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| Spec-anchored | A spec kept after the feature ships and updated with every change to it, as opposed to spec-first (used for one task, then left) or spec-as-source (code generated, never hand-edited). | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| EARS | Easy Approach to Requirements Syntax: requirement lines of the form "WHEN condition THE SYSTEM SHALL behaviour", so each has a trigger and an observable result. Used by Kiro. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| Constitution (Spec Kit) | Project-level principles applied to every feature a spec-driven tool generates; a rules file with a role in the workflow. Kiro's equivalent is steering. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| Spec drift | The gap between what the spec says and what the code does; harmful because an agent reads a stale spec as an instruction. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |

@@ -537,3 +537,13 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: Manage costs effectively](https://code.claude.com/docs/en/costs) | docs | ~20 min (skip the Team and Enterprise spend-limit parts) | essential | [6.8](/part-06-claude-code/6.8-pro-limits) |
 | [ ] | [Claude Code docs: Model configuration](https://code.claude.com/docs/en/model-config) | docs | ~10 min (aliases, "Adjust effort level") | optional | [6.8](/part-06-claude-code/6.8-pro-limits) |
 | [ ] | [Ollama docs: Claude Code](https://docs.ollama.com/integrations/claude-code) | docs | ~5 min | optional | [6.8](/part-06-claude-code/6.8-pro-limits) |
+
+## Part 7 · AI-native software development
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Böckeler: Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) | article | ~25 min | essential | [7.1](/part-07-ai-native-development/7.1-spec-driven-development) |
+| [ ] | [GitHub blog: Spec-driven development with AI](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/) | article | ~10 min | essential | [7.1](/part-07-ai-native-development/7.1-spec-driven-development) |
+| [ ] | [Kiro docs: Specs](https://kiro.dev/docs/specs/) and [Feature specs](https://kiro.dev/docs/specs/feature-specs/) | docs | ~15 min | optional | [7.1](/part-07-ai-native-development/7.1-spec-driven-development) |
+| [ ] | [Spec Kit: README](https://github.com/github/spec-kit) and [command reference](https://github.github.io/spec-kit/reference/agentic-sdd.html) | repo | ~15 min | optional | [7.1](/part-07-ai-native-development/7.1-spec-driven-development) |
+| [ ] | [OpenSpec: README](https://github.com/Fission-AI/OpenSpec) | repo | ~10 min | optional | [7.1](/part-07-ai-native-development/7.1-spec-driven-development) |
