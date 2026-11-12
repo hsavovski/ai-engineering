@@ -1,6 +1,6 @@
 # 55 — Write chapter 4.6: Regression evals in CI
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
