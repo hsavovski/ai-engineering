@@ -508,3 +508,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Ollama: OpenAI compatibility](https://docs.ollama.com/api/openai-compatibility) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
 | [ ] | [Ollama: Tool calling](https://docs.ollama.com/capabilities/tool-calling) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
 | [ ] | [Qwen docs: Function calling](https://qwen.readthedocs.io/en/latest/framework/function_call.html) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Claude Code docs: Extend Claude with skills](https://code.claude.com/docs/en/skills) | docs | ~25 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) | article | ~15 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Matt Pocock: skills](https://github.com/mattpocock/skills) | repo | ~30 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills) | docs | ~15 min | optional | [6.3](/part-06-claude-code/6.3-skills) |
