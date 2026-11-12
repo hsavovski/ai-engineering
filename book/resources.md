@@ -524,3 +524,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: Orchestrate teams of Claude Code sessions](https://code.claude.com/docs/en/agent-teams) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |
 | [ ] | [Claude Code docs: Orchestrate subagents at scale with dynamic workflows](https://code.claude.com/docs/en/workflows) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |
 | [ ] | [Claude Code docs: Manage multiple agents with agent view](https://code.claude.com/docs/en/agent-view) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |
+| [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~20 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Create plugins](https://code.claude.com/docs/en/plugins) | docs | ~25 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Discover and install plugins](https://code.claude.com/docs/en/discover-plugins) | docs | ~20 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Plugins reference](https://code.claude.com/docs/en/plugins-reference) | docs | ~25 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Create a marketplace](https://code.claude.com/docs/en/plugin-marketplaces) | docs | ~20 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |

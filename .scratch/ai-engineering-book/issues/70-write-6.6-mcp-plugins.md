@@ -1,6 +1,6 @@
 # 70 — Write chapter 6.6: MCP and plugins in Claude Code
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -54,3 +54,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-06-claude-code/6.6-mcp-plugins.md`; experiment scaffold in `experiments/30-plugin/`. See BUILD-LOG.md.
