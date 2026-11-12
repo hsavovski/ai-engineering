@@ -1,6 +1,6 @@
 # 62 — Write chapter 5.4: Build a mini coding harness
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
