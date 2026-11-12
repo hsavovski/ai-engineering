@@ -1,6 +1,6 @@
 # 84 — Write chapter 8.5: Durable agents: queues, retries, rate limits
 
-Status: claimed
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter 8.5 written in `book/part-08-production/8.5-durable-agents.md`; resources, glossary and BUILD-LOG updated. See the BUILD-LOG line for what was not verified.
