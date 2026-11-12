@@ -334,6 +334,13 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
 | [ ] | [MCP TypeScript SDK: Resources](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/servers/resources.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
 | [ ] | [MCP TypeScript SDK: Testing](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/testing.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
+| [ ] | [A2A: Core concepts](https://a2a-protocol.org/latest/topics/key-concepts/) and [Agent Discovery](https://a2a-protocol.org/latest/topics/agent-discovery/) | docs | ~10 min | essential | [3.12](/part-03-agents/3.12-a2a) |
+| [ ] | [A2A: Life of a Task](https://a2a-protocol.org/latest/topics/life-of-a-task/) | docs | ~15 min | essential | [3.12](/part-03-agents/3.12-a2a) |
+| [ ] | [A2A specification](https://a2a-protocol.org/latest/specification/) | docs | ~45 min (sections 3, 4.1, 4.4, 7, 8, 9) | essential | [3.12](/part-03-agents/3.12-a2a) |
+| [ ] | [A2A and MCP](https://a2a-protocol.org/latest/topics/a2a-and-mcp/) | docs | ~10 min | optional | [3.12](/part-03-agents/3.12-a2a) |
+| [ ] | [MCP: Tasks](https://modelcontextprotocol.io/specification/2026-07-28/basic/utilities/tasks) | docs | ~10 min | optional | [3.12](/part-03-agents/3.12-a2a) |
+| [ ] | [A2A joins the Agentic AI Foundation](https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/) and [Linux Foundation launches the A2A project](https://www.linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents) | article | ~5 min | optional | [3.12](/part-03-agents/3.12-a2a) |
+| [ ] | [What's new in A2A v1.0](https://a2a-protocol.org/latest/whats-new-v1/) | docs | ~10 min | optional | [3.12](/part-03-agents/3.12-a2a) |
 
 ## Part 4 · Evals & observability
 

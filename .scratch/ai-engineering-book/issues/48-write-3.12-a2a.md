@@ -1,6 +1,6 @@
 # 48 — Write chapter 3.12: A2A: agent-to-agent protocol
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -54,3 +54,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-03-agents/3.12-a2a.md`; practice template in `experiments/24-a2a/README.md`. See the 2026-11-12 line in `BUILD-LOG.md`.
