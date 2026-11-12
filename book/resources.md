@@ -512,3 +512,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) | article | ~15 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
 | [ ] | [Matt Pocock: skills](https://github.com/mattpocock/skills) | repo | ~30 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
 | [ ] | [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills) | docs | ~15 min | optional | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~20 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Create plugins](https://code.claude.com/docs/en/plugins) | docs | ~25 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Discover and install plugins](https://code.claude.com/docs/en/discover-plugins) | docs | ~20 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Plugins reference](https://code.claude.com/docs/en/plugins-reference) | docs | ~25 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Create a marketplace](https://code.claude.com/docs/en/plugin-marketplaces) | docs | ~20 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
