@@ -387,6 +387,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/research/infrastructure-noise) | article | ~15 min | essential | [4.5](/part-04-evals-observability/4.5-evaluating-agents) |
 | [ ] | [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045) | paper | ~15 min (abstract, the pass^k section, retail results) | optional | [4.5](/part-04-evals-observability/4.5-evaluating-agents) |
 | [ ] | [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) | paper | ~10 min (section 2.1, pass@k and its estimator) | optional | [4.5](/part-04-evals-observability/4.5-evaluating-agents) |
+| [ ] | [Evals FAQ: How are evaluations used differently in CI/CD vs. monitoring production?](https://hamel.dev/blog/posts/evals-faq/#q-how-are-evaluations-used-differently-in-cicd-vs-monitoring-production) | article | ~5 min | essential | [4.6](/part-04-evals-observability/4.6-regression-evals-ci) |
+| [ ] | [GitHub Docs: Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax) | docs | ~15 min (paths, permissions, concurrency, timeout-minutes) | essential | [4.6](/part-04-evals-observability/4.6-regression-evals-ci) |
+| [ ] | [GitHub Docs: Using secrets in GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) | docs | ~10 min | essential | [4.6](/part-04-evals-observability/4.6-regression-evals-ci) |
 
 ## Part 5 · Harnesses
 
