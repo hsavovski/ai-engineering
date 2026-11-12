@@ -328,6 +328,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [MCP specification: Authorization](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) | docs | ~30 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
 | [ ] | [MCP: Security best practices](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices) | docs | ~25 min | essential | [3.6](/part-03-agents/3.6-mcp-using) |
 | [ ] | [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
+| [ ] | [AI SDK: Agents overview](https://ai-sdk.dev/docs/agents/overview) and [Loop control](https://ai-sdk.dev/docs/agents/loop-control) | docs | ~20 min | essential | [3.11](/part-03-agents/3.11-agent-sdks) |
+| [ ] | [Claude Agent SDK: Overview](https://code.claude.com/docs/en/agent-sdk/overview) and [Give Claude custom tools](https://code.claude.com/docs/en/agent-sdk/custom-tools) | docs | ~25 min | essential | [3.11](/part-03-agents/3.11-agent-sdks) |
+| [ ] | [Anthropic: Building agents with the Claude Agent SDK](https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk) | article | ~15 min | optional | [3.11](/part-03-agents/3.11-agent-sdks) |
+| [ ] | [OpenAI Agents SDK (JS): Running agents](https://openai.github.io/openai-agents-js/guides/running-agents/) and [Models](https://openai.github.io/openai-agents-js/guides/models/) | docs | ~20 min | optional | [3.11](/part-03-agents/3.11-agent-sdks) |
+| [ ] | [Mastra: Agents overview](https://mastra.ai/docs/agents/overview) | docs | ~15 min | optional | [3.11](/part-03-agents/3.11-agent-sdks) |
 | [ ] | [MCP reference servers (modelcontextprotocol/servers)](https://github.com/modelcontextprotocol/servers) | repo | ~10 min | optional | [3.6](/part-03-agents/3.6-mcp-using) |
 | [ ] | [MCP TypeScript SDK: Build a server (first-server tutorial)](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/get-started/first-server.md) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
 | [ ] | [MCP Inspector: documentation](https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
