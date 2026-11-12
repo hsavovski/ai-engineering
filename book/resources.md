@@ -499,3 +499,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: Configure permissions](https://code.claude.com/docs/en/permissions) | docs | ~15 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
 | [ ] | [Anthropic: Streaming messages](https://platform.claude.com/docs/en/build-with-claude/streaming) | docs | ~10 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
 | [ ] | [Claude Code docs: Checkpointing](https://code.claude.com/docs/en/checkpointing) | docs | ~10 min | optional | [5.4](/part-05-harnesses/5.4-mini-harness) |
+| [ ] | [Ollama: Context length](https://docs.ollama.com/context-length) | docs | ~5 min | essential | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Aider: Ollama](https://aider.chat/docs/llms/ollama.html) | docs | ~5 min | essential | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [opencode docs: Models](https://opencode.ai/docs/models/) | docs | ~10 min | essential | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Ollama: OpenAI compatibility](https://docs.ollama.com/api/openai-compatibility) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Ollama: Tool calling](https://docs.ollama.com/capabilities/tool-calling) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Qwen docs: Function calling](https://qwen.readthedocs.io/en/latest/framework/function_call.html) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
