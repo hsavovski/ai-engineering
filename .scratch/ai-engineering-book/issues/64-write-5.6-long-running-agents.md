@@ -1,6 +1,6 @@
 # 64 — Write chapter 5.6: Long-running agents
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

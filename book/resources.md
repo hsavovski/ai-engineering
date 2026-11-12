@@ -414,6 +414,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents) | article | ~20 min | essential | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
 | [ ] | [Lewis: Same Model, Different Harness: Different Coding-Agent Results](https://arxiv.org/abs/2608.26218) | paper | ~10 min (abstract and the tight-window results) | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
 | [ ] | [Anthropic: Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents) | article | ~20 min | optional | [5.1](/part-05-harnesses/5.1-what-is-a-harness) |
+| [ ] | [Effective harnesses for long-running agents](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents) | article | ~15 min | essential | [5.6](/part-05-harnesses/5.6-long-running-agents) |
+| [ ] | [claude-quickstarts: autonomous-coding](https://github.com/anthropics/claude-quickstarts/tree/main/autonomous-coding) | repo | ~10 min | optional | [5.6](/part-05-harnesses/5.6-long-running-agents) |
+| [ ] | [Harness design for long-running application development](https://www.anthropic.com/research/harness-design-long-running-apps) | article | ~25 min | essential | [5.6](/part-05-harnesses/5.6-long-running-agents) |
 
 ## Part 6 · Claude Code mastery
 

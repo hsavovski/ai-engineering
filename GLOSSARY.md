@@ -391,6 +391,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Session approval | A rule saved when the user answers "yes, for this session" at a permission prompt. It should be narrow (one tool, one path or command) and must never override a deny rule. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
 | Compound command | A shell command joined with operators (`&&`, `||`, `;`, pipes, newlines) or containing substitutions. A permission rule has to check every part, or a prefix match approves the dangerous half. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
 | Snapshot store (undo) | A harness-side copy of each file's original contents (or a "did not exist" marker) taken before the first write of a turn, so a turn's edits can be restored. Covers the edit tool, not shell-made changes. | [5.4](book/part-05-harnesses/5.4-mini-harness.md) |
+| Initializer agent | The first session of a long-running run, with its own prompt: it creates the feature list, progress log, start script and first commit. Same harness and tools as the worker sessions. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Feature list | A structured file of end-to-end features, all failing at the start, that defines "done" for a long run; workers may only flip each item's pass status. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Progress log | A file the agent appends to at the end of each session (what was done, state left, next step) so a fresh context can pick up the work. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Context reset | Clearing the window and starting a fresh agent with a structured handoff, versus compaction, which summarises in place. Gives a clean slate but needs a sufficient handoff artifact. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Premature completion | A later session seeing progress and declaring the whole job done, or marking a feature passing without end-to-end testing. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Generator–evaluator loop | Separate agents for building and for judging: the evaluator exercises the running result against criteria and returns feedback. Tuning a skeptical evaluator is easier than making a generator self-critical. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Sprint contract | An agreement between generator and evaluator, made before coding, on what "done" means for a chunk of work and how it will be tested. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
 
 ## Evals and observability
 
