@@ -387,6 +387,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/research/infrastructure-noise) | article | ~15 min | essential | [4.5](/part-04-evals-observability/4.5-evaluating-agents) |
 | [ ] | [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045) | paper | ~15 min (abstract, the pass^k section, retail results) | optional | [4.5](/part-04-evals-observability/4.5-evaluating-agents) |
 | [ ] | [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) | paper | ~10 min (section 2.1, pass@k and its estimator) | optional | [4.5](/part-04-evals-observability/4.5-evaluating-agents) |
+| [ ] | [Anthropic: Eval awareness in Claude Opus 4.6's BrowseComp performance](https://www.anthropic.com/research/eval-awareness-browsecomp) | article | ~15 min | essential | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [Anthropic: Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/research/infrastructure-noise) | article | ~15 min (second read, as a consumer of leaderboards) | essential | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [Singh et al.: The Leaderboard Illusion](https://arxiv.org/abs/2504.20879) | paper | ~15 min (abstract, introduction, recommendations) | essential | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [Anthropic: Designing AI-resistant technical evaluations](https://www.anthropic.com/research/AI-resistant-technical-evaluations) | article | ~20 min | optional | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [Yang et al.: Rethinking Benchmark and Contamination for Language Models with Rephrased Samples](https://arxiv.org/abs/2311.04850) | paper | ~10 min (abstract) | optional | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) | paper | ~10 min (abstract) | optional | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [SWE-bench leaderboards](https://www.swebench.com) | docs | ~10 min (the benchmark variants and the Bash Only view) | optional | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [Terminal-Bench](https://www.tbench.ai) | docs | ~5 min | optional | [4.9](/part-04-evals-observability/4.9-benchmarks) |
+| [ ] | [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132) | paper | ~10 min (abstract) | optional | [4.9](/part-04-evals-observability/4.9-benchmarks) |
 
 ## Part 5 · Harnesses
 
