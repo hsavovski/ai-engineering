@@ -1,6 +1,6 @@
 # 66 — Write chapter 6.2: CLAUDE.md and memory
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
