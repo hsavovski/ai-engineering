@@ -352,6 +352,16 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Programmatic tool calling | The model writes code that calls tools inside a code-execution sandbox, so intermediate results stay out of its context; on the Claude API, tools opt in with `allowed_callers`. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
 | Code Mode (code execution with MCP) | Presenting MCP servers to the model as a code API (typed functions or files) and giving it one tool that runs code, instead of exposing each MCP tool directly. Name from Cloudflare. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
 | Tool-use examples | Sample inputs attached to a tool definition (`input_examples` on the Claude API) to show usage patterns a JSON Schema can't express. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
+| Remote agent (A2A server) | An agent that exposes an A2A endpoint and does work for A2A clients; opaque, so its prompt, tools and memory stay hidden. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| A2A task | A2A's stateful unit of work: an id, a contextId, a status, a message history and artifacts. Immutable once terminal. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| Interrupted task state | In A2A, `input-required` or `auth-required`: the task is paused until the client sends a message or obtains a credential. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| Terminal task state | In A2A, `completed`, `failed`, `canceled` or `rejected`: the task never changes again; refinements start a new task. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| contextId | The A2A id that groups related tasks and messages into one conversation; follow-up tasks reuse it and list earlier tasks in `referenceTaskIds`. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| Artifact (A2A) | A task's output (document, image, data) made of Parts, as opposed to the messages exchanged about the work. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| Part (A2A) | One piece of content in a message or artifact: `text`, `raw` bytes, a `url`, or structured `data`, with a media type. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| Protocol binding | A mapping of A2A's abstract operations onto a wire format: JSON-RPC, gRPC or HTTP+JSON (REST). | [3.12](book/part-03-agents/3.12-a2a.md) |
+| Extended Agent Card | A fuller Agent Card returned only to authenticated clients, for skills or details the public card shouldn't reveal. | [3.12](book/part-03-agents/3.12-a2a.md) |
+| MCP Tasks | An MCP extension that lets a server answer with a durable task handle the client polls, instead of blocking until done. | [3.12](book/part-03-agents/3.12-a2a.md) |
 
 ## Harnesses and Claude Code
 
