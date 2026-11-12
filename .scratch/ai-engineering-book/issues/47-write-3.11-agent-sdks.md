@@ -1,6 +1,6 @@
 # 47 — Write chapter 3.11: TS agent SDKs: rebuild with one
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -59,3 +59,7 @@ This chapter is a step in the growing `project/`. See `project/ROADMAP.md` for w
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-03-agents/3.11-agent-sdks.md` (2026-11-12). Practice is project step 10 (second entry point with one SDK; AI SDK suggested for local+paid, Claude Agent SDK for the full-harness view). No experiment folder. The planned anthropic.com/research URL 404s; the claude.com/resources article is used instead. 5 resource rows, 5 glossary terms.
