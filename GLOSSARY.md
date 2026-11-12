@@ -398,6 +398,11 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Premature completion | A later session seeing progress and declaring the whole job done, or marking a feature passing without end-to-end testing. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
 | Generator–evaluator loop | Separate agents for building and for judging: the evaluator exercises the running result against criteria and returns feedback. Tuning a skeptical evaluator is easier than making a generator self-critical. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
 | Sprint contract | An agreement between generator and evaluator, made before coding, on what "done" means for a chunk of work and how it will be tested. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Local review (`/code-review`) | A Claude Code command that reviews your branch or a chosen PR, path or commit range in your own session, as a background subagent, and reports correctness findings; reads `CLAUDE.md` but not `REVIEW.md`. | [7.3](book/part-07-ai-native-development/7.3-automated-review.md) |
+| `REVIEW.md` | A repository-root file with review-only instructions (severity calibration, nit caps, paths to skip, extra checks) read by Anthropic's managed Code Review service from the base or default branch, never from the PR itself. | [7.3](book/part-07-ai-native-development/7.3-automated-review.md) |
+| Review severity (Important / Nit / Pre-existing) | The three markers on Code Review findings: a bug to fix before merging, a minor issue, and a bug that predates the PR. | [7.3](book/part-07-ai-native-development/7.3-automated-review.md) |
+| Ultrareview | A deeper `/code-review ultra` run by a fleet of reviewer agents in a cloud sandbox that independently reproduces findings; a research preview. | [7.3](book/part-07-ai-native-development/7.3-automated-review.md) |
+| False negative (review) | A bug the reviewer did not report. Silence from a reviewer that reads but does not run the code is not evidence of correctness. | [7.3](book/part-07-ai-native-development/7.3-automated-review.md) |
 
 ## Evals and observability
 

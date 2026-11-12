@@ -433,6 +433,15 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Matt Pocock: writing-for-agents](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md) | repo | ~10 min | optional | [6.2](/part-06-claude-code/6.2-claude-md-and-memory) |
 | [ ] | [Claude API docs: Token counting](https://platform.claude.com/docs/en/build-with-claude/token-counting) | docs | ~10 min | optional | [6.2](/part-06-claude-code/6.2-claude-md-and-memory) |
 
+## Part 7 · AI-native software development
+
+| Done | Resource | Type | Time | Priority | Chapter |
+|---|---|---|---|---|---|
+| [ ] | [Claude Code docs: Review locally with /code-review](https://code.claude.com/docs/en/code-review-local) | docs | ~10 min | essential | [7.3](/part-07-ai-native-development/7.3-automated-review) |
+| [ ] | [Claude Code docs: Customize Code Review](https://code.claude.com/docs/en/code-review-customize) | docs | ~15 min | essential | [7.3](/part-07-ai-native-development/7.3-automated-review) |
+| [ ] | [Claude Code docs: Code Review](https://code.claude.com/docs/en/code-review) | docs | ~10 min | optional | [7.3](/part-07-ai-native-development/7.3-automated-review) |
+| [ ] | [Claude Code docs: Read and request reviews on a pull request](https://code.claude.com/docs/en/code-review-pull-requests) | docs | ~10 min | optional | [7.3](/part-07-ai-native-development/7.3-automated-review) |
+
 ## Part 8 · Production
 
 | Done | Resource | Type | Time | Priority | Chapter |
