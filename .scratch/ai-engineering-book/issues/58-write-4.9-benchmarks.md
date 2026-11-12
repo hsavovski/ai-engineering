@@ -1,6 +1,6 @@
 # 58 — Write chapter 4.9: Reading benchmarks
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-04-evals-observability/4.9-benchmarks.md`; see the BUILD-LOG.md line dated 2026-11-12.
