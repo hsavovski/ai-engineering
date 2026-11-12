@@ -1,6 +1,6 @@
 # 82 — Write chapter 8.3: Sandboxing and least privilege
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
