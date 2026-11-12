@@ -512,3 +512,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) | article | ~15 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
 | [ ] | [Matt Pocock: skills](https://github.com/mattpocock/skills) | repo | ~30 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
 | [ ] | [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills) | docs | ~15 min | optional | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Claude Code docs: Permission modes](https://code.claude.com/docs/en/permission-modes) | docs | ~5 min (plan mode section) | essential | [6.7](/part-06-claude-code/6.7-issue-workflows) |
+| [ ] | [Matt Pocock: grilling](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) | repo | ~5 min | essential | [6.7](/part-06-claude-code/6.7-issue-workflows) |
+| [ ] | [This study's spec.md](https://github.com/hsavovski/ai-engineering/blob/main/.scratch/ai-engineering-book/spec.md) | repo | ~15 min | essential | [6.7](/part-06-claude-code/6.7-issue-workflows) |
+| [ ] | [Matt Pocock: to-spec](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-spec/SKILL.md) and [to-tickets](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-tickets/SKILL.md) | repo | ~10 min | optional | [6.7](/part-06-claude-code/6.7-issue-workflows) |

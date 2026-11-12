@@ -1,6 +1,6 @@
 # 71 — Write chapter 6.7: Issue workflows: plan, grill, spec
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -57,3 +57,7 @@ No code. The practice is reading and writing notes.
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-06-claude-code/6.7-issue-workflows.md` (notes-only practice, no experiment folder). See the BUILD-LOG line for unverified items.
