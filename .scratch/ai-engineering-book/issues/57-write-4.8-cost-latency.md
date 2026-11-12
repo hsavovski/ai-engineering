@@ -1,6 +1,6 @@
 # 57 — Write chapter 4.8: Cost and latency tracking
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
