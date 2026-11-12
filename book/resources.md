@@ -517,3 +517,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: Automate actions with hooks](https://code.claude.com/docs/en/hooks-guide) | docs | ~30 min | essential | [6.4](/part-06-claude-code/6.4-hooks-permissions) |
 | [ ] | [Claude Code docs: Choose a permission mode](https://code.claude.com/docs/en/permission-modes) | docs | ~25 min | essential | [6.4](/part-06-claude-code/6.4-hooks-permissions) |
 | [ ] | [Claude Code docs: Hooks reference](https://code.claude.com/docs/en/hooks) | docs | ~20 min | optional | [6.4](/part-06-claude-code/6.4-hooks-permissions) |
+| [ ] | [Claude Code docs: Run agents in parallel](https://code.claude.com/docs/en/agents) | docs | ~10 min | essential | [6.5](/part-06-claude-code/6.5-parallel-work) |
+| [ ] | [Claude Code docs: Create custom subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~30 min | essential | [6.5](/part-06-claude-code/6.5-parallel-work) |
+| [ ] | [Claude Code docs: Run parallel sessions with worktrees](https://code.claude.com/docs/en/worktrees) | docs | ~20 min | essential | [6.5](/part-06-claude-code/6.5-parallel-work) |
+| [ ] | [Claude Code docs: Manage costs effectively](https://code.claude.com/docs/en/costs) | docs | ~20 min | essential | [6.5](/part-06-claude-code/6.5-parallel-work) |
+| [ ] | [Claude Code docs: Orchestrate teams of Claude Code sessions](https://code.claude.com/docs/en/agent-teams) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |
+| [ ] | [Claude Code docs: Orchestrate subagents at scale with dynamic workflows](https://code.claude.com/docs/en/workflows) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |
+| [ ] | [Claude Code docs: Manage multiple agents with agent view](https://code.claude.com/docs/en/agent-view) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |

@@ -1,6 +1,6 @@
 # 69 — Write chapter 6.5: Subagents, worktrees and parallel work
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-06-claude-code/6.5-parallel-work.md`; experiment scaffold in `experiments/29-parallel/`. See the BUILD-LOG.md line for unverified items.
