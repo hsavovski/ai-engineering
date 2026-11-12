@@ -570,3 +570,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Self-contained issue | An issue an agent with no other context can finish: behaviour and interfaces described, acceptance criteria testable, scope bounded. | [6.7](book/part-06-claude-code/6.7-issue-workflows.md) |
 | Tracer-bullet ticket | A vertical slice through every layer, verifiable alone and small enough for one fresh context window, with its blocking tickets declared. | [6.7](book/part-06-claude-code/6.7-issue-workflows.md) |
 | Triage label | One of five state roles on an issue (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`); `ready-for-agent` promises the issue is self-contained. | [6.7](book/part-06-claude-code/6.7-issue-workflows.md) |
+
+## AI-native development
+
+| Term | Meaning | Chapter |
+|---|---|---|
+| Spec-driven development (SDD) | Writing a spec before the code and using it as the reference that humans review and agents implement. Comes in three levels: spec-first, spec-anchored and spec-as-source. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| Spec-anchored | A spec kept after the feature ships and updated with every change to it, as opposed to spec-first (used for one task, then left) or spec-as-source (code generated, never hand-edited). | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| EARS | Easy Approach to Requirements Syntax: requirement lines of the form "WHEN condition THE SYSTEM SHALL behaviour", so each has a trigger and an observable result. Used by Kiro. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| Constitution (Spec Kit) | Project-level principles applied to every feature a spec-driven tool generates; a rules file with a role in the workflow. Kiro's equivalent is steering. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |
+| Spec drift | The gap between what the spec says and what the code does; harmful because an agent reads a stale spec as an instruction. | [7.1](book/part-07-ai-native-development/7.1-spec-driven-development.md) |

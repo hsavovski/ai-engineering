@@ -1,6 +1,6 @@
 # 73 — Write chapter 7.1: Spec-driven development
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
