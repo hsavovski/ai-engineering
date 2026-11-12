@@ -1,6 +1,6 @@
 # 44 — Write chapter 3.8: AGENTS.md and agent skills
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
