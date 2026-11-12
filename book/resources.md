@@ -357,6 +357,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [MCP: Tasks](https://modelcontextprotocol.io/specification/2026-07-28/basic/utilities/tasks) | docs | ~10 min | optional | [3.12](/part-03-agents/3.12-a2a) |
 | [ ] | [A2A joins the Agentic AI Foundation](https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/) and [Linux Foundation launches the A2A project](https://www.linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents) | article | ~5 min | optional | [3.12](/part-03-agents/3.12-a2a) |
 | [ ] | [What's new in A2A v1.0](https://a2a-protocol.org/latest/whats-new-v1/) | docs | ~10 min | optional | [3.12](/part-03-agents/3.12-a2a) |
+| [ ] | [AP2: Specification](https://ap2-protocol.org/ap2/specification/) | docs | ~25 min | essential | [3.13](/part-03-agents/3.13-agent-payments) |
+| [ ] | [AP2: Security and privacy considerations](https://ap2-protocol.org/ap2/security_and_privacy_considerations/) | docs | ~10 min | optional | [3.13](/part-03-agents/3.13-agent-payments) |
+| [ ] | [OpenAI: Delegated payment spec](https://developers.openai.com/commerce/specs/payment.md) | docs | ~10 min | essential | [3.13](/part-03-agents/3.13-agent-payments) |
+| [ ] | [x402 docs: HTTP 402](https://docs.x402.org/core-concepts/http-402.md) | docs | ~10 min | essential | [3.13](/part-03-agents/3.13-agent-payments) |
 
 ## Part 4 · Evals & observability
 
