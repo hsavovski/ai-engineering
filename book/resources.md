@@ -512,3 +512,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) | article | ~15 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
 | [ ] | [Matt Pocock: skills](https://github.com/mattpocock/skills) | repo | ~30 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
 | [ ] | [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills) | docs | ~15 min | optional | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [How we built Claude Code auto mode](https://www.anthropic.com/research/claude-code-auto-mode) | article | ~20 min | essential | [6.4](/part-06-claude-code/6.4-hooks-permissions) |
+| [ ] | [Making Claude Code safer with sandboxing](https://www.anthropic.com/research/claude-code-sandboxing) | article | ~10 min | essential | [6.4](/part-06-claude-code/6.4-hooks-permissions) |
+| [ ] | [Claude Code docs: Automate actions with hooks](https://code.claude.com/docs/en/hooks-guide) | docs | ~30 min | essential | [6.4](/part-06-claude-code/6.4-hooks-permissions) |
+| [ ] | [Claude Code docs: Choose a permission mode](https://code.claude.com/docs/en/permission-modes) | docs | ~25 min | essential | [6.4](/part-06-claude-code/6.4-hooks-permissions) |
+| [ ] | [Claude Code docs: Hooks reference](https://code.claude.com/docs/en/hooks) | docs | ~20 min | optional | [6.4](/part-06-claude-code/6.4-hooks-permissions) |

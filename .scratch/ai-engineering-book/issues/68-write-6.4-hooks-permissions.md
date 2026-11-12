@@ -1,6 +1,6 @@
 # 68 — Write chapter 6.4: Hooks, permissions and auto mode
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -56,3 +56,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Resolution
+
+Chapter written in `book/part-06-claude-code/6.4-hooks-permissions.md`; experiment brief and README template in `experiments/28-hooks/`. See the BUILD-LOG line for unverified items.
