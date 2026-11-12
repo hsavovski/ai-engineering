@@ -1,6 +1,6 @@
 # 72 — Write chapter 6.8: Working within Pro limits
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
