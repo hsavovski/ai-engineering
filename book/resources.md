@@ -560,3 +560,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Matt Pocock: TDD skill](https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md) | repo | ~10 min | essential | [7.2](/part-07-ai-native-development/7.2-tdd-with-agents) |
 | [ ] | [Claude Code docs: Best practices, "Give Claude a check to run"](https://code.claude.com/docs/en/best-practices) | docs | ~10 min | essential | [7.2](/part-07-ai-native-development/7.2-tdd-with-agents) |
 | [ ] | [Prompting best practices: Avoid focusing on passing tests and hardcoding](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) | docs | ~3 min | optional | [7.2](/part-07-ai-native-development/7.2-tdd-with-agents) |
+| [ ] | [Claude Code docs: Run Claude Code programmatically](https://code.claude.com/docs/en/headless) | docs | ~15 min | essential | [7.4](/part-07-ai-native-development/7.4-ci-background-agents) |
+| [ ] | [Claude Code docs: Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions) | docs | ~20 min | essential | [7.4](/part-07-ai-native-development/7.4-ci-background-agents) |
+| [ ] | [Claude Code docs: Scheduled tasks (cloud)](https://code.claude.com/docs/en/routines) | docs | ~15 min | essential | [7.4](/part-07-ai-native-development/7.4-ci-background-agents) |
+| [ ] | [Claude Code docs: Permission modes](https://code.claude.com/docs/en/permission-modes) | docs | ~10 min | optional | [7.4](/part-07-ai-native-development/7.4-ci-background-agents) |

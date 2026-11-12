@@ -596,3 +596,6 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Tautological test | A test whose expected value is computed the way the code computes it, so it passes by construction. | [7.2](book/part-07-ai-native-development/7.2-tdd-with-agents.md) |
 | Test weakening | An agent making a failing test pass by editing, skipping, loosening or mocking it instead of fixing the code. | [7.2](book/part-07-ai-native-development/7.2-tdd-with-agents.md) |
 | Diff gate | A check (a `Stop` hook or CI step) that fails when test files differ from the commit that froze them. | [7.2](book/part-07-ai-native-development/7.2-tdd-with-agents.md) |
+| Headless mode | Running Claude Code non-interactively with `claude -p`: one prompt in, result out, exit code, no one to answer permission prompts. | [7.4](book/part-07-ai-native-development/7.4-ci-background-agents.md) |
+| `dontAsk` mode | A permission mode that denies every call that would otherwise prompt, so only pre-approved tools run; the predictable choice for CI. | [7.4](book/part-07-ai-native-development/7.4-ci-background-agents.md) |
+| Scheduled task (cloud) | A saved prompt plus repositories and connectors that Claude Code runs on Anthropic's cloud from a schedule, an API call or a GitHub event (formerly "routine"). | [7.4](book/part-07-ai-native-development/7.4-ci-background-agents.md) |
