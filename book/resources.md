@@ -492,3 +492,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Aider: Chat modes](https://aider.chat/docs/usage/modes.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
 | [ ] | [Aider: Git integration](https://aider.chat/docs/git.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
 | [ ] | [Continue docs: Plan mode guide](https://docs.continue.dev/guides/plan-mode-guide) | docs | ~10 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Claude Code docs: Extend Claude with skills](https://code.claude.com/docs/en/skills) | docs | ~25 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) | article | ~15 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Matt Pocock: skills](https://github.com/mattpocock/skills) | repo | ~30 min | essential | [6.3](/part-06-claude-code/6.3-skills) |
+| [ ] | [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills) | docs | ~15 min | optional | [6.3](/part-06-claude-code/6.3-skills) |
