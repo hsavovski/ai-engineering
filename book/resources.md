@@ -492,3 +492,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Aider: Chat modes](https://aider.chat/docs/usage/modes.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
 | [ ] | [Aider: Git integration](https://aider.chat/docs/git.html) | docs | ~5 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
 | [ ] | [Continue docs: Plan mode guide](https://docs.continue.dev/guides/plan-mode-guide) | docs | ~10 min | optional | [5.3](/part-05-harnesses/5.3-harness-comparison) |
+| [ ] | [Ollama: Context length](https://docs.ollama.com/context-length) | docs | ~5 min | essential | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Aider: Ollama](https://aider.chat/docs/llms/ollama.html) | docs | ~5 min | essential | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [opencode docs: Models](https://opencode.ai/docs/models/) | docs | ~10 min | essential | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Ollama: OpenAI compatibility](https://docs.ollama.com/api/openai-compatibility) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Ollama: Tool calling](https://docs.ollama.com/capabilities/tool-calling) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
+| [ ] | [Qwen docs: Function calling](https://qwen.readthedocs.io/en/latest/framework/function_call.html) | docs | ~10 min | optional | [5.5](/part-05-harnesses/5.5-harnesses-local-qwen) |
