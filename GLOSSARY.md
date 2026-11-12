@@ -386,6 +386,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Context anxiety | A model wrapping up tasks early as it senses its context limit approaching (Anthropic's name for a Sonnet 4.5 behaviour, fixed by harness context resets). | [5.1](book/part-05-harnesses/5.1-what-is-a-harness.md) |
 | Managed agent | An agent whose loop, sandbox and sessions are hosted by the provider. | [8.7](book/part-08-production/8.7-managed-agents.md) |
 | Background agent | An agent that runs unattended in a cloud sandbox, started from an issue, chat or CI event, and returns a pull request or report. | [7.4](book/part-07-ai-native-development/7.4-ci-background-agents.md) |
+| Initializer agent | The first session of a long-running run, with its own prompt: it creates the feature list, progress log, start script and first commit. Same harness and tools as the worker sessions. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Feature list | A structured file of end-to-end features, all failing at the start, that defines "done" for a long run; workers may only flip each item's pass status. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Progress log | A file the agent appends to at the end of each session (what was done, state left, next step) so a fresh context can pick up the work. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Context reset | Clearing the window and starting a fresh agent with a structured handoff, versus compaction, which summarises in place. Gives a clean slate but needs a sufficient handoff artifact. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Premature completion | A later session seeing progress and declaring the whole job done, or marking a feature passing without end-to-end testing. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Generator–evaluator loop | Separate agents for building and for judging: the evaluator exercises the running result against criteria and returns feedback. Tuning a skeptical evaluator is easier than making a generator self-critical. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
+| Sprint contract | An agreement between generator and evaluator, made before coding, on what "done" means for a chunk of work and how it will be tested. | [5.6](book/part-05-harnesses/5.6-long-running-agents.md) |
 
 ## Evals and observability
 
