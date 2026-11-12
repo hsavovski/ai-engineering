@@ -1,6 +1,6 @@
 # 45 — Write chapter 3.9: Advanced tool use: tool search and code execution
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

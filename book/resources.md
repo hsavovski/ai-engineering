@@ -334,6 +334,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
 | [ ] | [MCP TypeScript SDK: Resources](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/servers/resources.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
 | [ ] | [MCP TypeScript SDK: Testing](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/testing.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
+| [ ] | [Anthropic: Introducing advanced tool use on the Claude Developer Platform](https://www.anthropic.com/research/advanced-tool-use) | article | ~25 min | essential | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Claude API docs: Tool search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) | docs | ~20 min | essential | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Anthropic: Code execution with MCP](https://www.anthropic.com/research/code-execution-with-mcp) | article | ~15 min | essential | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Cloudflare: Code Mode: the better way to use MCP](https://blog.cloudflare.com/code-mode/) | article | ~15 min | optional | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Claude API docs: Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling) | docs | ~25 min | optional | [3.9](/part-03-agents/3.9-advanced-tool-use) |
 
 ## Part 4 · Evals & observability
 
