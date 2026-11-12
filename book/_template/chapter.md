@@ -5,7 +5,6 @@ part: 1
 chapter: "1.4"
 tier: core            # core | deeper
 needs: ["1.2", "1.3"] # prerequisite chapter ids (soft: the book is non-linear)
-status: not-started   # not-started | reading | practiced | understood (the learner updates it)
 last_verified:        # YYYY-MM-DD, set when every link has been opened and checked
 ---
 

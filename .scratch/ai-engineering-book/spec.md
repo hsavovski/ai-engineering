@@ -54,7 +54,7 @@ ai-engineering/
 
 ## The book
 
-- **Tool: VitePress.** Chapters are plain markdown (still readable on GitHub). Vue components are added only where they earn their place (status badge, quizzes, small interactive demos such as a tokenizer or temperature slider). Runs locally with `npm run dev`. Not deployed while the repo is private.
+- **Tool: VitePress.** Chapters are plain markdown (still readable on GitHub). Vue components are added only where they earn their place (status badge, quizzes, small interactive demos such as a tokenizer or temperature slider). Runs locally with `npm run dev`. Public repo; every push to `main` deploys to GitHub Pages at https://hsavovski.github.io/ai-engineering/ (`.github/workflows/deploy.yml`). Reading status is per reader, saved in the browser by the badge on each chapter, never in frontmatter.
 - **Non-linear.** Each chapter declares its prerequisites. The home page shows a **dependency map** (Mermaid) and **suggested paths** (e.g. "Productive with Claude Code fast", "Understand the transformer").
 - **Two tiers:** **Core** (the first pass through all the concepts) and **Deeper** (optional follow-ups). Clearly marked on every chapter.
 - **Written just in time.** The detailed outline exists up front as stub chapters. Each chapter's full content is written by its own task, run whenever the learner chooses.
@@ -70,7 +70,6 @@ part: 1
 chapter: "1.4"       # quote ids: YAML reads 1.10 as 1.1
 tier: core            # core | deeper
 needs: ["1.2", "1.3"] # prerequisite chapter ids
-status: not-started   # not-started | reading | practiced | understood (the learner updates it)
 last_verified: 2026-11-08
 ---
 ```

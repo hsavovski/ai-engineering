@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useData, withBase } from 'vitepress'
 
 const { frontmatter, theme } = useData()
@@ -10,10 +10,40 @@ const STATUS_LABEL: Record<string, string> = {
   practiced: 'Practiced',
   understood: 'Understood',
 }
+const STATUSES = Object.keys(STATUS_LABEL)
 
 const isChapter = computed(() => frontmatter.value.chapter != null)
 const tier = computed(() => frontmatter.value.tier ?? 'core')
-const status = computed(() => frontmatter.value.status ?? 'not-started')
+
+// Each reader's own status, kept in their browser only. Read after mount so the
+// server-rendered page (always "Not started") hydrates without a mismatch.
+const STORAGE_KEY = 'ai-engineering:status'
+const status = ref('not-started')
+
+function readAll(): Record<string, string> {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '{}')
+  } catch {
+    return {}
+  }
+}
+
+function load() {
+  const saved = readAll()[String(frontmatter.value.chapter)]
+  status.value = STATUSES.includes(saved) ? saved : 'not-started'
+}
+
+function cycle() {
+  status.value = STATUSES[(STATUSES.indexOf(status.value) + 1) % STATUSES.length]
+  const all = readAll()
+  all[String(frontmatter.value.chapter)] = status.value
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(all))
+  } catch {}
+}
+
+onMounted(load)
+watch(() => frontmatter.value.chapter, load)
 // YAML parses an unquoted date into a Date (rendered as a full ISO timestamp)
 const verified = computed(() => {
   const v = frontmatter.value.last_verified
@@ -31,7 +61,13 @@ const needs = computed(() =>
 <template>
   <div v-if="isChapter" class="chapter-meta">
     <span class="badge" :class="`tier-${tier}`">{{ tier === 'deeper' ? 'Deeper' : 'Core' }}</span>
-    <span class="badge" :class="`status-${status}`">{{ STATUS_LABEL[status] ?? status }}</span>
+    <button
+      type="button"
+      class="badge status"
+      :class="`status-${status}`"
+      title="Your progress, saved in this browser. Click to change."
+      @click="cycle"
+    >{{ STATUS_LABEL[status] }}</button>
     <span v-if="verified" class="verified">verified {{ verified }}</span>
     <span v-if="needs.length" class="needs">
       Needs:

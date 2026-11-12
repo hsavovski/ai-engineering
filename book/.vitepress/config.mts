@@ -46,6 +46,8 @@ export default withMermaid(
   defineConfig({
     title: 'AI Engineering',
     description: 'A study book: how LLMs work, agents, harnesses, and AI-native development',
+    // served from GitHub Pages at https://hsavovski.github.io/ai-engineering/
+    base: '/ai-engineering/',
     srcExclude: ['_template/**'],
     // mermaid 11 imports fastdom (UMD, no ESM export), which the plugin's pre-bundle list misses,
     // so `npm run dev` failed with "does not provide an export named 'default'".
@@ -58,6 +60,7 @@ export default withMermaid(
       chapters: parts.flatMap((p) => p.chapters.map(({ id, title, link }) => ({ id, title, link }))),
       search: { provider: 'local', options: { _render: book.searchRender } },
       outline: [2, 3],
+      socialLinks: [{ icon: 'github', link: 'https://github.com/hsavovski/ai-engineering' }],
     },
   }),
 )

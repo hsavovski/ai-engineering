@@ -2,6 +2,8 @@
 
 A self-study of AI engineering in 2026: how LLMs work, programming with them, agents, evals, harnesses, Claude Code, production, and running and modifying models locally. Understanding comes first, tooling second.
 
+Read it online: **https://hsavovski.github.io/ai-engineering/**
+
 The study is written as a non-linear, interactive book (VitePress). Chapters are written just in time, practice happens in `experiments/` and in one growing TypeScript agent in `project/`. The full intent, the outline and the working agreements live in the spec: [`.scratch/ai-engineering-book/spec.md`](.scratch/ai-engineering-book/spec.md).
 
 Hardware: Mac mini M4 Pro, 24 GB unified memory. Local models through Ollama (Qwen3 family), paid models through OpenRouter and the Anthropic API.
@@ -12,12 +14,12 @@ Hardware: Mac mini M4 Pro, 24 GB unified memory. Local models through Ollama (Qw
 npm install
 npm run dev        # serve the book locally
 npm run build      # check that everything builds
-npm run progress   # regenerate the chapter status table in PROGRESS.md
+npm run progress   # regenerate the written-chapters table in PROGRESS.md
 ```
 
 ## Layout
 
-- `PROGRESS.md`: what to read next, your chapter status and your study log. Start here.
+- `PROGRESS.md`: which chapters are written and your study log (reading status is the badge on each chapter, saved in your browser). Start here.
 - `BUILD-LOG.md`: what agents built, one dated line per finished task, plus the setup checklist.
 - `book/`: the VitePress book. One folder per part (`part-NN-<slug>/`), one file per chapter. `book/_template/chapter.md` is the chapter template.
 - `notes/`: free-form notes, one file per topic (e.g. `notes/setup.md`).
@@ -33,3 +35,7 @@ npm run progress   # regenerate the chapter status table in PROGRESS.md
 
 - Ollama (OpenAI-compatible): `http://localhost:11434/v1`
 - Ollama (native): `http://localhost:11434`
+
+## License
+
+The book text (`book/`, chapter and experiment write-ups, `GLOSSARY.md`) is licensed under [CC BY 4.0](LICENSE-CONTENT). The code (`experiments/`, `project/`, `scripts/`, `book/.vitepress/`) is licensed under [MIT](LICENSE).

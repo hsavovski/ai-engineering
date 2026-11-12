@@ -30,7 +30,6 @@ function titleCase(slug) {
 }
 
 const TIERS = ['core', 'deeper']
-const STATUSES = ['not-started', 'reading', 'practiced', 'understood']
 
 // Frontmatter problems in one chapter file; `needs` ids are checked against the whole book later.
 function frontmatterProblems(file, partNumber, data) {
@@ -43,7 +42,8 @@ function frontmatterProblems(file, partNumber, data) {
   }
   if (data.part != null && data.part !== partNumber) problems.push(`part: ${data.part} but the file is in part ${partNumber}`)
   if (data.tier != null && !TIERS.includes(data.tier)) problems.push(`tier: "${data.tier}" is not one of ${TIERS.join(', ')}`)
-  if (data.status != null && !STATUSES.includes(data.status)) problems.push(`status: "${data.status}" is not one of ${STATUSES.join(', ')}`)
+  // reading status lives in each reader's browser (ChapterMeta.vue), not in the book
+  if ('status' in data) problems.push('status: remove it; readers track their status in the browser')
   for (const n of data.needs ?? []) {
     if (typeof n !== 'string') problems.push(`needs: ${JSON.stringify(n)} must be a quoted id`)
   }
@@ -75,7 +75,6 @@ export function loadParts() {
         id: String(data.chapter),
         title: data.title ?? file,
         tier: data.tier ?? 'core',
-        status: data.status ?? 'not-started',
         needs: (data.needs ?? []).map(String),
         // Stubs carry the "::: warning Stub" box until their task writes them
         written: !content.includes('::: warning Stub'),

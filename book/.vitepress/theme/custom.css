@@ -18,6 +18,9 @@
 .tier-core { background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); }
 .tier-deeper { background: var(--vp-c-default-soft); color: var(--vp-c-text-1); border-color: var(--vp-c-divider); }
 
+.chapter-meta .badge.status { cursor: pointer; font-size: inherit; line-height: inherit; }
+.chapter-meta .badge.status:hover { border-color: currentColor; }
+
 .status-not-started { background: var(--vp-c-default-soft); color: var(--vp-c-text-2); }
 .status-reading { background: var(--vp-c-warning-soft); color: var(--vp-c-warning-1); }
 .status-practiced { background: var(--vp-c-tip-soft); color: var(--vp-c-tip-1); }
