@@ -334,6 +334,12 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~15 min | essential | [3.7](/part-03-agents/3.7-mcp-building) |
 | [ ] | [MCP TypeScript SDK: Resources](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/servers/resources.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
 | [ ] | [MCP TypeScript SDK: Testing](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/testing.md) | docs | ~10 min | optional | [3.7](/part-03-agents/3.7-mcp-building) |
+| [ ] | [agents.md](https://agents.md) | docs | ~10 min | essential | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
+| [ ] | [Codex: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md) | docs | ~10 min | optional | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
+| [ ] | [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) | article | ~15 min | essential | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
+| [ ] | [Agent Skills specification](https://agentskills.io/specification) | docs | ~10 min | essential | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
+| [ ] | [Best practices for skill creators](https://agentskills.io/skill-creation/best-practices) | docs | ~20 min | optional | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
+| [ ] | [How to add skills support to your agent](https://agentskills.io/client-implementation/adding-skills-support) | docs | ~20 min | essential | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
 
 ## Part 4 · Evals & observability
 
