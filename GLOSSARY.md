@@ -341,6 +341,12 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | SEP | Specification Enhancement Proposal: how changes to the MCP spec are proposed and decided. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
 | Agent Card | A2A's JSON self-description of an agent (identity, skills, endpoint, auth), served at `/.well-known/agent-card.json` for discovery. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
 | Progressive disclosure | Loading only a skill's name and description up front, and its full instructions when a task needs them. | [0.3](book/part-00-catch-up/0.3-standards-and-orgs.md) |
+| Tool search (deferred tool loading) | The model starts with a small set of tools plus a search tool, and full definitions of other tools load only when a search finds them. On the Claude API, tools marked `defer_loading: true` are sent but kept out of context until found. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
+| Meta-tool | A tool that acts on the tool set rather than the world, such as `search_tools`, which finds and loads other tools' definitions. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
+| Tool reference | A Claude API content block (`tool_reference`) naming a tool that a search found; the API expands it into the tool's full definition. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
+| Programmatic tool calling | The model writes code that calls tools inside a code-execution sandbox, so intermediate results stay out of its context; on the Claude API, tools opt in with `allowed_callers`. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
+| Code Mode (code execution with MCP) | Presenting MCP servers to the model as a code API (typed functions or files) and giving it one tool that runs code, instead of exposing each MCP tool directly. Name from Cloudflare. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
+| Tool-use examples | Sample inputs attached to a tool definition (`input_examples` on the Claude API) to show usage patterns a JSON Schema can't express. | [3.9](book/part-03-agents/3.9-advanced-tool-use.md) |
 
 ## Harnesses and Claude Code
 

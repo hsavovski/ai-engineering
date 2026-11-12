@@ -340,6 +340,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Agent Skills specification](https://agentskills.io/specification) | docs | ~10 min | essential | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
 | [ ] | [Best practices for skill creators](https://agentskills.io/skill-creation/best-practices) | docs | ~20 min | optional | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
 | [ ] | [How to add skills support to your agent](https://agentskills.io/client-implementation/adding-skills-support) | docs | ~20 min | essential | [3.8](/part-03-agents/3.8-agents-md-and-skills) |
+| [ ] | [Anthropic: Introducing advanced tool use on the Claude Developer Platform](https://www.anthropic.com/research/advanced-tool-use) | article | ~25 min | essential | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Claude API docs: Tool search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) | docs | ~20 min | essential | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Anthropic: Code execution with MCP](https://www.anthropic.com/research/code-execution-with-mcp) | article | ~15 min | essential | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Cloudflare: Code Mode: the better way to use MCP](https://blog.cloudflare.com/code-mode/) | article | ~15 min | optional | [3.9](/part-03-agents/3.9-advanced-tool-use) |
+| [ ] | [Claude API docs: Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling) | docs | ~25 min | optional | [3.9](/part-03-agents/3.9-advanced-tool-use) |
 
 ## Part 4 · Evals & observability
 
