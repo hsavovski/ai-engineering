@@ -462,6 +462,13 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Nasr et al.: The Attacker Moves Second](https://arxiv.org/abs/2510.09023) | paper | ~30 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
 | [ ] | [Anthropic: Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses) | article | ~12 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
 | [ ] | [Simon Willison: GitHub MCP exploited](https://simonwillison.net/2025/May/26/github-mcp-exploited/) | article | ~5 min | optional | [8.1](/part-08-production/8.1-prompt-injection) |
+| [ ] | [Anthropic: How we contain Claude across products](https://www.anthropic.com/research/how-we-contain-claude) | article | ~25 min | essential | [8.3](/part-08-production/8.3-sandboxing) |
+| [ ] | [Anthropic: Making Claude Code safer with sandboxing](https://www.anthropic.com/research/claude-code-sandboxing) | article | ~8 min | essential | [8.3](/part-08-production/8.3-sandboxing) |
+| [ ] | [Claude Code docs: Configure the sandboxed Bash tool](https://code.claude.com/docs/en/sandboxing) | docs | ~25 min | essential | [8.3](/part-08-production/8.3-sandboxing) |
+| [ ] | [Claude Code docs: Choose a sandbox environment](https://code.claude.com/docs/en/sandbox-environments) | docs | ~15 min | essential | [8.3](/part-08-production/8.3-sandboxing) |
+| [ ] | [OWASP LLM06:2025 Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/) | docs | ~10 min | optional | [8.3](/part-08-production/8.3-sandboxing) |
+| [ ] | [anthropics/sandbox-runtime](https://github.com/anthropics/sandbox-runtime) | repo | ~15 min (README) | optional | [8.3](/part-08-production/8.3-sandboxing) |
+| [ ] | [Docker Sandboxes](https://docs.docker.com/ai/sandboxes/) | docs | ~10 min | optional | [8.3](/part-08-production/8.3-sandboxing) |
 
 ## Part 9 · Model landscape & cost
 

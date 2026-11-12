@@ -451,6 +451,13 @@ Core vocabulary for the study. Each term links to the chapter that covers it. Ch
 | Threat model | A written walk through a system's data flows and entry points, with a status (mitigated, accepted, open) for each identified risk. | [8.2](book/part-08-production/8.2-owasp.md) |
 | Sandbox | An isolated environment that limits what an agent's commands can touch (files, network). | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Least privilege | Giving an agent only the access its task needs. | [8.3](book/part-08-production/8.3-sandboxing.md) |
+| Blast radius | How much damage a failed or hijacked agent can do, set by what it can read, write, reach and spend; containment caps it. | [8.3](book/part-08-production/8.3-sandboxing.md) |
+| Containment (agents) | Limiting what an agent is able to do with boundaries (sandbox, VM, egress control, scoped credentials), as opposed to supervising what it does with prompts or classifiers. | [8.3](book/part-08-production/8.3-sandboxing.md) |
+| Egress control | Restricting where outbound connections can go (no network, or an allowlist through a proxy); the code-level way to cut the exfiltration leg. | [8.3](book/part-08-production/8.3-sandboxing.md) |
+| Seatbelt | macOS's kernel-level sandbox, driven by profiles (the deprecated `sandbox-exec` command is its command-line front end); matches resolved paths. | [8.3](book/part-08-production/8.3-sandboxing.md) |
+| bubblewrap | Unprivileged Linux sandboxing tool that builds a restricted filesystem view and namespaces; Claude Code's Linux sandbox uses it. | [8.3](book/part-08-production/8.3-sandboxing.md) |
+| microVM | A minimal virtual machine (for example Firecracker) with its own guest kernel that boots fast; stronger separation than a container. | [8.3](book/part-08-production/8.3-sandboxing.md) |
+| Credential broker | A component outside the sandbox that holds the real secret and attaches it to vetted requests, so the agent only holds a narrow, revocable token. | [8.3](book/part-08-production/8.3-sandboxing.md) |
 | Guardrail | A check on inputs or outputs (policy, PII, format). A filter, not a security boundary. | [8.4](book/part-08-production/8.4-guardrails.md) |
 | UI message stream | The SSE stream the AI SDK sends to `useChat`: typed JSON chunks (`text-delta`, `tool-input-start`, `tool-output-available`, ...) between `start` and `[DONE]`, flagged by the `x-vercel-ai-ui-message-stream: v1` header. | [8.6](book/part-08-production/8.6-streaming-ui-auth.md) |
 | Message parts | A chat message as an ordered list of parts (text, reasoning, tool calls, files), each possibly unfinished while streaming. UIs render `parts`, not one string. | [8.6](book/part-08-production/8.6-streaming-ui-auth.md) |
