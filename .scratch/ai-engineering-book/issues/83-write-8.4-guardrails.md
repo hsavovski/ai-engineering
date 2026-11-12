@@ -1,6 +1,6 @@
 # 83 — Write chapter 8.4: Guardrails
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

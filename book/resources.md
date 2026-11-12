@@ -571,3 +571,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions) | docs | ~20 min | essential | [7.4](/part-07-ai-native-development/7.4-ci-background-agents) |
 | [ ] | [Claude Code docs: Scheduled tasks (cloud)](https://code.claude.com/docs/en/routines) | docs | ~15 min | essential | [7.4](/part-07-ai-native-development/7.4-ci-background-agents) |
 | [ ] | [Claude Code docs: Permission modes](https://code.claude.com/docs/en/permission-modes) | docs | ~10 min | optional | [7.4](/part-07-ai-native-development/7.4-ci-background-agents) |
+| [ ] | [Anthropic: Mitigate jailbreaks and prompt injections](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks) | docs | ~10 min | essential | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [NVIDIA NeMo Guardrails: overview](https://docs.nvidia.com/nemo/guardrails/latest/index.html) | docs | ~10 min | essential | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [Presidio documentation: home page](https://data-privacy-stack.github.io/presidio/) | docs | ~15 min | optional | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [Ollama: llama-guard3](https://ollama.com/library/llama-guard3) | docs | ~5 min | optional | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [Anthropic: Constitutional Classifiers](https://www.anthropic.com/research/constitutional-classifiers) | article | ~15 min | optional | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [OWASP LLM05:2025 Improper Output Handling](https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/) | docs | ~10 min | optional | [8.4](/part-08-production/8.4-guardrails) |
