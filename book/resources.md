@@ -603,3 +603,6 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [karpathy/build-nanogpt](https://github.com/karpathy/build-nanogpt) | repo | ~30 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
 | [ ] | [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759) | paper | ~20 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
 | [ ] | [Hugging Face Tokenizers documentation](https://huggingface.co/docs/tokenizers/index) | docs | ~15 min | optional | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [Set up Claude Code in a monorepo or large codebase](https://code.claude.com/docs/en/large-codebases) | docs | ~20 min | essential | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
+| [ ] | [How Claude Code works in large codebases](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start) | article | ~18 min | optional | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
+| [ ] | [anthropics/claudes-c-compiler](https://github.com/anthropics/claudes-c-compiler) | repo | ~20 min | optional | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |

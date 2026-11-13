@@ -1,6 +1,6 @@
 # 79 — Write chapter 7.7: Large codebases and agent teams
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
