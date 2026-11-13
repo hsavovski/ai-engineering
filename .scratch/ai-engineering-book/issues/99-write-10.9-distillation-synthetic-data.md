@@ -1,6 +1,6 @@
 # 99 — Write chapter 10.9: Distillation and synthetic data
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -55,3 +55,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-10-modifying-serving-models/10.9-distillation-synthetic-data.md`; practice extends `experiments/38-lora/` (README section "10.9").
