@@ -313,7 +313,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Anthropic: Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing) and [Compaction overview](https://platform.claude.com/docs/en/build-with-claude/compaction) | docs | ~15 min | optional | [3.4](/part-03-agents/3.4-context-engineering) |
 | [ ] | [Claude Code docs: Subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min | optional | [3.4](/part-03-agents/3.4-context-engineering) |
 | [ ] | [Anthropic: How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) | article | ~20 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
-| [ ] | [Cognition: Don't Build Multi-Agents](https://cognition.com/blog/dont-build-multi-agents) | article | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
+| [ ] | [Cognition: Don't Build Multi-Agents](https://cognition.com/blog/dont-build-multi-agents) | article | ~10 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Claude Agent SDK: Subagents in the SDK](https://code.claude.com/docs/en/agent-sdk/subagents) | docs | ~15 min | essential | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Claude Code: Create custom subagents](https://code.claude.com/docs/en/sub-agents) | docs | ~15 min (intro, built-in subagents, when to use the main conversation) | optional | [3.10](/part-03-agents/3.10-multi-agent) |
 | [ ] | [Anthropic: The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) | article | ~25 min | essential | [3.5](/part-03-agents/3.5-memory) |
