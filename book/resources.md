@@ -607,3 +607,6 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [How we built Claude Code auto mode](https://www.anthropic.com/engineering/claude-code-auto-mode) | article | ~20 min | essential | [7.6](/part-07-ai-native-development/7.6-humans-in-the-loop) |
 | [ ] | [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills) | article | ~15 min | essential | [7.6](/part-07-ai-native-development/7.6-humans-in-the-loop) |
 | [ ] | [How AI Impacts Skill Formation](https://arxiv.org/abs/2601.20245) | paper | ~10 min | optional | [7.6](/part-07-ai-native-development/7.6-humans-in-the-loop) |
+| [ ] | [Set up Claude Code in a monorepo or large codebase](https://code.claude.com/docs/en/large-codebases) | docs | ~20 min | essential | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
+| [ ] | [How Claude Code works in large codebases](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start) | article | ~18 min | optional | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
+| [ ] | [anthropics/claudes-c-compiler](https://github.com/anthropics/claudes-c-compiler) | repo | ~20 min | optional | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
