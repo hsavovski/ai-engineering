@@ -613,3 +613,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [karpathy/nanochat](https://github.com/karpathy/nanochat) | repo | ~90 min | essential | [10.6](/part-10-modifying-serving-models/10.6-nanochat) |
 | [ ] | [Beating GPT-2 for <<$100: the nanochat journey](https://github.com/karpathy/nanochat/discussions/481) | article | ~25 min | essential | [10.6](/part-10-modifying-serving-models/10.6-nanochat) |
 | [ ] | [Introducing nanochat: The best ChatGPT that $100 can buy](https://github.com/karpathy/nanochat/discussions/1) | article | ~20 min | optional | [10.6](/part-10-modifying-serving-models/10.6-nanochat) |
+| [ ] | [llama.cpp README](https://github.com/ggml-org/llama.cpp) | repo | ~10 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [MLX LM README](https://github.com/ml-explore/mlx-lm) | repo | ~10 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [MLX docs: Unified Memory](https://ml-explore.github.io/mlx/build/html/usage/unified_memory.html) | docs | ~5 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://blog.vllm.ai/2023/06/20/vllm.html) | article | ~10 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) | paper | ~15 min (abstract and introduction) | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [llama-bench README](https://github.com/ggml-org/llama.cpp/blob/master/tools/llama-bench/README.md) | docs | ~10 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [mlx-lm `benchmark.py`](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/benchmark.py) | repo | ~5 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [vLLM docs](https://docs.vllm.ai/en/latest/) | docs | ~10 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
