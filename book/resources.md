@@ -621,3 +621,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [llama-bench README](https://github.com/ggml-org/llama.cpp/blob/master/tools/llama-bench/README.md) | docs | ~10 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
 | [ ] | [mlx-lm `benchmark.py`](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/benchmark.py) | repo | ~5 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
 | [ ] | [vLLM docs](https://docs.vllm.ai/en/latest/) | docs | ~10 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [Claude: Vision](https://platform.claude.com/docs/en/build-with-claude/vision) | docs | ~20 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
+| [ ] | [Claude: PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support) | docs | ~10 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
+| [ ] | [Ollama: Vision](https://docs.ollama.com/capabilities/vision) | docs | ~5 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
+| [ ] | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) | paper | ~30 min | optional | [11.1](/part-11-multimodal/11.1-vision) |
