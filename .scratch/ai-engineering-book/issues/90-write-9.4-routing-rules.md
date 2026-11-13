@@ -1,6 +1,6 @@
 # 90 — Write chapter 9.4: Cost-effective routing rules
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
