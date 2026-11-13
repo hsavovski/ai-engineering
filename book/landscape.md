@@ -20,6 +20,7 @@ Prices are USD per 1M tokens (MTok), standard tier, read from each provider's ow
 - Max output is 128K for all four ([models](https://platform.claude.com/docs/en/about-claude/models/overview)).
 - [Prompt caching](https://platform.claude.com/docs/en/about-claude/pricing#prompt-caching): 5-minute writes cost 1.25× input, 1-hour writes 2×. Cache reads cost 0.025× input on Fable 5.1, 0.05× on Opus 5.5 and Sonnet 5.5, and 0.1× on other models.
 - [Batch API](https://platform.claude.com/docs/en/about-claude/pricing#batch-processing): 50% off input and output.
+- [Claude Managed Agents](https://platform.claude.com/docs/en/about-claude/pricing#claude-managed-agents-pricing) (beta, read 2026-11-13): tokens at the model rates above, plus session runtime at $0.08 per session-hour, counted only while the session is `running` (not `idle`). The Batch API discount does not apply. Self-hosted Managed Agents pricing is through Anthropic's account team.
 
 ### OpenAI
 
