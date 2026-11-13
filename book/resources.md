@@ -477,6 +477,9 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Temporal: Workflows](https://docs.temporal.io/workflows) | docs | ~15 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
 | [ ] | [Temporal: Why Temporal?](https://docs.temporal.io/evaluate/why-temporal) | docs | ~10 min | essential | [8.5](/part-08-production/8.5-durable-agents) |
 | [ ] | [Inngest: How functions are executed](https://www.inngest.com/docs/learn/how-functions-are-executed) | docs | ~15 min | optional | [8.5](/part-08-production/8.5-durable-agents) |
+| [ ] | [Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview) | docs | ~10 min | essential | [8.7](/part-08-production/8.7-managed-agents) |
+| [ ] | [Anthropic Engineering: Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/research/managed-agents) | article | ~20 min | essential | [8.7](/part-08-production/8.7-managed-agents) |
+| [ ] | [Claude Managed Agents: Define outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes) | docs | ~15 min | optional | [8.7](/part-08-production/8.7-managed-agents) |
 
 ## Part 9 · Model landscape & cost
 
