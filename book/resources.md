@@ -646,3 +646,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Kokoro-82M model card](https://huggingface.co/hexgrad/Kokoro-82M) | docs | ~10 min | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
 | [ ] | [Radford et al., Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356) | paper | ~20 min (abstract and the model-overview section) | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
 | [ ] | [Ollama: Speech](https://docs.ollama.com/capabilities/speech) | docs | ~5 min | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [OpenAI: Getting started with the Realtime API](https://developers.openai.com/api/docs/guides/realtime) | docs | ~10 min | essential | [11.3](/part-11-multimodal/11.3-realtime-voice) |
+| [ ] | [OpenAI: Realtime conversations](https://developers.openai.com/api/docs/guides/realtime-conversations) | docs | ~30 min | essential | [11.3](/part-11-multimodal/11.3-realtime-voice) |
+| [ ] | [Gemini Live API capabilities guide](https://aistudio.google.com/docs/live-api/capabilities) | docs | ~25 min | essential | [11.3](/part-11-multimodal/11.3-realtime-voice) |
+| [ ] | [Gemini: Tool use with Live API](https://aistudio.google.com/docs/live-api/tools) | docs | ~10 min | optional | [11.3](/part-11-multimodal/11.3-realtime-voice) |
+| [ ] | [OpenAI: Cost optimization (voice)](https://developers.openai.com/api/docs/guides/voice-latency-cost?api=realtime) | docs | ~15 min | optional | [11.3](/part-11-multimodal/11.3-realtime-voice) |
