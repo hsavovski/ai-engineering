@@ -1,6 +1,6 @@
 # 116 — Fact-check chapter 3.4
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Model: opus
 Blocked by: none
@@ -27,3 +27,9 @@ The writer's BUILD-LOG notes:
 - 2026-11-10: chapter 3.4 "Context engineering" written: context as a finite resource (context rot, attention budget, worked token-growth example, how to measure per turn), system prompts at the right altitude, just-in-time retrieval, tool-result clearing (own harness and the context-editing beta), compaction (trigger, split point, summary prompt, cache trick, failure modes, how Claude Code and the API do it), structured note-taking, sub-agents for isolation with cost caveats, a technique comparison table; practice is a step in `project/` (tokens per turn, clearing, `--compact-at`, with/without comparison; brief and acceptance check only, no code, no new experiment folder); 4 resource rows and 5 glossary terms added (issue 40). Nothing was run: the token table is made up and labelled so; the compaction failure modes are the chapter's own judgement, labelled as such; context editing and compaction APIs are betas as of verification.
 
 ## Comments
+
+- 2026-11-13 (fact-checker): ~60 claims, 8 external links and 4 resource rows checked (all HTTP 200). Confirmed verbatim against the full pages: all 26 quotes from the Anthropic article (including the flagged "Without proper guidance…" quote) and its Sep 29, 2025 date; context windows (1M, caching, what counts, usage fields, context-awareness model lists, thinking blocks kept by default); context editing (beta header `context-management-2025-06-27`, `clear_tool_uses_20250919`, defaults trigger 100,000 / keep 3 / clear_tool_inputs false, `clear_at_least` skips the pass, memory-tool warning, cache invalidation, server-side compaction as "the primary strategy"); the three compaction routes; Claude Code context-window and subagents quotes; multi-agent post (Jun 13, 2025, 4×/15×, 200,000-token truncation). Token-growth table arithmetic re-computed (≈290,040 billed input tokens). Fixed 6 wordings: "draw on" attention-budget quote; "every relevant piece of information"; only two of the three compaction routes are beta (own summarizer isn't); "more fine-grained control"; the research post's "saving its plan to Memory" quote; "sends its own requests". Cut 0. The 50–70% trigger and the compaction failure modes stay labelled as the book's judgement.
+
+## Needs human
+
+- Nothing was run: the practice and the made-up 62k-token table are unexecuted (the table is labelled). Beta API names (context editing, compaction headers) can change; re-check on the next refresh.
