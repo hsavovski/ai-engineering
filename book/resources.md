@@ -610,3 +610,6 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Set up Claude Code in a monorepo or large codebase](https://code.claude.com/docs/en/large-codebases) | docs | ~20 min | essential | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
 | [ ] | [How Claude Code works in large codebases](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start) | article | ~18 min | optional | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
 | [ ] | [anthropics/claudes-c-compiler](https://github.com/anthropics/claudes-c-compiler) | repo | ~20 min | optional | [7.7](/part-07-ai-native-development/7.7-large-codebases-agent-teams) |
+| [ ] | [karpathy/nanochat](https://github.com/karpathy/nanochat) | repo | ~90 min | essential | [10.6](/part-10-modifying-serving-models/10.6-nanochat) |
+| [ ] | [Beating GPT-2 for <<$100: the nanochat journey](https://github.com/karpathy/nanochat/discussions/481) | article | ~25 min | essential | [10.6](/part-10-modifying-serving-models/10.6-nanochat) |
+| [ ] | [Introducing nanochat: The best ChatGPT that $100 can buy](https://github.com/karpathy/nanochat/discussions/1) | article | ~20 min | optional | [10.6](/part-10-modifying-serving-models/10.6-nanochat) |

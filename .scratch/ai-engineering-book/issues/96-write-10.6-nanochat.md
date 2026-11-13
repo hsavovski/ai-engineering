@@ -1,6 +1,6 @@
 # 96 — Write chapter 10.6: nanochat
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
