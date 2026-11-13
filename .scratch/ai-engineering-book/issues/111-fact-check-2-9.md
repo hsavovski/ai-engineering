@@ -1,6 +1,6 @@
 # 111 — Fact-check chapter 2.9
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Model: opus
 Blocked by: none
@@ -28,3 +28,7 @@ The writer's BUILD-LOG notes:
 - 2026-11-10: chapter 2.9 "RAG fundamentals" written: pipeline diagram and stage-failure table, when not to use RAG, four chunking families with a small local measurement (4 strategies, 4 questions on chapter 2.8), contextual retrieval (Anthropic prompt and reported 35/49/67% failure reductions), prompting with numbered sources, refusal path and citations (observed qwen3:8b with right, near-miss and no context), failure-analysis decision tree, Barnett's seven failure points, hit rate and MRR; practice is experiment 22 (10 questions, retrieval vs generation labels; README skeleton only); 9 resource rows and 11 glossary terms added (issue 34).
 
 ## Comments
+
+## Needs human
+
+- The two local measurements dated 2026-11-10 (chunking ranks over chapter 2.8 with `qwen3-embedding:0.6b`; `qwen3:8b` with right, near-miss and no sources) were not re-run by the fact-checker. They are labelled in the text as dated own measurements on a tiny sample; re-run them if you want to confirm the numbers.
