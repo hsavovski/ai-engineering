@@ -585,3 +585,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Ollama: llama-guard3](https://ollama.com/library/llama-guard3) | docs | ~5 min | optional | [8.4](/part-08-production/8.4-guardrails) |
 | [ ] | [Anthropic: Constitutional Classifiers](https://www.anthropic.com/research/constitutional-classifiers) | article | ~15 min | optional | [8.4](/part-08-production/8.4-guardrails) |
 | [ ] | [OWASP LLM05:2025 Improper Output Handling](https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/) | docs | ~10 min | optional | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/research/building-c-compiler) | article | ~25 min | essential | [7.5](/part-07-ai-native-development/7.5-automating-lifecycle) |
+| [ ] | [Redesigning source control at Anthropic](https://www.anthropic.com/research/redesigning-source-control) | article | ~20 min | essential | [7.5](/part-07-ai-native-development/7.5-automating-lifecycle) |
+| [ ] | [DORA's software delivery performance metrics](https://dora.dev/guides/dora-metrics/) | docs | ~10 min | optional | [7.5](/part-07-ai-native-development/7.5-automating-lifecycle) |
+| [ ] | [METR: We are Changing our Developer Productivity Experiment Design](https://metr.org/blog/2026-02-24-uplift-update/) | article | ~10 min | optional | [7.5](/part-07-ai-native-development/7.5-automating-lifecycle) |

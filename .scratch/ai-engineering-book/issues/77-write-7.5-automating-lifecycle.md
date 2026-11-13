@@ -1,6 +1,6 @@
 # 77 — Write chapter 7.5: Automating the whole lifecycle
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
