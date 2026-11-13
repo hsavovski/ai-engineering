@@ -297,7 +297,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | Done | Resource | Type | Time | Priority | Chapter |
 |---|---|---|---|---|---|
 | [ ] | [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) | article | ~25 min | essential | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
-| [ ] | [OpenAI: A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | article (PDF) | ~25 min (pp. 4-6 and 12-17) | essential | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
+| [ ] | [OpenAI: A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | article (PDF) | ~25 min (pp. 4-6 and 13-21) | essential | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
 | [ ] | [Simon Willison: "I think 'agent' may finally have a widely enough agreed upon definition to be useful jargon now"](https://simonwillison.net/2025/Sep/18/agents/) | article | ~10 min | optional | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
 | [ ] | [Anthropic: How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) | article | ~20 min | optional | [3.1](/part-03-agents/3.1-workflows-vs-agents) |
 | [ ] | [Anthropic: How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works) | docs | ~10 min | essential | [3.2](/part-03-agents/3.2-agent-loop) |

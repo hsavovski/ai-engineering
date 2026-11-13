@@ -1,6 +1,6 @@
 # 114 — Fact-check chapter 3.1
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Model: opus
 Blocked by: none
