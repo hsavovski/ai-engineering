@@ -641,3 +641,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude: PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support) | docs | ~10 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
 | [ ] | [Ollama: Vision](https://docs.ollama.com/capabilities/vision) | docs | ~5 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
 | [ ] | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) | paper | ~30 min | optional | [11.1](/part-11-multimodal/11.1-vision) |
+| [ ] | [whisper.cpp README](https://github.com/ggml-org/whisper.cpp) | repo | ~15 min | essential | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [mlx-audio README](https://github.com/Blaizzy/mlx-audio) | repo | ~15 min | essential | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [Kokoro-82M model card](https://huggingface.co/hexgrad/Kokoro-82M) | docs | ~10 min | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [Radford et al., Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356) | paper | ~20 min (abstract and the model-overview section) | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [Ollama: Speech](https://docs.ollama.com/capabilities/speech) | docs | ~5 min | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
