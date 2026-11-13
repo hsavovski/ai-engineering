@@ -585,3 +585,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Ollama: llama-guard3](https://ollama.com/library/llama-guard3) | docs | ~5 min | optional | [8.4](/part-08-production/8.4-guardrails) |
 | [ ] | [Anthropic: Constitutional Classifiers](https://www.anthropic.com/research/constitutional-classifiers) | article | ~15 min | optional | [8.4](/part-08-production/8.4-guardrails) |
 | [ ] | [OWASP LLM05:2025 Improper Output Handling](https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/) | docs | ~10 min | optional | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [Karpathy: Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU) | video | ~4 h | optional | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [karpathy/build-nanogpt](https://github.com/karpathy/build-nanogpt) | repo | ~30 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759) | paper | ~20 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [Hugging Face Tokenizers documentation](https://huggingface.co/docs/tokenizers/index) | docs | ~15 min | optional | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |

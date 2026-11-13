@@ -1,6 +1,6 @@
 # 95 — Write chapter 10.5: Training from scratch
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

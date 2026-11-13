@@ -1,9 +1,11 @@
 [project]
 name = "tiny-gpt"
 version = "0.1.0"
-description = "Experiment 13: a tiny decoder-only GPT in PyTorch (chapter 1.13)"
+description = "Experiment 13: a tiny decoder-only GPT in PyTorch (chapters 1.13 and 10.5)"
 requires-python = ">=3.11"
 dependencies = [
     "torch",
     "matplotlib",
+    "numpy",
+    "tokenizers",
 ]

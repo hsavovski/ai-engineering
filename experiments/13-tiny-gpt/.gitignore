@@ -1,3 +1,5 @@
 .venv/
 data/
 out/
+data_bpe/
+out_bpe/
