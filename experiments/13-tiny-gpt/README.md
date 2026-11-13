@@ -70,3 +70,67 @@ Free: everything runs locally.
 ## Why
 
 <!-- What loss gave the first readable words? Did it overfit, and at which step? What did temperature change at the same loss? What would a KV cache save in sample.py? -->
+
+---
+
+# Part 2 (chapter 10.5): BPE tokenizer, a bigger corpus, longer training
+
+Steps and acceptance check: [chapter 10.5](../../book/part-10-modifying-serving-models/10.5-training-from-scratch.md#practice). Everything above stays as it is, so the 1.13 run is your baseline.
+
+| File | Who writes it | What it does |
+|---|---|---|
+| `prepare_bpe.py` | starter with 4 TODOs | downloads TinyStories, trains a byte-level BPE tokenizer, writes `data_bpe/*.bin` |
+| `train_bpe.py` | **me** (copy of `train.py`, changes listed in the chapter) | reads `data_bpe/`, warmup + cosine schedule, bits per byte, fixed-prompt samples, writes `out_bpe/` |
+| `sample_bpe.py` | **me** (copy of `sample.py`) | decodes with the BPE tokenizer |
+
+```bash
+cd experiments/13-tiny-gpt
+uv run prepare_bpe.py
+uv run train_bpe.py
+```
+
+Free: everything runs locally.
+
+## What happened (10.5)
+
+### Predictions (before running)
+
+<!-- Step-0 loss with your vocabulary (ln of its size), bytes per token, time per step, tokens per second, validation loss after the run. -->
+
+### Tokenizer
+
+| Vocabulary | Bytes per token (validation) | First merges | Last merges |
+|---|---|---|---|
+| | | | |
+
+### Run comparison
+
+| | 1.13 (characters, Shakespeare) | 10.5 (BPE, TinyStories) |
+|---|---|---|
+| Vocabulary | 65 | |
+| Parameters (total / non-embedding) | | |
+| Tokens seen in training (steps × batch × block) | | |
+| Passes over the training data | | |
+| Time per step, tokens per second | | |
+| Best validation loss (nats per token) | | |
+| Validation bits per byte | | |
+| Training vs. validation gap | | |
+
+### Samples (same fixed prompts, same seed, same temperature)
+
+| Run, checkpoint (step, val bits/byte) | Prompt | Sample |
+|---|---|---|
+| | | |
+
+### Compute estimate
+
+| | Value |
+|---|---|
+| FLOPs of my run (`6 · N · D`) | |
+| Measured FLOP/s | |
+| GPT-2-small-size model on 10B tokens: FLOPs, days on this Mac | |
+| Same on a rented GPU (hours, price per hour looked up on `date`, total) | |
+
+## Why (10.5)
+
+<!-- Which change moved the validation loss most: tokenizer, data or steps? Why can't you compare 1.13's loss with this run's directly? Where did the samples change in kind, not just in degree? -->

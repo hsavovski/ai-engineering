@@ -599,3 +599,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [OpenRouter: Auto Router](https://openrouter.ai/docs/guides/routing/routers/auto-router) | docs | ~10 min | essential | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
 | [ ] | [LiteLLM: Auto Routing (beta)](https://docs.litellm.ai/docs/proxy/auto_routing) | docs | ~10 min | optional | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
 | [ ] | [LiteLLM: Fallbacks](https://docs.litellm.ai/docs/proxy/reliability) | docs | ~10 min | essential | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
+| [ ] | [Karpathy: Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU) | video | ~4 h | optional | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [karpathy/build-nanogpt](https://github.com/karpathy/build-nanogpt) | repo | ~30 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759) | paper | ~20 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [Hugging Face Tokenizers documentation](https://huggingface.co/docs/tokenizers/index) | docs | ~15 min | optional | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
