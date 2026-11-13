@@ -552,10 +552,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Claude Code docs: Orchestrate subagents at scale with dynamic workflows](https://code.claude.com/docs/en/workflows) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |
 | [ ] | [Claude Code docs: Manage multiple agents with agent view](https://code.claude.com/docs/en/agent-view) | docs | ~20 min | optional | [6.5](/part-06-claude-code/6.5-parallel-work) |
 | [ ] | [Claude Code: Connect to tools via MCP](https://code.claude.com/docs/en/mcp) | docs | ~20 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
-| [ ] | [Claude Code docs: Create plugins](https://code.claude.com/docs/en/plugins) | docs | ~25 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
-| [ ] | [Claude Code docs: Discover and install plugins](https://code.claude.com/docs/en/discover-plugins) | docs | ~20 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
-| [ ] | [Claude Code docs: Plugins reference](https://code.claude.com/docs/en/plugins-reference) | docs | ~25 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
-| [ ] | [Claude Code docs: Create a marketplace](https://code.claude.com/docs/en/plugin-marketplaces) | docs | ~20 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Create a Claude Code plugin](https://code.claude.com/docs/en/plugins/create) | docs | ~25 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Install and manage plugins](https://code.claude.com/docs/en/plugins/install) | docs | ~20 min | essential | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Plugin manifest reference](https://code.claude.com/docs/en/plugins/manifest-reference) | docs | ~25 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
+| [ ] | [Claude Code docs: Create a marketplace](https://code.claude.com/docs/en/plugins/create-marketplace) | docs | ~20 min | optional | [6.6](/part-06-claude-code/6.6-mcp-plugins) |
 | [ ] | [Claude Code docs: Permission modes](https://code.claude.com/docs/en/permission-modes) | docs | ~5 min (plan mode section) | essential | [6.7](/part-06-claude-code/6.7-issue-workflows) |
 | [ ] | [Matt Pocock: grilling](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) | repo | ~5 min | essential | [6.7](/part-06-claude-code/6.7-issue-workflows) |
 | [ ] | [This study's spec.md](https://github.com/hsavovski/ai-engineering/blob/main/.scratch/ai-engineering-book/spec.md) | repo | ~15 min | essential | [6.7](/part-06-claude-code/6.7-issue-workflows) |
