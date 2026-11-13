@@ -621,3 +621,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [llama-bench README](https://github.com/ggml-org/llama.cpp/blob/master/tools/llama-bench/README.md) | docs | ~10 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
 | [ ] | [mlx-lm `benchmark.py`](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/benchmark.py) | repo | ~5 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
 | [ ] | [vLLM docs](https://docs.vllm.ai/en/latest/) | docs | ~10 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [whisper.cpp README](https://github.com/ggml-org/whisper.cpp) | repo | ~15 min | essential | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [mlx-audio README](https://github.com/Blaizzy/mlx-audio) | repo | ~15 min | essential | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [Kokoro-82M model card](https://huggingface.co/hexgrad/Kokoro-82M) | docs | ~10 min | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [Radford et al., Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356) | paper | ~20 min (abstract and the model-overview section) | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
+| [ ] | [Ollama: Speech](https://docs.ollama.com/capabilities/speech) | docs | ~5 min | optional | [11.2](/part-11-multimodal/11.2-stt-tts) |
