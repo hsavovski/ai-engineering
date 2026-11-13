@@ -637,3 +637,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Magpie: Alignment Data Synthesis from Scratch](https://arxiv.org/abs/2406.08464) | paper | ~20 min (abstract and method) | optional | [10.9](/part-10-modifying-serving-models/10.9-distillation-synthetic-data) |
 | [ ] | [Lee et al.: Deduplicating Training Data Makes Language Models Better](https://arxiv.org/abs/2107.06499) | paper | ~20 min (abstract and introduction) | optional | [10.9](/part-10-modifying-serving-models/10.9-distillation-synthetic-data) |
 | [ ] | [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644) | paper | ~15 min (abstract and introduction) | optional | [10.9](/part-10-modifying-serving-models/10.9-distillation-synthetic-data) |
+| [ ] | [Claude: Vision](https://platform.claude.com/docs/en/build-with-claude/vision) | docs | ~20 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
+| [ ] | [Claude: PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support) | docs | ~10 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
+| [ ] | [Ollama: Vision](https://docs.ollama.com/capabilities/vision) | docs | ~5 min | essential | [11.1](/part-11-multimodal/11.1-vision) |
+| [ ] | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) | paper | ~30 min | optional | [11.1](/part-11-multimodal/11.1-vision) |
