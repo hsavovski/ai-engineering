@@ -585,3 +585,10 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Ollama: llama-guard3](https://ollama.com/library/llama-guard3) | docs | ~5 min | optional | [8.4](/part-08-production/8.4-guardrails) |
 | [ ] | [Anthropic: Constitutional Classifiers](https://www.anthropic.com/research/constitutional-classifiers) | article | ~15 min | optional | [8.4](/part-08-production/8.4-guardrails) |
 | [ ] | [OWASP LLM05:2025 Improper Output Handling](https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/) | docs | ~10 min | optional | [8.4](/part-08-production/8.4-guardrails) |
+| [ ] | [LMSYS: RouteLLM, an open-source framework for cost-effective LLM routing](https://www.lmsys.org/blog/2024-07-01-routellm/) | article | ~15 min | essential | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
+| [ ] | [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665) | paper | ~20 min (abstract, introduction, results) | optional | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
+| [ ] | [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/abs/2305.05176) | paper | ~20 min (abstract, the three strategies, cascade section) | optional | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
+| [ ] | [A Unified Approach to Routing and Cascading for LLMs](https://arxiv.org/abs/2410.10347) | paper | ~15 min (abstract and introduction) | optional | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
+| [ ] | [OpenRouter: Auto Router](https://openrouter.ai/docs/guides/routing/routers/auto-router) | docs | ~10 min | essential | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
+| [ ] | [LiteLLM: Auto Routing (beta)](https://docs.litellm.ai/docs/proxy/auto_routing) | docs | ~10 min | optional | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
+| [ ] | [LiteLLM: Fallbacks](https://docs.litellm.ai/docs/proxy/reliability) | docs | ~10 min | essential | [9.4](/part-09-model-landscape-cost/9.4-routing-rules) |
