@@ -651,3 +651,11 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [Gemini Live API capabilities guide](https://aistudio.google.com/docs/live-api/capabilities) | docs | ~25 min | essential | [11.3](/part-11-multimodal/11.3-realtime-voice) |
 | [ ] | [Gemini: Tool use with Live API](https://aistudio.google.com/docs/live-api/tools) | docs | ~10 min | optional | [11.3](/part-11-multimodal/11.3-realtime-voice) |
 | [ ] | [OpenAI: Cost optimization (voice)](https://developers.openai.com/api/docs/guides/voice-latency-cost?api=realtime) | docs | ~15 min | optional | [11.3](/part-11-multimodal/11.3-realtime-voice) |
+| [ ] | [Claude: Computer use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | docs | ~25 min | essential | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
+| [ ] | [Playwright MCP README](https://github.com/microsoft/playwright-mcp) | repo | ~15 min | essential | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
+| [ ] | [Playwright: Aria snapshots](https://playwright.dev/docs/aria-snapshots) | docs | ~10 min | optional | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
+| [ ] | [Claude: Browser use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool) | docs | ~15 min | optional | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
+| [ ] | [Claude Code: Use Claude Code with Chrome](https://code.claude.com/docs/en/chrome) | docs | ~10 min | optional | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
+| [ ] | [Claude Code: Let Claude use your computer from the CLI](https://code.claude.com/docs/en/computer-use) | docs | ~10 min | optional | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
+| [ ] | [Anthropic: Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses) | article | ~12 min | essential | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
+| [ ] | [Simon Willison: The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) | article | ~10 min | essential | [11.4](/part-11-multimodal/11.4-computer-browser-agents) |
