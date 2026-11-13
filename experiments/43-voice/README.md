@@ -42,3 +42,41 @@ Free: local only. Record any hosted TTS spend in `costs.md`.
 ## Why
 
 <!-- Which stage dominated, and what I would change first. -->
+
+---
+
+# Part 2: a realtime session (chapter 11.3)
+
+Brief, steps and acceptance check are in [chapter 11.3](../../book/part-11-multimodal/11.3-realtime-voice.md#practice). `realtime.ts` is yours to write. This part costs money: record every spend in `costs.md`.
+
+## What happened
+
+### Setup
+
+| Item | Value |
+|---|---|
+| API chosen (Realtime API or GPT-Live, Gemini Live) and why | |
+| Model name | |
+| Transport and audio format | |
+| Spending ceiling | |
+| Expected cost of one minute (before connecting), and where the price came from | |
+
+### Measurements (5 turns, same spoken question)
+
+| Configuration | End of speech to first audio | Time to stop after interruption | Tokens in / out | Cost per minute |
+|---|---|---|---|---|
+| 11.2 pipeline (best config) | | | n/a | free |
+| Realtime session | | | | |
+| Realtime session with a tool call | | | | |
+
+### The tool and the interruption
+
+<!-- Which project/ tool, the silence length around the call, and whether the model's next answer matched what you heard after interrupting. -->
+
+### How each one felt
+
+<!-- Two sentences each. -->
+
+## Why
+
+<!-- Where the latency difference came from, and when you would still pick the cascade. -->
