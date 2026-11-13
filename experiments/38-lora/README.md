@@ -105,3 +105,47 @@ Sample size: ___ test examples. Differences smaller than ___ I count as noise.
 ### Why
 
 <!-- Which step cost the most? Did it match the prediction? What did the fine-tune keep and lose (step 10)? -->
+
+## 10.9: synthetic labels from a paid teacher
+
+Steps and acceptance check: [chapter 10.9](../../book/part-10-modifying-serving-models/10.9-distillation-synthetic-data.md#practice). Inputs: your `data/` (especially the frozen `test.jsonl`), `lora_config.yaml` and `compare.py` from 10.3. You write `generate.ts` and `filter.ts` (TypeScript); training is the same `mlx_lm.lora` command with `--adapter-path adapters_synth`. Keep `synthetic/` and `data_synth/` out of git if they contain private diffs.
+
+Paid: the teacher's tokens. Log the actual spend from the provider's dashboard in `costs.md`.
+
+### Teacher and terms
+
+| Item | Value |
+|---|---|
+| Teacher, model ID, date | |
+| Terms clause checked (link, section) | |
+| Repos I am allowed to send | |
+| SHA-256 of `data/test.jsonl` (must equal the 10.3 one) | |
+
+### Predictions (before running)
+
+<!-- Student on teacher labels vs. real labels; what the teacher will do differently; which filter rejects most; estimated cost. -->
+
+### Generation and filtering
+
+| Stage | Rows | Notes |
+|---|---|---|
+| Training diffs sent | | |
+| Raw teacher outputs | | |
+| Removed by rule 1: | | |
+| Removed by rule 2: | | |
+| Removed as exact / near duplicates | | |
+| Kept | | |
+| Tokens in / out, cost, cost per kept row | | |
+
+### Comparison on the real test set
+
+| | Test loss | Metric 1 | Metric 2 |
+|---|---|---|---|
+| Base | | | |
+| Base + good prompt | | | |
+| Student on my real messages (10.3) | | | |
+| Student on filtered teacher messages | | | |
+
+### Why
+
+<!-- What did the teacher get right that I didn't, and the reverse? Did filtering matter? Worth the cost against writing more labels myself? Where do the terms stop me? -->
