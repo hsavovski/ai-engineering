@@ -1,6 +1,6 @@
 # 78 — Write chapter 7.6: Where humans stay in the loop
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 

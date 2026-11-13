@@ -603,3 +603,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [karpathy/build-nanogpt](https://github.com/karpathy/build-nanogpt) | repo | ~30 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
 | [ ] | [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759) | paper | ~20 min | essential | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
 | [ ] | [Hugging Face Tokenizers documentation](https://huggingface.co/docs/tokenizers/index) | docs | ~15 min | optional | [10.5](/part-10-modifying-serving-models/10.5-training-from-scratch) |
+| [ ] | [Beyond permission prompts: making Claude Code more secure and autonomous](https://www.anthropic.com/engineering/claude-code-sandboxing) | article | ~10 min | essential | [7.6](/part-07-ai-native-development/7.6-humans-in-the-loop) |
+| [ ] | [How we built Claude Code auto mode](https://www.anthropic.com/engineering/claude-code-auto-mode) | article | ~20 min | essential | [7.6](/part-07-ai-native-development/7.6-humans-in-the-loop) |
+| [ ] | [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills) | article | ~15 min | essential | [7.6](/part-07-ai-native-development/7.6-humans-in-the-loop) |
+| [ ] | [How AI Impacts Skill Formation](https://arxiv.org/abs/2601.20245) | paper | ~10 min | optional | [7.6](/part-07-ai-native-development/7.6-humans-in-the-loop) |
