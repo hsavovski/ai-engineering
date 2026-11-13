@@ -621,3 +621,8 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [llama-bench README](https://github.com/ggml-org/llama.cpp/blob/master/tools/llama-bench/README.md) | docs | ~10 min | essential | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
 | [ ] | [mlx-lm `benchmark.py`](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/benchmark.py) | repo | ~5 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
 | [ ] | [vLLM docs](https://docs.vllm.ai/en/latest/) | docs | ~10 min | optional | [10.7](/part-10-modifying-serving-models/10.7-inference-engines) |
+| [ ] | [vLLM: Speculative Decoding](https://docs.vllm.ai/en/latest/features/speculative_decoding/) | docs | ~10 min | essential | [10.8](/part-10-modifying-serving-models/10.8-serving-optimizations) |
+| [ ] | [llama.cpp: Speculative Decoding](https://github.com/ggml-org/llama.cpp/blob/master/docs/speculative.md) | docs | ~10 min | essential | [10.8](/part-10-modifying-serving-models/10.8-serving-optimizations) |
+| [ ] | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | paper | ~20 min (abstract and introduction) | optional | [10.8](/part-10-modifying-serving-models/10.8-serving-optimizations) |
+| [ ] | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | paper | ~15 min (abstract and introduction) | optional | [10.8](/part-10-modifying-serving-models/10.8-serving-optimizations) |
+| [ ] | [vLLM: Automatic Prefix Caching (design)](https://docs.vllm.ai/en/latest/design/prefix_caching/) | docs | ~10 min | essential | [10.8](/part-10-modifying-serving-models/10.8-serving-optimizations) |

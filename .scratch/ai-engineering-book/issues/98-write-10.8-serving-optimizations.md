@@ -1,6 +1,6 @@
 # 98 — Write chapter 10.8: Speculative decoding, batching, prefix caching
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 02
 
@@ -54,3 +54,7 @@ Standalone experiment, not a `project/` step. Provide the brief, steps and accep
 - `npm run build` passes
 - A dated `BUILD-LOG.md` line
 - Committed
+
+## Answer
+
+Chapter written in `book/part-10-modifying-serving-models/10.8-serving-optimizations.md`; experiment skeleton in `experiments/41-speculative/`. `npm run check -- 10.8` and `npm run build` pass.
