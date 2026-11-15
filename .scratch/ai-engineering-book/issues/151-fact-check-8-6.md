@@ -1,6 +1,6 @@
 # 151 — Fact-check chapter 8.6
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Model: opus
 Blocked by: none
@@ -28,3 +28,9 @@ The writer's BUILD-LOG notes:
 - 2026-11-10: chapter 8.6 "Streaming UI and auth" written: path from token to pixel (provider stream to UI message stream to `useChat` parts), a captured UI-message-stream run (ai 7.0.168, local Ollama) with headers and chunk order, tool-part state table and rendering rules, three execution patterns plus approval, disconnect/stop/resume (Last-Event-ID, AI SDK resumable streams, stop-vs-disconnect conflict, MCP redelivery), user auth (session cookies, per-route auth, ownership, user id from session), MCP OAuth (roles, 401 discovery chain, CIMD/DCR, PKCE, resource indicators, audience checks, step-up, 2026-07-28 changes) and the spec's named mistakes (token passthrough, confused deputy, SSRF, scope sprawl); practice is experiment 32 (README skeleton only: curl the raw stream, build UI with tool cards, killed-server and closed-tab drills, cookie auth with ownership checks, MCP 401 discovery drill with a stub server); 8 resource rows and 13 glossary terms added (issue 85). Client-side code and the Redis resume path were not run.
 
 ## Comments
+
+## Needs human
+
+- Re-run the captured `createUIMessageStreamResponse` headers and chunk order on `ai@7.0.168`: the fact-checker was not allowed to install packages, so that capture is still only the writer's own run (the chapter labels it as such). The client tool-card code and the Redis resume path were never run either, and the chapter says so.
+
+- 2026-11-15 (fact-checker): opened every source with curl and fixed 8 claims, listed in BUILD-LOG.md. The main fix: MCP 2026-07-28 removed Streamable HTTP resumability, `Last-Event-ID` and sessions, and the chapter now says so.
