@@ -464,7 +464,8 @@ async function tick() {
     const usage = await probeUsage()
     if (!usage) return log('usage probe failed; trying again next tick')
     const est = state.weeklyPerWeight * weight
-    if (usage.weekStatus !== 'allowed' || usage.week + est > WEEKLY_CAP) {
+    // 'allowed_warning' (from 75% of the week) still allows; WEEKLY_CAP decides
+    if (!usage.weekStatus.startsWith('allowed') || usage.week + est > WEEKLY_CAP) {
       const key = `week:${usage.weekResets}`
       if (!state.notified[key]) {
         state.notified[key] = now()
@@ -472,7 +473,7 @@ async function tick() {
       }
       return saveState(state)
     }
-    if (usage.fiveStatus !== 'allowed' || usage.five > FIVE_HOUR_START_MAX) {
+    if (!usage.fiveStatus.startsWith('allowed') || usage.five > FIVE_HOUR_START_MAX) {
       log(`waiting for the 5h window (${Math.round(usage.five * 100)}%, resets ${new Date(usage.fiveResets * 1000).toLocaleTimeString()})`)
       return saveState(state)
     }
