@@ -12,13 +12,14 @@ Prices are USD per 1M tokens (MTok), standard tier, read from each provider's ow
 
 | Model | API ID | Context | Input | Output | Source |
 |---|---|---|---|---|---|
-| Claude Fable 5.1 | `claude-fable-5-1` | 1M | $10 | $50 | [models](https://platform.claude.com/docs/en/about-claude/models/overview), [pricing](https://platform.claude.com/docs/en/about-claude/pricing#model-pricing) |
+| Claude Fable 5.2 | `claude-fable-5-2` | 1M | $8 | $40 | [models](https://platform.claude.com/docs/en/about-claude/models/overview), [pricing](https://platform.claude.com/docs/en/about-claude/pricing#model-pricing) |
 | Claude Opus 5.5 | `claude-opus-5-5` | 1M | $4 | $20 | same |
 | Claude Sonnet 5.5 | `claude-sonnet-5-5` | 1M | $2 | $10 | same |
 | Claude Haiku 5.5 | `claude-haiku-5-5` | 1M | $0.10 (prompt ≤100k) · $0.50 (>100k) | $0.50 · $2.50 | same, [long context](https://platform.claude.com/docs/en/about-claude/pricing#long-context-pricing) |
 
 - Max output is 128K for all four ([models](https://platform.claude.com/docs/en/about-claude/models/overview)).
-- [Prompt caching](https://platform.claude.com/docs/en/about-claude/pricing#prompt-caching): 5-minute writes cost 1.25× input, 1-hour writes 2×. Cache reads cost 0.025× input on Fable 5.1, 0.05× on Opus 5.5 and Sonnet 5.5, and 0.1× on other models.
+- Rows re-read 2026-11-15: Fable 5.2 replaced Fable 5.1 as the current flagship (Fable 5.1 is still listed at $10 / $50). Claude Mythos 5.2 has the same prices as Fable 5.2 but [limited availability](https://support.claude.com/en/articles/14604842) ([pricing](https://platform.claude.com/docs/en/about-claude/pricing#model-pricing)).
+- [Prompt caching](https://platform.claude.com/docs/en/about-claude/pricing#prompt-caching): 5-minute writes cost 1.25× input, 1-hour writes 2×. Cache reads cost 0.025× input on Fable 5.2 and Fable 5.1, 0.05× on Opus 5.5 and Sonnet 5.5, and 0.1× on other models.
 - [Batch API](https://platform.claude.com/docs/en/about-claude/pricing#batch-processing): 50% off input and output.
 - [Claude Managed Agents](https://platform.claude.com/docs/en/about-claude/pricing#claude-managed-agents-pricing) (beta, read 2026-11-13): tokens at the model rates above, plus session runtime at $0.08 per session-hour, counted only while the session is `running` (not `idle`). The Batch API discount does not apply. Self-hosted Managed Agents pricing is through Anthropic's account team.
 

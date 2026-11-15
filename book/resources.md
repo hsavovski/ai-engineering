@@ -490,7 +490,7 @@ Every article, video, paper, book, repo and doc the chapters point to. Tick item
 | [ ] | [DeepSeek: Thinking mode](https://api-docs.deepseek.com/guides/thinking_mode) | docs | ~10 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
 | [ ] | [Gemini: Thinking](https://aistudio.google.com/docs/thinking) | docs | ~15 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
 | [ ] | [Kimi: Migrating from OpenAI](https://platform.kimi.ai/docs/guide/migrating-from-openai-to-kimi) | docs | ~10 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
-| [ ] | [OpenRouter: Logging and data policies](https://openrouter.ai/docs/guides/privacy/logging) | docs | ~10 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
+| [ ] | [OpenRouter: Logging and data policies](https://openrouter.ai/docs/guides/privacy/provider-logging) | docs | ~10 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
 | [ ] | [OpenAI: Data controls in the OpenAI API](https://developers.openai.com/api/docs/guides/your-data) | docs | ~10 min | essential | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
 | [ ] | [Anthropic: API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention) | docs | ~15 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
 | [ ] | [Gemini API terms](https://aistudio.google.com/docs/terms) | docs | ~10 min | optional | [9.1](/part-09-model-landscape-cost/9.1-paid-apis) |
