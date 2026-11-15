@@ -1,6 +1,6 @@
 # 153 — Fact-check chapter 9.1
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Model: opus
 Blocked by: none
@@ -28,3 +28,5 @@ The writer's BUILD-LOG notes:
 - 2026-11-10: chapter 9.1 "Paid APIs" written: families/tiers and the thinking dial, what a bill is made of (input/cache/thinking-as-output buckets, Mermaid diagram, modifiers table, tokenizer caveat, worked example with made-up numbers and cost per passed task), per-provider quirks (Anthropic adaptive thinking and effort cache effect, OpenAI reasoning, Gemini thinking_level, DeepSeek reasoning_content and ignored params, Kimi, OpenRouter reasoning and routing), a data/privacy table per route with what could not be confirmed (DeepSeek privacy policy and Kimi data terms), no provider ranking by design; practice is experiment 34 (README skeleton only); 10 resource rows and 7 glossary terms added (issue 87). Landscape still lists Claude Fable 5.1 while Anthropic's pricing page now shows Fable 5.2 and Mythos 5.2; not edited here.
 
 ## Comments
+
+- 2026-11-15 (fact-checker): done. Landscape Anthropic rows updated to Fable 5.2 / Mythos 5.2. DeepSeek privacy policy now loads and is summarised; Kimi's thinking guide covers reasoning-token billing. Every link opened; nothing left for a human.
